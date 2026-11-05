@@ -1,0 +1,128 @@
+[
+  {
+    "id": "SAMPLE-M-001", "subject": "maths", "section": "Sets", "source": "SAMPLE (not an actual PYQ)",
+    "question": "How many subsets does a set with 3 elements have?",
+    "options": ["6", "8", "3", "9"], "answer": "B",
+    "explanation": "A set with n elements has 2^n subsets, so 2^3 = 8."
+  },
+  {
+    "id": "SAMPLE-M-002", "subject": "maths", "section": "Trigonometry", "source": "SAMPLE (not an actual PYQ)",
+    "question": "What is the value of sin 30°?",
+    "options": ["1/2", "√3/2", "1", "0"], "answer": "A",
+    "explanation": "sin 30° = 1/2."
+  },
+  {
+    "id": "SAMPLE-M-003", "subject": "maths", "section": "Differential Calculus", "source": "SAMPLE (not an actual PYQ)",
+    "question": "What is d/dx (sin x)?",
+    "options": ["−cos x", "cos x", "−sin x", "tan x"], "answer": "B",
+    "explanation": "The derivative of sin x is cos x."
+  },
+  {
+    "id": "SAMPLE-M-004", "subject": "maths", "section": "Algebra", "source": "SAMPLE (not an actual PYQ)",
+    "question": "What is the sum of the roots of x² − 5x + 6 = 0?",
+    "options": ["−5", "6", "5", "1"], "answer": "C",
+    "explanation": "For ax² + bx + c = 0 the sum of roots is −b/a = 5. (Roots are 2 and 3.)"
+  },
+  {
+    "id": "SAMPLE-M-005", "subject": "maths", "section": "Coordinate Geometry", "source": "SAMPLE (not an actual PYQ)",
+    "question": "What is the distance between the points (0, 0) and (3, 4)?",
+    "options": ["7", "5", "√7", "12"], "answer": "B",
+    "explanation": "Distance = √(3² + 4²) = √25 = 5."
+  },
+  {
+    "id": "SAMPLE-M-006", "subject": "maths", "section": "Algebra", "source": "SAMPLE (not an actual PYQ)",
+    "question": "What is the value of log₁₀ 1000?",
+    "options": ["2", "10", "3", "1000"], "answer": "C",
+    "explanation": "1000 = 10^3, so log₁₀ 1000 = 3."
+  },
+  {
+    "id": "SAMPLE-M-007", "subject": "maths", "section": "Statistics", "source": "SAMPLE (not an actual PYQ)",
+    "question": "What is the mean of 2, 4, 6 and 8?",
+    "options": ["4", "5", "6", "20"], "answer": "B",
+    "explanation": "Sum = 20 and there are 4 numbers, so the mean = 20/4 = 5."
+  },
+  {
+    "id": "SAMPLE-M-008", "subject": "maths", "section": "Integral Calculus", "source": "SAMPLE (not an actual PYQ)",
+    "question": "What is ∫ 2x dx?",
+    "options": ["x² + C", "2x² + C", "x + C", "2 + C"], "answer": "A",
+    "explanation": "∫ 2x dx = 2 · x²/2 + C = x² + C."
+  },
+  {
+    "id": "SAMPLE-M-009", "subject": "maths", "section": "Matrices and Determinants", "source": "SAMPLE (not an actual PYQ)",
+    "question": "What is the determinant of the matrix [[1, 2], [3, 4]]?",
+    "options": ["−2", "2", "10", "−10"], "answer": "A",
+    "explanation": "Determinant = (1 × 4) − (2 × 3) = 4 − 6 = −2."
+  },
+  {
+    "id": "SAMPLE-M-010", "subject": "maths", "section": "Algebra", "source": "SAMPLE (not an actual PYQ)",
+    "question": "What is the value of (a + b)² − (a − b)²?",
+    "options": ["2ab", "4ab", "a² + b²", "0"], "answer": "B",
+    "explanation": "(a² + 2ab + b²) − (a² − 2ab + b²) = 4ab."
+  },
+  {
+    "id": "SAMPLE-G-001", "subject": "gat", "section": "English", "source": "SAMPLE (not an actual PYQ)",
+    "question": "Choose the word closest in meaning to 'BRAVE'.",
+    "options": ["Timid", "Courageous", "Weak", "Lazy"], "answer": "B",
+    "explanation": "Courageous means brave."
+  },
+  {
+    "id": "SAMPLE-G-002", "subject": "gat", "section": "English", "source": "SAMPLE (not an actual PYQ)",
+    "question": "Choose the word opposite in meaning to 'BENEVOLENT'.",
+    "options": ["Kind", "Generous", "Malevolent", "Charitable"], "answer": "C",
+    "explanation": "Benevolent means well-meaning and kind; malevolent means wishing harm."
+  },
+  {
+    "id": "SAMPLE-G-003", "subject": "gat", "section": "English", "source": "SAMPLE (not an actual PYQ)",
+    "question": "Fill in the blank: She ______ to school every day.",
+    "options": ["go", "goes", "going", "gone"], "answer": "B",
+    "explanation": "A third-person singular subject takes the verb form 'goes' in the simple present."
+  },
+  {
+    "id": "SAMPLE-G-004", "subject": "gat", "section": "Physics", "source": "SAMPLE (not an actual PYQ)",
+    "question": "What is the SI unit of force?",
+    "options": ["Joule", "Pascal", "Newton", "Watt"], "answer": "C",
+    "explanation": "Force is measured in newtons (N)."
+  },
+  {
+    "id": "SAMPLE-G-005", "subject": "gat", "section": "Chemistry", "source": "SAMPLE (not an actual PYQ)",
+    "question": "What is the chemical symbol of gold?",
+    "options": ["Ag", "Au", "Gd", "Go"], "answer": "B",
+    "explanation": "Gold's symbol Au comes from the Latin 'aurum'."
+  },
+  {
+    "id": "SAMPLE-G-006", "subject": "gat", "section": "Physics", "source": "SAMPLE (not an actual PYQ)",
+    "question": "What is the approximate speed of light in vacuum?",
+    "options": ["3 × 10⁸ m/s", "3 × 10⁶ m/s", "3 × 10⁵ m/s", "3 × 10¹⁰ m/s"], "answer": "A",
+    "explanation": "The speed of light in vacuum is about 3 × 10⁸ m/s."
+  },
+  {
+    "id": "SAMPLE-G-007", "subject": "gat", "section": "Geography", "source": "SAMPLE (not an actual PYQ)",
+    "question": "The Ganga river originates from which glacier?",
+    "options": ["Yamunotri", "Gangotri", "Siachen", "Milam"], "answer": "B",
+    "explanation": "The Ganga (as the Bhagirathi) rises at the Gangotri glacier in Uttarakhand."
+  },
+  {
+    "id": "SAMPLE-G-008", "subject": "gat", "section": "History", "source": "SAMPLE (not an actual PYQ)",
+    "question": "In which year was the Battle of Plassey fought?",
+    "options": ["1757", "1857", "1764", "1556"], "answer": "A",
+    "explanation": "The Battle of Plassey took place in 1757."
+  },
+  {
+    "id": "SAMPLE-G-009", "subject": "gat", "section": "Polity", "source": "SAMPLE (not an actual PYQ)",
+    "question": "Article 21 of the Indian Constitution deals with:",
+    "options": [
+      "Right to equality",
+      "Protection of life and personal liberty",
+      "Freedom of religion",
+      "Right to constitutional remedies"
+    ],
+    "answer": "B",
+    "explanation": "Article 21 guarantees protection of life and personal liberty."
+  },
+  {
+    "id": "SAMPLE-G-010", "subject": "gat", "section": "General Knowledge", "source": "SAMPLE (not an actual PYQ)",
+    "question": "Where is the National Defence Academy (NDA) located?",
+    "options": ["Dehradun", "Khadakwasla, Pune", "Hyderabad", "Mhow"], "answer": "B",
+    "explanation": "The NDA is at Khadakwasla near Pune, Maharashtra."
+  }
+]

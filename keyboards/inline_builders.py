@@ -10,6 +10,7 @@ from .callbacks import (
     ExamCB,
     ModeCB,
     NavCB,
+    NdaCB,
     QuizAnsCB,
     QuizNavCB,
     ScopeCB,
@@ -20,6 +21,12 @@ from .callbacks import (
 def build_main_menu_kb(is_admin: bool = False) -> InlineKeyboardMarkup:
     """Main landing menu keyboard."""
     builder = InlineKeyboardBuilder()
+    builder.row(
+        InlineKeyboardButton(
+            text="🎖️ NDA Exam Practice",
+            callback_data=NdaCB(a="home").pack(),
+        )
+    )
     builder.row(
         InlineKeyboardButton(
             text="🚀 Start Quiz Drill-Down",

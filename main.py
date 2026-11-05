@@ -10,6 +10,7 @@ from aiogram.types import BotCommand
 from config import settings
 from database.connection import engine, init_db
 from handlers import setup_routers
+from services.nda_bank import bank as nda_bank
 
 # Configure structured logging
 logging.basicConfig(
@@ -27,6 +28,7 @@ async def set_bot_commands(bot: Bot) -> None:
     commands = [
         BotCommand(command="start", description="🚀 Launch Bot & Main Dashboard"),
         BotCommand(command="menu", description="🏠 Main Menu"),
+        BotCommand(command="nda", description="🎖️ NDA Exam Practice (Maths / GAT)"),
         BotCommand(command="quiz", description="🎯 Start Exam Quiz Drill-Down"),
         BotCommand(command="stats", description="📊 My Performance & Accuracy"),
         BotCommand(command="leaderboard", description="🏆 Channel Leaderboard"),
@@ -46,6 +48,9 @@ async def on_startup(bot: Bot) -> None:
 
     # Initialize and auto-seed database
     await init_db()
+
+    # Load NDA question bank (data/nda/*.json)
+    nda_bank.load()
 
     # Set bot commands in Telegram UI
     await set_bot_commands(bot)

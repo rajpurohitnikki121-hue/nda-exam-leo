@@ -31,21 +31,15 @@ async def cmd_start(message: types.Message, state: FSMContext) -> None:
 
     is_admin = settings.is_admin(user.id)
     welcome_text = (
-        f"🇮🇳 <b>Welcome to ExamPrep Pro Quiz Bot</b> 🇮🇳\n"
-        f"<i>Your ultimate interactive practice companion for Indian Competitive Exams!</i>\n\n"
+        f"🎖️ <b>NDA Exam Practice Bot</b> 🇮🇳\n"
+        f"<i>National Defence Academy exam ki practice, real exam style me.</i>\n\n"
         f"Hello <b>{html.escape(user.first_name)}</b>! 🎯\n\n"
-        f"📚 <b>Supported Exams:</b>\n"
-        f"• <b>SSC:</b> CGL, CHSL, MTS, CPO, Stenographer, GD Constable\n"
-        f"• <b>Banking:</b> IBPS PO/Clerk, SBI PO/Clerk, SBI CBO, Insurance\n"
-        f"• <b>Railways:</b> RRB NTPC, Group D, ALP, Technician, JE, RPF\n"
-        f"• <b>UPSC CSAT</b>\n"
-        f"• <b>UPSSSC PET</b>\n\n"
-        f"⚡ <b>Key Features:</b>\n"
-        f"✅ <b>FSM Drill-Down:</b> Filter by Exam ➔ Subject ➔ Chapter ➔ Sub-Type\n"
-        f"✅ <b>Untimed Practice:</b> Instant step-by-step solutions & shortcut tricks\n"
-        f"✅ <b>Timed Tests:</b> Sectional timers & fast-paced practice drills\n"
-        f"✅ <b>Analytics:</b> Track accuracy, speed & channel leaderboards\n\n"
-        f"👇 <i>Select an action below to start practicing:</i>"
+        f"⚡ <b>Kya milega:</b>\n"
+        f"✅ <b>Maths</b> (120 Q) aur <b>GAT</b> (150 Q) papers\n"
+        f"✅ Custom test (10/25/50 Q) ya <b>Full NDA paper</b> with timer\n"
+        f"✅ NDA <b>negative marking</b> (ON/OFF option)\n"
+        f"✅ End me score, accuracy aur galat questions ka review\n\n"
+        f"👇 <i>/nda dabao ya neeche button se test shuru karo:</i>"
     )
 
     await message.answer(

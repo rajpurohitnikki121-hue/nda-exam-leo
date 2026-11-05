@@ -53,3 +53,8 @@ class AdminBroadcastCB(CallbackData, prefix="ab"):
 
 class NavCB(CallbackData, prefix="nv"):
     to: str  # "menu", "exams", "subjects", "scope", "chapters", "comp", "modes", "cancel", "stats", "lb"
+
+
+class NdaCB(CallbackData, prefix="nda"):
+    a: str  # action: home, info, paper, cnt, go, ans, nav, rev
+    v: str = ""  # value, e.g. "maths", "maths:25", "maths:25:1", "3:2", "next"
