@@ -29,7 +29,6 @@ async def set_bot_commands(bot: Bot) -> None:
         BotCommand(command="start", description="🚀 Launch Bot & Main Dashboard"),
         BotCommand(command="menu", description="🏠 Main Menu"),
         BotCommand(command="nda", description="🎖️ NDA Exam Practice (Maths / GAT)"),
-        BotCommand(command="quiz", description="🎯 Start Exam Quiz Drill-Down"),
         BotCommand(command="stats", description="📊 My Performance & Accuracy"),
         BotCommand(command="leaderboard", description="🏆 Channel Leaderboard"),
         BotCommand(command="help", description="📖 User Manual & Command List"),

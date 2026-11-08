@@ -93,14 +93,14 @@ def _count_kb(paper: str) -> InlineKeyboardMarkup:
     b = InlineKeyboardBuilder()
     b.row(
         *[
-            InlineKeyboardButton(text=f"{n} Q", callback_data=NdaCB(a="cnt", v=f"{paper}:{n}").pack())
+            InlineKeyboardButton(text=f"{n} Q", callback_data=NdaCB(a="cnt", v=f"{paper}-{n}").pack())
             for n in COUNT_CHOICES
         ]
     )
     b.row(
         InlineKeyboardButton(
             text=f"📄 Full NDA paper ({_full_info(paper)})",
-            callback_data=NdaCB(a="cnt", v=f"{paper}:0").pack(),
+            callback_data=NdaCB(a="cnt", v=f"{paper}-0").pack(),
         )
     )
     b.row(InlineKeyboardButton(text="⬅️ Back", callback_data=NdaCB(a="home").pack()))
@@ -112,13 +112,13 @@ def _neg_kb(paper: str, count: int) -> InlineKeyboardMarkup:
     b.row(
         InlineKeyboardButton(
             text="✅ Negative marking ON (NDA style)",
-            callback_data=NdaCB(a="go", v=f"{paper}:{count}:1").pack(),
+            callback_data=NdaCB(a="go", v=f"{paper}-{count}-1").pack(),
         )
     )
     b.row(
         InlineKeyboardButton(
             text="🚫 Negative marking OFF",
-            callback_data=NdaCB(a="go", v=f"{paper}:{count}:0").pack(),
+            callback_data=NdaCB(a="go", v=f"{paper}-{count}-0").pack(),
         )
     )
     b.row(InlineKeyboardButton(text="⬅️ Back", callback_data=NdaCB(a="paper", v=paper).pack()))
@@ -178,7 +178,7 @@ async def cb_paper(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
 @router.callback_query(NdaCB.filter(F.a == "cnt"))
 async def cb_count(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
     try:
-        paper, count_s = callback_data.v.split(":")
+        paper, count_s = callback_data.v.split("-")
         count = int(count_s)
     except ValueError:
         await cb.answer()
@@ -202,7 +202,7 @@ async def cb_count(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
 @router.callback_query(NdaCB.filter(F.a == "go"))
 async def cb_go(cb: types.CallbackQuery, callback_data: NdaCB, bot: Bot) -> None:
     try:
-        paper, count_s, neg_s = callback_data.v.split(":")
+        paper, count_s, neg_s = callback_data.v.split("-")
         count = int(count_s)
         negative = neg_s == "1"
     except ValueError:
@@ -286,7 +286,7 @@ def _render_question(session: engine.ExamSession) -> tuple:
         *[
             InlineKeyboardButton(
                 text=("✅ " if chosen == i else "") + LETTERS[i],
-                callback_data=NdaCB(a="ans", v=f"{idx}:{i}").pack(),
+                callback_data=NdaCB(a="ans", v=f"{idx}-{i}").pack(),
             )
             for i in range(4)
         ]
@@ -328,7 +328,7 @@ async def cb_answer(cb: types.CallbackQuery, callback_data: NdaCB, bot: Bot) -> 
     if not session:
         return
     try:
-        idx_s, opt_s = callback_data.v.split(":")
+        idx_s, opt_s = callback_data.v.split("-")
         idx, opt = int(idx_s), int(opt_s)
     except ValueError:
         await cb.answer()

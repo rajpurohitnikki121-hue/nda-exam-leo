@@ -27,12 +27,6 @@ def build_main_menu_kb(is_admin: bool = False) -> InlineKeyboardMarkup:
             callback_data=NdaCB(a="home").pack(),
         )
     )
-    builder.row(
-        InlineKeyboardButton(
-            text="🚀 Start Quiz Drill-Down",
-            callback_data=NavCB(to="exams").pack(),
-        )
-    )
     return builder.as_markup()
 
 
