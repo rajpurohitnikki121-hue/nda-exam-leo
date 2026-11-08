@@ -1,6 +1,7 @@
 """NDA exam engine: paper building, timing and marking. Pure Python (no Telegram imports)."""
 
 import random
+import re
 import time
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional
@@ -19,6 +20,62 @@ SUBJECT_LABEL = {"maths": "Maths", "gat": "GAT"}
 PAPER_LABEL = {"maths": "Maths", "gat": "GAT", "mixed": "Maths + GAT"}
 GAT_ENGLISH_FULL = 50  # English part of the GAT paper
 GAT_GK_FULL = 100  # General Knowledge part of the GAT paper
+
+# Sections that are NOT part of the real NDA papers: only usable in section-wise practice.
+EXTRA_SECTIONS = {"reasoning"}
+MIN_SECTION_Q = 3
+SECTION_PREFIX = "s_"  # paper key for section-wise practice, e.g. "s_physics"
+
+
+def section_slug(name: str) -> str:
+    return re.sub(r"[^a-z0-9]", "", name.lower())
+
+
+def is_section_paper(paper: str) -> bool:
+    return paper.startswith(SECTION_PREFIX) and len(paper) > len(SECTION_PREFIX)
+
+
+def section_pool(bank: NdaBank, paper: str) -> List[NdaQuestion]:
+    slug = paper[len(SECTION_PREFIX):]
+    return [q for q in bank.all() if q.section and section_slug(q.section) == slug]
+
+
+def list_sections(bank: NdaBank) -> List[tuple]:
+    """[(paper_key, display_name, subject, count)] sorted by subject then name."""
+    found: Dict[str, list] = {}
+    for q in bank.all():
+        if not q.section:
+            continue
+        slug = section_slug(q.section)
+        if slug not in found:
+            found[slug] = [q.section, q.subject, 0]
+        found[slug][2] += 1
+    rows = [
+        (SECTION_PREFIX + slug, v[0], v[1], v[2])
+        for slug, v in found.items()
+        if v[2] >= MIN_SECTION_Q  # tiny topics stay hidden until they have enough questions
+    ]
+    rows.sort(key=lambda r: (r[2] != "maths", r[1].lower()))
+    return rows
+
+
+def paper_label(bank: NdaBank, paper: str) -> str:
+    if paper in PAPER_LABEL:
+        return PAPER_LABEL[paper]
+    if is_section_paper(paper):
+        pool = section_pool(bank, paper)
+        if pool:
+            return f"{pool[0].section} (section)"
+    return paper
+
+
+def is_valid_paper(bank: NdaBank, paper: str) -> bool:
+    return paper in PAPER_LABEL or (is_section_paper(paper) and bool(section_pool(bank, paper)))
+
+
+def _paper_pool(bank: NdaBank, subject: str) -> List[NdaQuestion]:
+    """Real-paper pool: leaves out practice-only sections such as Reasoning."""
+    return [q for q in bank.by_subject(subject) if q.section.lower() not in EXTRA_SECTIONS]
 
 
 @dataclass
@@ -54,8 +111,13 @@ def build_plan(bank: NdaBank, paper: str, count: int, rng: Optional[random.Rando
     rng = rng or random.Random()
     full = count == 0
 
+    if is_section_paper(paper):  # section-wise practice: count 0 = every question of that section
+        pool = section_pool(bank, paper)
+        requested = len(pool) if full else count
+        return PaperPlan(questions=rng.sample(pool, min(requested, len(pool))), requested=requested, full=False)
+
     if paper in ("maths", "gat"):
-        pool = bank.by_subject(paper)
+        pool = _paper_pool(bank, paper)
         if full:
             requested = FULL_COUNT[paper]
             if paper == "gat":
@@ -66,8 +128,8 @@ def build_plan(bank: NdaBank, paper: str, count: int, rng: Optional[random.Rando
             requested = count
             picked = rng.sample(pool, min(count, len(pool)))
     else:  # mixed
-        maths_pool = bank.by_subject("maths")
-        gat_pool = bank.by_subject("gat")
+        maths_pool = _paper_pool(bank, "maths")
+        gat_pool = _paper_pool(bank, "gat")
         if full:
             requested = FULL_COUNT["maths"] + FULL_COUNT["gat"]
             picked = rng.sample(maths_pool, min(FULL_COUNT["maths"], len(maths_pool)))

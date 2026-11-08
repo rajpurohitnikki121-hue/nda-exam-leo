@@ -41,6 +41,10 @@ def _e(text: str) -> str:
     return html.escape(text, quote=False)
 
 
+def _plabel(paper: str) -> str:
+    return engine.paper_label(bank, paper)
+
+
 def _full_info(paper: str) -> str:
     if paper == "maths":
         return "120 Q · 150 min"
@@ -85,6 +89,7 @@ def _home_kb() -> InlineKeyboardMarkup:
     b.row(InlineKeyboardButton(text="📐 Maths", callback_data=NdaCB(a="paper", v="maths").pack()))
     b.row(InlineKeyboardButton(text="🧠 GAT", callback_data=NdaCB(a="paper", v="gat").pack()))
     b.row(InlineKeyboardButton(text="🔀 Mixed (Maths + GAT)", callback_data=NdaCB(a="paper", v="mixed").pack()))
+    b.row(InlineKeyboardButton(text="📚 Section-wise (Science, GK, Reasoning...)", callback_data=NdaCB(a="secs").pack()))
     b.row(InlineKeyboardButton(text="📊 Marking scheme", callback_data=NdaCB(a="info").pack()))
     b.row(InlineKeyboardButton(text="🏠 Main Menu", callback_data=NavCB(to="menu").pack()))
     return b.as_markup()
@@ -98,13 +103,24 @@ def _count_kb(paper: str) -> InlineKeyboardMarkup:
             for n in COUNT_CHOICES
         ]
     )
-    b.row(
-        InlineKeyboardButton(
-            text=f"📄 Full NDA paper ({_full_info(paper)})",
-            callback_data=NdaCB(a="cnt", v=f"{paper}-0").pack(),
+    if engine.is_section_paper(paper):
+        total = len(engine.section_pool(bank, paper))
+        b.row(
+            InlineKeyboardButton(
+                text=f"📄 Saare {total} questions",
+                callback_data=NdaCB(a="cnt", v=f"{paper}-0").pack(),
+            )
         )
-    )
-    b.row(InlineKeyboardButton(text="⬅️ Back", callback_data=NdaCB(a="home").pack()))
+        back = NdaCB(a="secs")
+    else:
+        b.row(
+            InlineKeyboardButton(
+                text=f"📄 Full NDA paper ({_full_info(paper)})",
+                callback_data=NdaCB(a="cnt", v=f"{paper}-0").pack(),
+            )
+        )
+        back = NdaCB(a="home")
+    b.row(InlineKeyboardButton(text="⬅️ Back", callback_data=back.pack()))
     return b.as_markup()
 
 
@@ -160,17 +176,46 @@ async def cb_info(cb: types.CallbackQuery) -> None:
     await cb.answer()
 
 
+@router.callback_query(NdaCB.filter(F.a == "secs"))
+async def cb_sections(cb: types.CallbackQuery) -> None:
+    bank.ensure_loaded()
+    rows = engine.list_sections(bank)
+    b = InlineKeyboardBuilder()
+    buttons = [
+        InlineKeyboardButton(
+            text=f"{'📐' if subj == 'maths' else '🧠'} {name} ({n})",
+            callback_data=NdaCB(a="paper", v=key).pack(),
+        )
+        for key, name, subj, n in rows
+    ]
+    for i in range(0, len(buttons), 2):
+        b.row(*buttons[i : i + 2])
+    b.row(InlineKeyboardButton(text="⬅️ Back", callback_data=NdaCB(a="home").pack()))
+    text = (
+        "📚 <b>Section-wise practice</b>\n"
+        "Kisi ek topic ke questions alag se practice karo. Brackets me questions ki sankhya hai.\n\n"
+        "<i>Marking: Maths topics +2.5/−0.83, baaki topics +4/−1.33 (GAT jaisi). "
+        "Reasoning sirf yahin hai, real NDA paper me nahi aata.</i>"
+    )
+    await _edit(cb, text, b.as_markup())
+    await cb.answer()
+
+
 @router.callback_query(NdaCB.filter(F.a == "paper"))
 async def cb_paper(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
     paper = callback_data.v
-    if paper not in engine.PAPER_LABEL:
+    if not engine.is_valid_paper(bank, paper):
         await cb.answer()
         return
+    if engine.is_section_paper(paper):
+        note = f"<i>Is topic me {len(engine.section_pool(bank, paper))} questions hain.</i>"
+    else:
+        note = f"<i>Full paper = real NDA pattern ({_full_info(paper)}).</i>"
     text = (
-        f"{'📐' if paper == 'maths' else '🧠' if paper == 'gat' else '🔀'} "
-        f"<b>{engine.PAPER_LABEL[paper]}</b>\n\n"
+        f"{'📐' if paper == 'maths' else '🔀' if paper == 'mixed' else '🧠'} "
+        f"<b>{_plabel(paper)}</b>\n\n"
         "Kitne questions ka test dena hai?\n"
-        f"<i>Full paper = real NDA pattern ({_full_info(paper)}).</i>"
+        f"{note}"
     )
     await _edit(cb, text, _count_kb(paper))
     await cb.answer()
@@ -184,12 +229,12 @@ async def cb_count(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
     except ValueError:
         await cb.answer()
         return
-    if paper not in engine.PAPER_LABEL:
+    if not engine.is_valid_paper(bank, paper):
         await cb.answer()
         return
-    label = "Full paper" if count == 0 else f"{count} questions"
+    label = ("Saare questions" if engine.is_section_paper(paper) else "Full paper") if count == 0 else f"{count} questions"
     text = (
-        f"<b>{engine.PAPER_LABEL[paper]}</b> · {label}\n\n"
+        f"<b>{_plabel(paper)}</b> · {label}\n\n"
         "Negative marking chahiye?\n"
         "<i>ON: galat answer pe marks kat-te hain (Maths −0.83, GAT −1.33).</i>"
     )
@@ -209,7 +254,7 @@ async def cb_go(cb: types.CallbackQuery, callback_data: NdaCB, bot: Bot) -> None
     except ValueError:
         await cb.answer()
         return
-    if paper not in engine.PAPER_LABEL:
+    if not engine.is_valid_paper(bank, paper):
         await cb.answer()
         return
 
@@ -229,7 +274,7 @@ async def cb_go(cb: types.CallbackQuery, callback_data: NdaCB, bot: Bot) -> None
     TIMERS[uid] = asyncio.create_task(_timer_watch(bot, session))
 
     intro = (
-        f"🚀 <b>Test shuru!</b>  {engine.PAPER_LABEL[paper]} · {session.total} Q · "
+        f"🚀 <b>Test shuru!</b>  {_plabel(paper)} · {session.total} Q · "
         f"⏱ {engine.format_duration(session.duration_s)} · "
         f"Negative marking {'ON' if negative else 'OFF'}"
     )
@@ -242,7 +287,7 @@ async def cb_go(cb: types.CallbackQuery, callback_data: NdaCB, bot: Bot) -> None
     logger.info(
         "🚀 NDA TEST START %s (@%s, id=%s) | %s | %s Q | negative=%s",
         cb.from_user.full_name, cb.from_user.username or "-", uid,
-        engine.PAPER_LABEL[paper], session.total, "ON" if negative else "OFF",
+        _plabel(paper), session.total, "ON" if negative else "OFF",
     )
     await cb.answer("Test shuru ho gaya!")
     text, kb = _render_question(session)
@@ -417,7 +462,7 @@ async def cb_nav(cb: types.CallbackQuery, callback_data: NdaCB, bot: Bot) -> Non
 def _format_result(session: engine.ExamSession, res: engine.ExamResult, auto: bool) -> str:
     lines = [
         "⏰ <b>Time up! Test auto-submit ho gaya</b>" if auto else "🏁 <b>Test Result</b>",
-        f"📚 {engine.PAPER_LABEL[session.paper]} · {session.total} Q · "
+        f"📚 {_plabel(session.paper)} · {session.total} Q · "
         f"Negative marking {'ON' if session.negative else 'OFF'}",
         "━━━━━━━━━━━━━━━━━━",
         f"✅ Sahi: <b>{res.correct}</b>",
@@ -475,7 +520,7 @@ async def finish_session(bot: Bot, session: engine.ExamSession, auto: bool = Fal
     STATS["finished"] += 1
     logger.info(
         "🏁 NDA TEST END id=%s | %s | score %g/%g | ✅%s ❌%s ⏭%s | auto=%s",
-        uid, engine.PAPER_LABEL[session.paper], res.score, res.max_marks,
+        uid, _plabel(session.paper), res.score, res.max_marks,
         res.correct, res.wrong, res.skipped, auto,
     )
     try:

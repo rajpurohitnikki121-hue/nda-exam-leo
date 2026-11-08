@@ -1,0 +1,902 @@
+[
+ {
+  "id": "PRACTICE2-BIOL-001",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which organelle is called the powerhouse of the cell?",
+  "options": [
+   "Ribosome",
+   "Golgi body",
+   "Nucleus",
+   "Mitochondria"
+  ],
+  "answer": "D",
+  "explanation": "Mitochondria release energy (ATP) through cellular respiration."
+ },
+ {
+  "id": "PRACTICE2-BIOL-002",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which vitamin is produced in the skin by sunlight?",
+  "options": [
+   "Vitamin C",
+   "Vitamin D",
+   "Vitamin A",
+   "Vitamin K"
+  ],
+  "answer": "B",
+  "explanation": "Sunlight helps the skin make vitamin D."
+ },
+ {
+  "id": "PRACTICE2-BIOL-003",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which blood group is called the universal donor?",
+  "options": [
+   "O negative",
+   "B negative",
+   "A positive",
+   "AB positive"
+  ],
+  "answer": "A",
+  "explanation": "O negative red cells can be given to almost all patients."
+ },
+ {
+  "id": "PRACTICE2-BIOL-004",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Plants prepare their food by the process of",
+  "options": [
+   "Digestion",
+   "Photosynthesis",
+   "Respiration",
+   "Transpiration"
+  ],
+  "answer": "B",
+  "explanation": "Plants make glucose from CO₂ and water using sunlight."
+ },
+ {
+  "id": "PRACTICE2-BIOL-005",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "How many chambers does the human heart have?",
+  "options": [
+   "4",
+   "5",
+   "3",
+   "2"
+  ],
+  "answer": "A",
+  "explanation": "Two atria and two ventricles."
+ },
+ {
+  "id": "PRACTICE2-BIOL-006",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Deficiency of Vitamin C causes",
+  "options": [
+   "Beriberi",
+   "Scurvy",
+   "Rickets",
+   "Night blindness"
+  ],
+  "answer": "B",
+  "explanation": "Scurvy is caused by lack of vitamin C."
+ },
+ {
+  "id": "PRACTICE2-BIOL-007",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which mineral is present in haemoglobin?",
+  "options": [
+   "Iodine",
+   "Iron",
+   "Sodium",
+   "Calcium"
+  ],
+  "answer": "B",
+  "explanation": "Haemoglobin carries oxygen using iron."
+ },
+ {
+  "id": "PRACTICE2-BIOL-008",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The largest organ of the human body is the",
+  "options": [
+   "Heart",
+   "Lungs",
+   "Skin",
+   "Liver"
+  ],
+  "answer": "C",
+  "explanation": "Skin has the largest surface area."
+ },
+ {
+  "id": "PRACTICE2-BIOL-009",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Insulin is secreted by the",
+  "options": [
+   "Pancreas",
+   "Thyroid",
+   "Liver",
+   "Kidney"
+  ],
+  "answer": "A",
+  "explanation": "Beta cells of the pancreas make insulin."
+ },
+ {
+  "id": "PRACTICE2-BIOL-010",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The number of bones in an adult human body is",
+  "options": [
+   "212",
+   "180",
+   "206",
+   "300"
+  ],
+  "answer": "C",
+  "explanation": "An adult has 206 bones."
+ },
+ {
+  "id": "PRACTICE2-BIOL-011",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Malaria is caused by a",
+  "options": [
+   "Protozoan (Plasmodium)",
+   "Bacterium",
+   "Virus",
+   "Fungus"
+  ],
+  "answer": "A",
+  "explanation": "The female Anopheles mosquito spreads Plasmodium."
+ },
+ {
+  "id": "PRACTICE2-BIOL-012",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which vitamin is essential for blood clotting?",
+  "options": [
+   "Vitamin E",
+   "Vitamin K",
+   "Vitamin B",
+   "Vitamin D"
+  ],
+  "answer": "B",
+  "explanation": "Vitamin K helps make clotting factors."
+ },
+ {
+  "id": "PRACTICE2-BIOL-013",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which gas is released by plants during photosynthesis?",
+  "options": [
+   "Nitrogen",
+   "Hydrogen",
+   "Carbon dioxide",
+   "Oxygen"
+  ],
+  "answer": "D",
+  "explanation": "Oxygen is released as a by-product."
+ },
+ {
+  "id": "PRACTICE2-BIOL-014",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The study of birds is called",
+  "options": [
+   "Entomology",
+   "Ornithology",
+   "Ichthyology",
+   "Herpetology"
+  ],
+  "answer": "B",
+  "explanation": "Ornithology = study of birds."
+ },
+ {
+  "id": "PRACTICE2-BIOL-015",
+  "subject": "gat",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The full form of DNA is",
+  "options": [
+   "Diribonucleic acid",
+   "Deoxyribose acid",
+   "Dinucleic acid",
+   "Deoxyribonucleic acid"
+  ],
+  "answer": "D",
+  "explanation": "DNA carries genetic information."
+ },
+ {
+  "id": "PRACTICE2-PHYS-001",
+  "subject": "gat",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The SI unit of work is",
+  "options": [
+   "Newton",
+   "Joule",
+   "Pascal",
+   "Watt"
+  ],
+  "answer": "B",
+  "explanation": "Work = force × distance, measured in joules."
+ },
+ {
+  "id": "PRACTICE2-PHYS-002",
+  "subject": "gat",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Sound cannot travel through",
+  "options": [
+   "Vacuum",
+   "Water",
+   "Steel",
+   "Air"
+  ],
+  "answer": "A",
+  "explanation": "Sound needs a material medium."
+ },
+ {
+  "id": "PRACTICE2-PHYS-003",
+  "subject": "gat",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which mirror is used by dentists?",
+  "options": [
+   "Plane mirror",
+   "Cylindrical mirror",
+   "Concave mirror",
+   "Convex mirror"
+  ],
+  "answer": "C",
+  "explanation": "A concave mirror gives a magnified image."
+ },
+ {
+  "id": "PRACTICE2-PHYS-004",
+  "subject": "gat",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A rainbow is formed due to",
+  "options": [
+   "Reflection only",
+   "Polarisation",
+   "Diffraction",
+   "Dispersion of light"
+  ],
+  "answer": "D",
+  "explanation": "Raindrops split white light into colours."
+ },
+ {
+  "id": "PRACTICE2-PHYS-005",
+  "subject": "gat",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The SI unit of electrical resistance is",
+  "options": [
+   "Farad",
+   "Ampere",
+   "Ohm",
+   "Volt"
+  ],
+  "answer": "C",
+  "explanation": "R = V/I, measured in ohms."
+ },
+ {
+  "id": "PRACTICE2-CHEM-001",
+  "subject": "gat",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The chemical formula of common salt is",
+  "options": [
+   "Na₂O",
+   "NaOH",
+   "NaCl",
+   "KCl"
+  ],
+  "answer": "C",
+  "explanation": "Sodium chloride."
+ },
+ {
+  "id": "PRACTICE2-CHEM-002",
+  "subject": "gat",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Rusting of iron is an example of",
+  "options": [
+   "Reduction",
+   "Evaporation",
+   "Sublimation",
+   "Oxidation"
+  ],
+  "answer": "D",
+  "explanation": "Iron reacts with oxygen and moisture."
+ },
+ {
+  "id": "PRACTICE2-CHEM-003",
+  "subject": "gat",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which gas is commonly used in fire extinguishers?",
+  "options": [
+   "Carbon dioxide",
+   "Oxygen",
+   "Methane",
+   "Hydrogen"
+  ],
+  "answer": "A",
+  "explanation": "CO₂ does not support burning."
+ },
+ {
+  "id": "PRACTICE2-CHEM-004",
+  "subject": "gat",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which acid is present in lemon?",
+  "options": [
+   "Citric acid",
+   "Tartaric acid",
+   "Lactic acid",
+   "Acetic acid"
+  ],
+  "answer": "A",
+  "explanation": "Citrus fruits contain citric acid."
+ },
+ {
+  "id": "PRACTICE2-CHEM-005",
+  "subject": "gat",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The lightest gas is",
+  "options": [
+   "Oxygen",
+   "Hydrogen",
+   "Nitrogen",
+   "Helium"
+  ],
+  "answer": "B",
+  "explanation": "Hydrogen has the lowest density."
+ },
+ {
+  "id": "PRACTICE2-ECON-001",
+  "subject": "gat",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Reserve Bank of India was established in the year",
+  "options": [
+   "1950",
+   "1947",
+   "1969",
+   "1935"
+  ],
+  "answer": "D",
+  "explanation": "RBI began working on 1 April 1935."
+ },
+ {
+  "id": "PRACTICE2-ECON-002",
+  "subject": "gat",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of the Reserve Bank of India is in",
+  "options": [
+   "Kolkata",
+   "Mumbai",
+   "New Delhi",
+   "Chennai"
+  ],
+  "answer": "B",
+  "explanation": "RBI's central office is in Mumbai."
+ },
+ {
+  "id": "PRACTICE2-ECON-003",
+  "subject": "gat",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "GST was introduced in India on",
+  "options": [
+   "1 April 2016",
+   "1 July 2017",
+   "26 January 2018",
+   "15 August 2017"
+  ],
+  "answer": "B",
+  "explanation": "GST came into force on 1 July 2017."
+ },
+ {
+  "id": "PRACTICE2-ECON-004",
+  "subject": "gat",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Planning Commission was replaced by",
+  "options": [
+   "Finance Commission",
+   "Election Commission",
+   "Law Commission",
+   "NITI Aayog"
+  ],
+  "answer": "D",
+  "explanation": "NITI Aayog was set up in 2015."
+ },
+ {
+  "id": "PRACTICE2-ECON-005",
+  "subject": "gat",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The financial year in India runs from",
+  "options": [
+   "1 July to 30 June",
+   "1 April to 31 March",
+   "1 October to 30 September",
+   "1 January to 31 December"
+  ],
+  "answer": "B",
+  "explanation": "The Indian financial year starts on 1 April."
+ },
+ {
+  "id": "PRACTICE2-ECON-006",
+  "subject": "gat",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Union Budget is presented in Parliament by the",
+  "options": [
+   "RBI Governor",
+   "Finance Minister",
+   "President",
+   "Prime Minister"
+  ],
+  "answer": "B",
+  "explanation": "The Finance Minister presents it, normally in the Lok Sabha."
+ },
+ {
+  "id": "PRACTICE2-ECON-007",
+  "subject": "gat",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The repo rate is the rate at which",
+  "options": [
+   "RBI lends to commercial banks",
+   "Banks lend to each other",
+   "RBI borrows from the public",
+   "Banks lend to the public"
+  ],
+  "answer": "A",
+  "explanation": "Repo = repurchase rate for short-term loans from RBI."
+ },
+ {
+  "id": "PRACTICE2-ECON-008",
+  "subject": "gat",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The symbol ₹ is the symbol of the",
+  "options": [
+   "Dollar",
+   "Euro",
+   "Indian Rupee",
+   "Yen"
+  ],
+  "answer": "C",
+  "explanation": "The rupee sign was adopted in 2010."
+ },
+ {
+  "id": "PRACTICE2-DEFE-001",
+  "subject": "gat",
+  "section": "Defence GK",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The National Defence Academy is located at",
+  "options": [
+   "Dehradun",
+   "Ezhimala",
+   "Khadakwasla, Pune",
+   "Hyderabad"
+  ],
+  "answer": "C",
+  "explanation": "NDA is at Khadakwasla near Pune."
+ },
+ {
+  "id": "PRACTICE2-DEFE-002",
+  "subject": "gat",
+  "section": "Defence GK",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Indian Military Academy is located at",
+  "options": [
+   "Dehradun",
+   "Chennai",
+   "Gaya",
+   "Pune"
+  ],
+  "answer": "A",
+  "explanation": "IMA is at Dehradun, Uttarakhand."
+ },
+ {
+  "id": "PRACTICE2-DEFE-003",
+  "subject": "gat",
+  "section": "Defence GK",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The highest gallantry award of India is the",
+  "options": [
+   "Param Vir Chakra",
+   "Vir Chakra",
+   "Maha Vir Chakra",
+   "Ashoka Chakra"
+  ],
+  "answer": "A",
+  "explanation": "The Param Vir Chakra is given for the highest valour in war."
+ },
+ {
+  "id": "PRACTICE2-DEFE-004",
+  "subject": "gat",
+  "section": "Defence GK",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Indian Army Day is celebrated on",
+  "options": [
+   "15 January",
+   "15 August",
+   "26 January",
+   "1 May"
+  ],
+  "answer": "A",
+  "explanation": "It marks Gen. K. M. Cariappa becoming first Indian Commander-in-Chief in 1949."
+ },
+ {
+  "id": "PRACTICE2-DEFE-005",
+  "subject": "gat",
+  "section": "Defence GK",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Indian Navy Day is celebrated on",
+  "options": [
+   "1 November",
+   "8 October",
+   "15 January",
+   "4 December"
+  ],
+  "answer": "D",
+  "explanation": "It is linked to Operation Trident of 1971."
+ },
+ {
+  "id": "PRACTICE2-DEFE-006",
+  "subject": "gat",
+  "section": "Defence GK",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Indian Air Force Day is celebrated on",
+  "options": [
+   "4 December",
+   "15 January",
+   "23 March",
+   "8 October"
+  ],
+  "answer": "D",
+  "explanation": "The IAF was established on 8 October 1932."
+ },
+ {
+  "id": "PRACTICE2-DEFE-007",
+  "subject": "gat",
+  "section": "Defence GK",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Indian Naval Academy is located at",
+  "options": [
+   "Dehradun",
+   "Ezhimala, Kerala",
+   "Visakhapatnam",
+   "Pune"
+  ],
+  "answer": "B",
+  "explanation": "INA is at Ezhimala."
+ },
+ {
+  "id": "PRACTICE2-REAS-001",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 2, 4, 8, 16, ?",
+  "options": [
+   "24",
+   "32",
+   "30",
+   "36"
+  ],
+  "answer": "B",
+  "explanation": "Each term is double the previous term."
+ },
+ {
+  "id": "PRACTICE2-REAS-002",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 3, 6, 11, 18, 27, ?",
+  "options": [
+   "40",
+   "38",
+   "36",
+   "35"
+  ],
+  "answer": "B",
+  "explanation": "Differences are 3, 5, 7, 9, so next difference is 11: 27 + 11 = 38."
+ },
+ {
+  "id": "PRACTICE2-REAS-003",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the odd one out.",
+  "options": [
+   "Mango",
+   "Banana",
+   "Potato",
+   "Apple"
+  ],
+  "answer": "C",
+  "explanation": "Potato is a vegetable; the others are fruits."
+ },
+ {
+  "id": "PRACTICE2-REAS-004",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the odd one out: 9, 16, 25, 30",
+  "options": [
+   "16",
+   "30",
+   "25",
+   "9"
+  ],
+  "answer": "B",
+  "explanation": "9, 16 and 25 are perfect squares; 30 is not."
+ },
+ {
+  "id": "PRACTICE2-REAS-005",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If A = 1, B = 2, C = 3 and so on, then the code for DOG is",
+  "options": [
+   "4-15-7",
+   "3-15-7",
+   "4-15-8",
+   "4-14-7"
+  ],
+  "answer": "A",
+  "explanation": "D = 4, O = 15, G = 7."
+ },
+ {
+  "id": "PRACTICE2-REAS-006",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Hand : Glove :: Foot : ?",
+  "options": [
+   "Walk",
+   "Shoe",
+   "Toe",
+   "Leg"
+  ],
+  "answer": "B",
+  "explanation": "A glove is worn on the hand, a shoe on the foot."
+ },
+ {
+  "id": "PRACTICE2-REAS-007",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man walks 3 km north and then 4 km east. His distance from the starting point is",
+  "options": [
+   "6 km",
+   "7 km",
+   "4 km",
+   "5 km"
+  ],
+  "answer": "D",
+  "explanation": "√(3² + 4²) = 5 km."
+ },
+ {
+  "id": "PRACTICE2-REAS-008",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A is the brother of B, and B is the mother of C. A is C's",
+  "options": [
+   "Paternal uncle",
+   "Grandfather",
+   "Father",
+   "Maternal uncle"
+  ],
+  "answer": "D",
+  "explanation": "A is the brother of C's mother."
+ },
+ {
+  "id": "PRACTICE2-REAS-009",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a row of 20 students, Ravi is 8th from the left. His position from the right is",
+  "options": [
+   "14th",
+   "12th",
+   "13th",
+   "8th"
+  ],
+  "answer": "C",
+  "explanation": "20 − 8 + 1 = 13."
+ },
+ {
+  "id": "PRACTICE2-REAS-010",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The angle between the hands of a clock at 3:00 is",
+  "options": [
+   "90°",
+   "120°",
+   "45°",
+   "60°"
+  ],
+  "answer": "A",
+  "explanation": "The hour hand is at 3 and the minute hand at 12: 3 × 30° = 90°."
+ },
+ {
+  "id": "PRACTICE2-REAS-011",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If today is Monday, the day after 10 days will be",
+  "options": [
+   "Tuesday",
+   "Thursday",
+   "Wednesday",
+   "Friday"
+  ],
+  "answer": "B",
+  "explanation": "10 days = 1 week + 3 days; Monday + 3 = Thursday."
+ },
+ {
+  "id": "PRACTICE2-REAS-012",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "3 : 27 :: 4 : ?",
+  "options": [
+   "48",
+   "16",
+   "81",
+   "64"
+  ],
+  "answer": "D",
+  "explanation": "The second number is the cube of the first."
+ },
+ {
+  "id": "PRACTICE2-REAS-013",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next letter: A, C, E, G, ?",
+  "options": [
+   "J",
+   "I",
+   "H",
+   "K"
+  ],
+  "answer": "B",
+  "explanation": "Every second letter is taken."
+ },
+ {
+  "id": "PRACTICE2-REAS-014",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which letter is the 4th to the left of J in the English alphabet?",
+  "options": [
+   "F",
+   "G",
+   "D",
+   "E"
+  ],
+  "answer": "A",
+  "explanation": "J is the 10th letter; 10 − 4 = 6, which is F."
+ },
+ {
+  "id": "PRACTICE2-REAS-015",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Statements: All cats are dogs. All dogs are birds. Conclusion: All cats are birds.",
+  "options": [
+   "Cannot say",
+   "Conclusion does not follow",
+   "Only partly follows",
+   "Conclusion follows"
+  ],
+  "answer": "D",
+  "explanation": "Cats ⊂ dogs ⊂ birds, so all cats are birds."
+ },
+ {
+  "id": "PRACTICE2-REAS-016",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A is taller than B, and B is taller than C. Who is the shortest?",
+  "options": [
+   "Cannot be determined",
+   "A",
+   "B",
+   "C"
+  ],
+  "answer": "D",
+  "explanation": "A > B > C."
+ },
+ {
+  "id": "PRACTICE2-REAS-017",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The angle between the clock hands at 3:15 is",
+  "options": [
+   "15°",
+   "7.5°",
+   "0°",
+   "30°"
+  ],
+  "answer": "B",
+  "explanation": "Hour hand 97.5°, minute hand 90°, so 7.5°."
+ },
+ {
+  "id": "PRACTICE2-REAS-018",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the odd one out: Triangle, Square, Circle, Pentagon",
+  "options": [
+   "Circle",
+   "Square",
+   "Triangle",
+   "Pentagon"
+  ],
+  "answer": "A",
+  "explanation": "The others are polygons with straight sides."
+ },
+ {
+  "id": "PRACTICE2-REAS-019",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If ROSE is coded as TQUG, then LOVE is coded as",
+  "options": [
+   "NQXG",
+   "MQXH",
+   "NPXG",
+   "MPWF"
+  ],
+  "answer": "A",
+  "explanation": "Each letter is moved 2 steps ahead."
+ },
+ {
+  "id": "PRACTICE2-REAS-020",
+  "subject": "gat",
+  "section": "Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 1, 4, 9, 16, 25, ?",
+  "options": [
+   "49",
+   "30",
+   "32",
+   "36"
+  ],
+  "answer": "D",
+  "explanation": "Squares of 1, 2, 3, 4, 5, 6."
+ }
+]
