@@ -10,6 +10,7 @@ from aiogram.types import BotCommand
 from config import settings
 from database.connection import engine, init_db
 from handlers import setup_routers
+from middlewares import TrackUserMiddleware
 from services.nda_bank import bank as nda_bank
 
 # Configure structured logging
@@ -80,6 +81,10 @@ async def main() -> None:
     )
     storage = MemoryStorage()
     dp = Dispatcher(storage=storage)
+
+    # Track + log every user (saves them in DB, prints NEW USER / COMMAND lines)
+    dp.message.outer_middleware(TrackUserMiddleware())
+    dp.callback_query.outer_middleware(TrackUserMiddleware())
 
     # Register all modular routers
     root_router = setup_routers()

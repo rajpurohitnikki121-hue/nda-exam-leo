@@ -31,6 +31,7 @@ COUNT_CHOICES = (10, 25, 50)
 ACTIVE: Dict[int, engine.ExamSession] = {}
 LAST: Dict[int, engine.ExamSession] = {}
 TIMERS: Dict[int, asyncio.Task] = {}
+STATS = {"started": 0, "finished": 0}  # since last restart
 
 
 # --------------------------------------------------------------------------- #
@@ -237,6 +238,12 @@ async def cb_go(cb: types.CallbackQuery, callback_data: NdaCB, bot: Bot) -> None
             f"\n⚠️ <i>Bank me sirf {session.total} question mile "
             f"(maange gaye: {plan.requested}).</i>"
         )
+    STATS["started"] += 1
+    logger.info(
+        "🚀 NDA TEST START %s (@%s, id=%s) | %s | %s Q | negative=%s",
+        cb.from_user.full_name, cb.from_user.username or "-", uid,
+        engine.PAPER_LABEL[paper], session.total, "ON" if negative else "OFF",
+    )
     await cb.answer("Test shuru ho gaya!")
     text, kb = _render_question(session)
     await _edit(cb, f"{intro}\n\n{text}", kb)
@@ -465,6 +472,12 @@ async def finish_session(bot: Bot, session: engine.ExamSession, auto: bool = Fal
     LAST[uid] = session
 
     res = engine.compute_result(session)
+    STATS["finished"] += 1
+    logger.info(
+        "🏁 NDA TEST END id=%s | %s | score %g/%g | ✅%s ❌%s ⏭%s | auto=%s",
+        uid, engine.PAPER_LABEL[session.paper], res.score, res.max_marks,
+        res.correct, res.wrong, res.skipped, auto,
+    )
     try:
         await bot.edit_message_text(
             chat_id=session.chat_id,

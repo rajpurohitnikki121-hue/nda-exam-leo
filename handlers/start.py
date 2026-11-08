@@ -87,8 +87,10 @@ async def cmd_help(message: types.Message) -> None:
     if message.from_user and settings.is_admin(message.from_user.id):
         help_text += (
             f"👑 <b>Admin Commands:</b>\n"
-            f"• /broadcast_quiz — Broadcast interactive Quiz Polls to Channel\n"
-            f"• /admin — Open Admin Control Center\n\n"
+            f"• /users — Users count + latest users\n"
+            f"• /userlist — Poori user list (CSV)\n"
+            f"• /botstats — Users, tests, question bank\n"
+            f"• /nda_bank — Question bank reload\n\n"
         )
 
     help_text += f"📢 <b>Connected Channel:</b> <code>{settings.CHANNEL_ID}</code>"
