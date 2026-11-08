@@ -1,0 +1,1502 @@
+[
+ {
+  "id": "PRACTICE-M-001",
+  "subject": "maths",
+  "section": "Algebra",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The sum of the roots of 2x² − 7x + 3 = 0 is",
+  "options": [
+   "−7/2",
+   "−3/2",
+   "3/2",
+   "7/2"
+  ],
+  "answer": "D",
+  "explanation": "Sum of roots = −b/a = 7/2."
+ },
+ {
+  "id": "PRACTICE-M-002",
+  "subject": "maths",
+  "section": "Algebra",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The product of the roots of 2x² − 7x + 3 = 0 is",
+  "options": [
+   "7/2",
+   "3/2",
+   "6",
+   "−3/2"
+  ],
+  "answer": "B",
+  "explanation": "Product of roots = c/a = 3/2."
+ },
+ {
+  "id": "PRACTICE-M-003",
+  "subject": "maths",
+  "section": "Algebra",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The discriminant of x² − 4x + 4 = 0 is",
+  "options": [
+   "8",
+   "4",
+   "0",
+   "−4"
+  ],
+  "answer": "C",
+  "explanation": "D = b² − 4ac = 16 − 16 = 0 (equal roots)."
+ },
+ {
+  "id": "PRACTICE-M-004",
+  "subject": "maths",
+  "section": "Sequences & Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The 10th term of the AP 3, 8, 13, … is",
+  "options": [
+   "48",
+   "43",
+   "50",
+   "53"
+  ],
+  "answer": "A",
+  "explanation": "a + 9d = 3 + 9×5 = 48."
+ },
+ {
+  "id": "PRACTICE-M-005",
+  "subject": "maths",
+  "section": "Sequences & Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The sum of the first 20 natural numbers is",
+  "options": [
+   "200",
+   "220",
+   "210",
+   "190"
+  ],
+  "answer": "C",
+  "explanation": "n(n+1)/2 = 20×21/2 = 210."
+ },
+ {
+  "id": "PRACTICE-M-006",
+  "subject": "maths",
+  "section": "Sequences & Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The next term of the GP 2, 6, 18, … is",
+  "options": [
+   "36",
+   "54",
+   "48",
+   "72"
+  ],
+  "answer": "B",
+  "explanation": "Common ratio 3, so 18 × 3 = 54."
+ },
+ {
+  "id": "PRACTICE-M-007",
+  "subject": "maths",
+  "section": "Sequences & Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The sum to infinity of the series 1 + 1/2 + 1/4 + 1/8 + … is",
+  "options": [
+   "2",
+   "4",
+   "3/2",
+   "1"
+  ],
+  "answer": "A",
+  "explanation": "a/(1 − r) = 1/(1 − 1/2) = 2."
+ },
+ {
+  "id": "PRACTICE-M-008",
+  "subject": "maths",
+  "section": "Logarithms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of log₁₀ 1000 is",
+  "options": [
+   "2",
+   "10",
+   "1000",
+   "3"
+  ],
+  "answer": "D",
+  "explanation": "10³ = 1000."
+ },
+ {
+  "id": "PRACTICE-M-009",
+  "subject": "maths",
+  "section": "Logarithms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of log₂ 64 is",
+  "options": [
+   "32",
+   "5",
+   "6",
+   "8"
+  ],
+  "answer": "C",
+  "explanation": "2⁶ = 64."
+ },
+ {
+  "id": "PRACTICE-M-010",
+  "subject": "maths",
+  "section": "Permutations & Combinations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The number of diagonals of a hexagon is",
+  "options": [
+   "6",
+   "12",
+   "9",
+   "15"
+  ],
+  "answer": "C",
+  "explanation": "n(n − 3)/2 = 6×3/2 = 9."
+ },
+ {
+  "id": "PRACTICE-M-011",
+  "subject": "maths",
+  "section": "Permutations & Combinations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of 5!/3! is",
+  "options": [
+   "60",
+   "10",
+   "40",
+   "20"
+  ],
+  "answer": "D",
+  "explanation": "5×4 = 20."
+ },
+ {
+  "id": "PRACTICE-M-012",
+  "subject": "maths",
+  "section": "Permutations & Combinations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of ⁸C₃ is",
+  "options": [
+   "336",
+   "28",
+   "56",
+   "24"
+  ],
+  "answer": "C",
+  "explanation": "8×7×6 / 3! = 56."
+ },
+ {
+  "id": "PRACTICE-M-013",
+  "subject": "maths",
+  "section": "Permutations & Combinations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The number of distinct arrangements of the letters of the word LEVEL is",
+  "options": [
+   "120",
+   "15",
+   "60",
+   "30"
+  ],
+  "answer": "D",
+  "explanation": "5!/(2!×2!) = 30 (L and E each repeat twice)."
+ },
+ {
+  "id": "PRACTICE-M-014",
+  "subject": "maths",
+  "section": "Probability",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Two fair dice are thrown. The probability that the sum is 7 is",
+  "options": [
+   "7/36",
+   "5/36",
+   "1/12",
+   "1/6"
+  ],
+  "answer": "D",
+  "explanation": "6 favourable outcomes out of 36 = 1/6."
+ },
+ {
+  "id": "PRACTICE-M-015",
+  "subject": "maths",
+  "section": "Probability",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A fair coin is tossed twice. The probability of getting at least one head is",
+  "options": [
+   "1/4",
+   "1",
+   "1/2",
+   "3/4"
+  ],
+  "answer": "D",
+  "explanation": "1 − P(no head) = 1 − 1/4 = 3/4."
+ },
+ {
+  "id": "PRACTICE-M-016",
+  "subject": "maths",
+  "section": "Statistics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The mean of 2, 4, 6, 8, 10 is",
+  "options": [
+   "6",
+   "8",
+   "30",
+   "5"
+  ],
+  "answer": "A",
+  "explanation": "Sum 30 divided by 5 = 6."
+ },
+ {
+  "id": "PRACTICE-M-017",
+  "subject": "maths",
+  "section": "Statistics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The median of 3, 9, 1, 7, 5 is",
+  "options": [
+   "5",
+   "9",
+   "7",
+   "1"
+  ],
+  "answer": "A",
+  "explanation": "Sorted: 1, 3, 5, 7, 9 → middle value 5."
+ },
+ {
+  "id": "PRACTICE-M-018",
+  "subject": "maths",
+  "section": "Statistics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The variance of the data 1, 2, 3 is",
+  "options": [
+   "2",
+   "1",
+   "2/3",
+   "1/3"
+  ],
+  "answer": "C",
+  "explanation": "Mean 2; (1 + 0 + 1)/3 = 2/3."
+ },
+ {
+  "id": "PRACTICE-M-019",
+  "subject": "maths",
+  "section": "Trigonometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of tan 45° is",
+  "options": [
+   "1",
+   "√3",
+   "0",
+   "1/√3"
+  ],
+  "answer": "A",
+  "explanation": "tan 45° = 1."
+ },
+ {
+  "id": "PRACTICE-M-020",
+  "subject": "maths",
+  "section": "Trigonometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of cos 60° is",
+  "options": [
+   "0",
+   "√3/2",
+   "1",
+   "1/2"
+  ],
+  "answer": "D",
+  "explanation": "cos 60° = 1/2."
+ },
+ {
+  "id": "PRACTICE-M-021",
+  "subject": "maths",
+  "section": "Trigonometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of sin 150° is",
+  "options": [
+   "1/2",
+   "√3/2",
+   "−√3/2",
+   "−1/2"
+  ],
+  "answer": "A",
+  "explanation": "sin(180° − 30°) = sin 30° = 1/2."
+ },
+ {
+  "id": "PRACTICE-M-022",
+  "subject": "maths",
+  "section": "Trigonometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The expression sec²θ − tan²θ is equal to",
+  "options": [
+   "0",
+   "sin²θ",
+   "−1",
+   "1"
+  ],
+  "answer": "D",
+  "explanation": "Identity: sec²θ = 1 + tan²θ."
+ },
+ {
+  "id": "PRACTICE-M-023",
+  "subject": "maths",
+  "section": "Trigonometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If sin θ = 1/2, then cos 2θ equals",
+  "options": [
+   "√3/2",
+   "1/2",
+   "0",
+   "−1/2"
+  ],
+  "answer": "B",
+  "explanation": "cos 2θ = 1 − 2sin²θ = 1 − 2×1/4 = 1/2."
+ },
+ {
+  "id": "PRACTICE-M-024",
+  "subject": "maths",
+  "section": "Trigonometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The period of the function sin 2x is",
+  "options": [
+   "π",
+   "2π",
+   "π/2",
+   "4π"
+  ],
+  "answer": "A",
+  "explanation": "Period of sin(kx) is 2π/k = π."
+ },
+ {
+  "id": "PRACTICE-M-025",
+  "subject": "maths",
+  "section": "Trigonometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The maximum value of 3 sin x + 4 cos x is",
+  "options": [
+   "5",
+   "12",
+   "7",
+   "4"
+  ],
+  "answer": "A",
+  "explanation": "Maximum = √(3² + 4²) = 5."
+ },
+ {
+  "id": "PRACTICE-M-026",
+  "subject": "maths",
+  "section": "Trigonometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of tan 75° is",
+  "options": [
+   "2 + √3",
+   "√3 − 1",
+   "1 + √3",
+   "2 − √3"
+  ],
+  "answer": "A",
+  "explanation": "tan(45° + 30°) = (1 + 1/√3)/(1 − 1/√3) = 2 + √3."
+ },
+ {
+  "id": "PRACTICE-M-027",
+  "subject": "maths",
+  "section": "Differential Calculus",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The derivative of x⁵ with respect to x is",
+  "options": [
+   "4x⁵",
+   "x⁴",
+   "5x⁴",
+   "5x⁵"
+  ],
+  "answer": "C",
+  "explanation": "Power rule: d/dx xⁿ = n·xⁿ⁻¹."
+ },
+ {
+  "id": "PRACTICE-M-028",
+  "subject": "maths",
+  "section": "Integral Calculus",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "∫ 2x dx is equal to",
+  "options": [
+   "2 + C",
+   "2x² + C",
+   "x² + C",
+   "x + C"
+  ],
+  "answer": "C",
+  "explanation": "∫ 2x dx = x² + C."
+ },
+ {
+  "id": "PRACTICE-M-029",
+  "subject": "maths",
+  "section": "Differential Calculus",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The derivative of e²ˣ with respect to x is",
+  "options": [
+   "e²ˣ",
+   "2e²ˣ",
+   "e²",
+   "2xe²ˣ"
+  ],
+  "answer": "B",
+  "explanation": "Chain rule: d/dx e^(2x) = 2e^(2x)."
+ },
+ {
+  "id": "PRACTICE-M-030",
+  "subject": "maths",
+  "section": "Integral Calculus",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of ∫₀¹ x² dx is",
+  "options": [
+   "1/3",
+   "2/3",
+   "1/2",
+   "1"
+  ],
+  "answer": "A",
+  "explanation": "[x³/3] from 0 to 1 = 1/3."
+ },
+ {
+  "id": "PRACTICE-M-031",
+  "subject": "maths",
+  "section": "Differential Calculus",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of lim (x→0) sin x / x is",
+  "options": [
+   "0",
+   "∞",
+   "1",
+   "−1"
+  ],
+  "answer": "C",
+  "explanation": "Standard limit."
+ },
+ {
+  "id": "PRACTICE-M-032",
+  "subject": "maths",
+  "section": "Differential Calculus",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The derivative of ln x with respect to x is",
+  "options": [
+   "ln x",
+   "1/x",
+   "e^x",
+   "x"
+  ],
+  "answer": "B",
+  "explanation": "d/dx ln x = 1/x."
+ },
+ {
+  "id": "PRACTICE-M-033",
+  "subject": "maths",
+  "section": "Differential Calculus",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The slope of the tangent to y = x² at x = 3 is",
+  "options": [
+   "3",
+   "6",
+   "9",
+   "2"
+  ],
+  "answer": "B",
+  "explanation": "dy/dx = 2x = 6 at x = 3."
+ },
+ {
+  "id": "PRACTICE-M-034",
+  "subject": "maths",
+  "section": "Differential Calculus",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The maximum value of y = −x² + 4x is",
+  "options": [
+   "8",
+   "0",
+   "2",
+   "4"
+  ],
+  "answer": "D",
+  "explanation": "Vertex at x = 2, y = −4 + 8 = 4."
+ },
+ {
+  "id": "PRACTICE-M-035",
+  "subject": "maths",
+  "section": "Integral Calculus",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "∫ cos x dx is equal to",
+  "options": [
+   "−sin x + C",
+   "−cos x + C",
+   "sin x + C",
+   "cos x + C"
+  ],
+  "answer": "C",
+  "explanation": "The derivative of sin x is cos x."
+ },
+ {
+  "id": "PRACTICE-M-036",
+  "subject": "maths",
+  "section": "Differential Calculus",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The derivative of x² sin x is",
+  "options": [
+   "2x sin x − x² cos x",
+   "2x sin x + x² cos x",
+   "2x cos x",
+   "x² cos x"
+  ],
+  "answer": "B",
+  "explanation": "Product rule: (x²)′ sin x + x² (sin x)′."
+ },
+ {
+  "id": "PRACTICE-M-037",
+  "subject": "maths",
+  "section": "Coordinate Geometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The distance between the points (1, 2) and (4, 6) is",
+  "options": [
+   "7",
+   "25",
+   "5",
+   "√7"
+  ],
+  "answer": "C",
+  "explanation": "√(3² + 4²) = 5."
+ },
+ {
+  "id": "PRACTICE-M-038",
+  "subject": "maths",
+  "section": "Coordinate Geometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The midpoint of the points (2, 4) and (6, 8) is",
+  "options": [
+   "(4, 6)",
+   "(4, 4)",
+   "(8, 12)",
+   "(2, 2)"
+  ],
+  "answer": "A",
+  "explanation": "((2+6)/2, (4+8)/2) = (4, 6)."
+ },
+ {
+  "id": "PRACTICE-M-039",
+  "subject": "maths",
+  "section": "Coordinate Geometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The slope of the line through (1, 2) and (3, 8) is",
+  "options": [
+   "3",
+   "6",
+   "1/3",
+   "2"
+  ],
+  "answer": "A",
+  "explanation": "(8 − 2)/(3 − 1) = 3."
+ },
+ {
+  "id": "PRACTICE-M-040",
+  "subject": "maths",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The area of a circle of radius 7 cm (taking π = 22/7) is",
+  "options": [
+   "154 cm²",
+   "308 cm²",
+   "44 cm²",
+   "49 cm²"
+  ],
+  "answer": "A",
+  "explanation": "πr² = 22/7 × 49 = 154."
+ },
+ {
+  "id": "PRACTICE-M-041",
+  "subject": "maths",
+  "section": "Coordinate Geometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The equation of the circle with centre at the origin and radius 5 is",
+  "options": [
+   "x² + y² = 25",
+   "x² + y² = 5",
+   "x + y = 25",
+   "x² − y² = 25"
+  ],
+  "answer": "A",
+  "explanation": "x² + y² = r²."
+ },
+ {
+  "id": "PRACTICE-M-042",
+  "subject": "maths",
+  "section": "Coordinate Geometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The x-intercept of the line 3x + 4y = 12 is",
+  "options": [
+   "4",
+   "3",
+   "12",
+   "−4"
+  ],
+  "answer": "A",
+  "explanation": "Put y = 0: 3x = 12, so x = 4."
+ },
+ {
+  "id": "PRACTICE-M-043",
+  "subject": "maths",
+  "section": "Coordinate Geometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The focus of the parabola y² = 8x is",
+  "options": [
+   "(2, 0)",
+   "(0, 2)",
+   "(8, 0)",
+   "(4, 0)"
+  ],
+  "answer": "A",
+  "explanation": "y² = 4ax with a = 2, focus (a, 0)."
+ },
+ {
+  "id": "PRACTICE-M-044",
+  "subject": "maths",
+  "section": "Coordinate Geometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The eccentricity of the ellipse x²/25 + y²/16 = 1 is",
+  "options": [
+   "5/3",
+   "4/5",
+   "9/25",
+   "3/5"
+  ],
+  "answer": "D",
+  "explanation": "e = √(1 − b²/a²) = √(1 − 16/25) = 3/5."
+ },
+ {
+  "id": "PRACTICE-M-045",
+  "subject": "maths",
+  "section": "Coordinate Geometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The perpendicular distance of the line 3x + 4y = 10 from the origin is",
+  "options": [
+   "10",
+   "5",
+   "2",
+   "1"
+  ],
+  "answer": "C",
+  "explanation": "|10|/√(3² + 4²) = 10/5 = 2."
+ },
+ {
+  "id": "PRACTICE-M-046",
+  "subject": "maths",
+  "section": "Matrices & Determinants",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The determinant of the matrix [[2, 3], [1, 4]] is",
+  "options": [
+   "−5",
+   "8",
+   "11",
+   "5"
+  ],
+  "answer": "D",
+  "explanation": "2×4 − 3×1 = 5."
+ },
+ {
+  "id": "PRACTICE-M-047",
+  "subject": "maths",
+  "section": "Matrices & Determinants",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If A is a 2×2 matrix with |A| = 5, then |2A| is",
+  "options": [
+   "25",
+   "10",
+   "40",
+   "20"
+  ],
+  "answer": "D",
+  "explanation": "|kA| = k²|A| for a 2×2 matrix = 4×5 = 20."
+ },
+ {
+  "id": "PRACTICE-M-048",
+  "subject": "maths",
+  "section": "Matrices & Determinants",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The matrix [[1, 2], [2, 4]] is singular because its determinant is",
+  "options": [
+   "1",
+   "2",
+   "4",
+   "0"
+  ],
+  "answer": "D",
+  "explanation": "1×4 − 2×2 = 0."
+ },
+ {
+  "id": "PRACTICE-M-049",
+  "subject": "maths",
+  "section": "Vectors",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The dot product of the vectors (1, 2, 3) and (4, 5, 6) is",
+  "options": [
+   "32",
+   "28",
+   "15",
+   "21"
+  ],
+  "answer": "A",
+  "explanation": "4 + 10 + 18 = 32."
+ },
+ {
+  "id": "PRACTICE-M-050",
+  "subject": "maths",
+  "section": "Vectors",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The magnitude of the vector 2i + 3j + 6k is",
+  "options": [
+   "5",
+   "7",
+   "11",
+   "√11"
+  ],
+  "answer": "B",
+  "explanation": "√(4 + 9 + 36) = 7."
+ },
+ {
+  "id": "PRACTICE-M-051",
+  "subject": "maths",
+  "section": "Vectors",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The cross product i × j equals",
+  "options": [
+   "k",
+   "−k",
+   "j",
+   "0"
+  ],
+  "answer": "A",
+  "explanation": "Right-hand rule: i × j = k."
+ },
+ {
+  "id": "PRACTICE-M-052",
+  "subject": "maths",
+  "section": "Vectors",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The angle between the vectors i and j is",
+  "options": [
+   "180°",
+   "0°",
+   "45°",
+   "90°"
+  ],
+  "answer": "D",
+  "explanation": "i · j = 0, so they are perpendicular."
+ },
+ {
+  "id": "PRACTICE-M-053",
+  "subject": "maths",
+  "section": "Sets & Relations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If n(A) = 20, n(B) = 15 and n(A ∩ B) = 5, then n(A ∪ B) is",
+  "options": [
+   "25",
+   "35",
+   "30",
+   "40"
+  ],
+  "answer": "C",
+  "explanation": "20 + 15 − 5 = 30."
+ },
+ {
+  "id": "PRACTICE-M-054",
+  "subject": "maths",
+  "section": "Sets & Relations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The number of subsets of a set with 4 elements is",
+  "options": [
+   "8",
+   "16",
+   "15",
+   "4"
+  ],
+  "answer": "B",
+  "explanation": "2⁴ = 16."
+ },
+ {
+  "id": "PRACTICE-M-055",
+  "subject": "maths",
+  "section": "Sets & Relations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The number of proper subsets of a set with 3 elements is",
+  "options": [
+   "7",
+   "3",
+   "8",
+   "6"
+  ],
+  "answer": "A",
+  "explanation": "2³ − 1 = 7."
+ },
+ {
+  "id": "PRACTICE-M-056",
+  "subject": "maths",
+  "section": "Complex Numbers",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of i¹⁰ is",
+  "options": [
+   "i",
+   "−1",
+   "−i",
+   "1"
+  ],
+  "answer": "B",
+  "explanation": "i¹⁰ = (i²)⁵ = (−1)⁵ = −1."
+ },
+ {
+  "id": "PRACTICE-M-057",
+  "subject": "maths",
+  "section": "Complex Numbers",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The modulus of the complex number 3 + 4i is",
+  "options": [
+   "25",
+   "7",
+   "1",
+   "5"
+  ],
+  "answer": "D",
+  "explanation": "√(9 + 16) = 5."
+ },
+ {
+  "id": "PRACTICE-M-058",
+  "subject": "maths",
+  "section": "Complex Numbers",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of (1 + i)² is",
+  "options": [
+   "2",
+   "0",
+   "2i",
+   "1 + 2i"
+  ],
+  "answer": "C",
+  "explanation": "1 + 2i + i² = 2i."
+ },
+ {
+  "id": "PRACTICE-M-059",
+  "subject": "maths",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The LCM of 12 and 18 is",
+  "options": [
+   "216",
+   "6",
+   "36",
+   "72"
+  ],
+  "answer": "C",
+  "explanation": "12 = 2²×3, 18 = 2×3² → LCM = 2²×3² = 36."
+ },
+ {
+  "id": "PRACTICE-M-060",
+  "subject": "maths",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The HCF of 12 and 18 is",
+  "options": [
+   "2",
+   "6",
+   "3",
+   "36"
+  ],
+  "answer": "B",
+  "explanation": "12 = 2²×3, 18 = 2×3² → HCF = 2×3 = 6."
+ },
+ {
+  "id": "PRACTICE-G-001",
+  "subject": "gat",
+  "section": "English",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'ABUNDANT'.",
+  "options": [
+   "Costly",
+   "Plentiful",
+   "Scarce",
+   "Tiny"
+  ],
+  "answer": "B",
+  "explanation": "Abundant means existing in large quantities."
+ },
+ {
+  "id": "PRACTICE-G-002",
+  "subject": "gat",
+  "section": "English",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'ANCIENT'.",
+  "options": [
+   "Modern",
+   "Antique",
+   "Historic",
+   "Old"
+  ],
+  "answer": "A",
+  "explanation": "Ancient means very old; the opposite is modern."
+ },
+ {
+  "id": "PRACTICE-G-003",
+  "subject": "gat",
+  "section": "English",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'BRAVE'.",
+  "options": [
+   "Careless",
+   "Lazy",
+   "Timid",
+   "Courageous"
+  ],
+  "answer": "D",
+  "explanation": "Brave and courageous both mean showing no fear."
+ },
+ {
+  "id": "PRACTICE-G-004",
+  "subject": "gat",
+  "section": "English",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'VICTORY'.",
+  "options": [
+   "Win",
+   "Triumph",
+   "Success",
+   "Defeat"
+  ],
+  "answer": "D",
+  "explanation": "The opposite of victory is defeat."
+ },
+ {
+  "id": "PRACTICE-G-005",
+  "subject": "gat",
+  "section": "English",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the correctly spelt word.",
+  "options": [
+   "Neccessary",
+   "Necessary",
+   "Nesessary",
+   "Necesary"
+  ],
+  "answer": "B",
+  "explanation": "Necessary: one C and double S."
+ },
+ {
+  "id": "PRACTICE-G-006",
+  "subject": "gat",
+  "section": "English",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Fill in the blank: She ____ to school every day.",
+  "options": [
+   "gone",
+   "goes",
+   "going",
+   "go"
+  ],
+  "answer": "B",
+  "explanation": "Third person singular present tense takes 'goes'."
+ },
+ {
+  "id": "PRACTICE-G-007",
+  "subject": "gat",
+  "section": "English",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Fill in the blank: He has been living here ____ 2015.",
+  "options": [
+   "from",
+   "since",
+   "for",
+   "at"
+  ],
+  "answer": "B",
+  "explanation": "'Since' is used with a point in time."
+ },
+ {
+  "id": "PRACTICE-G-008",
+  "subject": "gat",
+  "section": "English",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the plural of 'child'?",
+  "options": [
+   "Children",
+   "Childs",
+   "Childrens",
+   "Childes"
+  ],
+  "answer": "A",
+  "explanation": "Child has an irregular plural."
+ },
+ {
+  "id": "PRACTICE-G-009",
+  "subject": "gat",
+  "section": "English",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Fear of heights is called",
+  "options": [
+   "Acrophobia",
+   "Claustrophobia",
+   "Xenophobia",
+   "Hydrophobia"
+  ],
+  "answer": "A",
+  "explanation": "Acrophobia = fear of heights."
+ },
+ {
+  "id": "PRACTICE-G-010",
+  "subject": "gat",
+  "section": "English",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the passive form of 'They built a bridge.'",
+  "options": [
+   "A bridge is built by them.",
+   "They were built by a bridge.",
+   "A bridge was built by them.",
+   "A bridge built them."
+  ],
+  "answer": "C",
+  "explanation": "Simple past active → was/were + past participle."
+ },
+ {
+  "id": "PRACTICE-G-011",
+  "subject": "gat",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The SI unit of force is",
+  "options": [
+   "Joule",
+   "Watt",
+   "Newton",
+   "Pascal"
+  ],
+  "answer": "C",
+  "explanation": "Force is measured in newtons (N)."
+ },
+ {
+  "id": "PRACTICE-G-012",
+  "subject": "gat",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The speed of light in vacuum is approximately",
+  "options": [
+   "3 × 10⁸ m/s",
+   "3 × 10¹⁰ m/s",
+   "3 × 10⁵ m/s",
+   "3 × 10⁶ m/s"
+  ],
+  "answer": "A",
+  "explanation": "c ≈ 3 × 10⁸ m/s."
+ },
+ {
+  "id": "PRACTICE-G-013",
+  "subject": "gat",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The acceleration due to gravity on the Earth's surface is approximately",
+  "options": [
+   "6.7 m/s²",
+   "98 m/s²",
+   "9.8 m/s²",
+   "8.9 m/s²"
+  ],
+  "answer": "C",
+  "explanation": "g ≈ 9.8 m/s²."
+ },
+ {
+  "id": "PRACTICE-G-014",
+  "subject": "gat",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The SI unit of frequency is",
+  "options": [
+   "Farad",
+   "Tesla",
+   "Decibel",
+   "Hertz"
+  ],
+  "answer": "D",
+  "explanation": "Frequency is measured in hertz (Hz)."
+ },
+ {
+  "id": "PRACTICE-G-015",
+  "subject": "gat",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which type of lens is a converging lens?",
+  "options": [
+   "Cylindrical lens",
+   "Plano-concave lens",
+   "Convex lens",
+   "Concave lens"
+  ],
+  "answer": "C",
+  "explanation": "A convex lens converges parallel light rays."
+ },
+ {
+  "id": "PRACTICE-G-016",
+  "subject": "gat",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "According to Ohm's law, voltage V is equal to",
+  "options": [
+   "I / R",
+   "I + R",
+   "I × R",
+   "R / I"
+  ],
+  "answer": "C",
+  "explanation": "V = IR."
+ },
+ {
+  "id": "PRACTICE-G-017",
+  "subject": "gat",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The energy possessed by a body due to its motion is called",
+  "options": [
+   "Potential energy",
+   "Chemical energy",
+   "Thermal energy",
+   "Kinetic energy"
+  ],
+  "answer": "D",
+  "explanation": "KE = ½mv²."
+ },
+ {
+  "id": "PRACTICE-G-018",
+  "subject": "gat",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The SI unit of power is",
+  "options": [
+   "Joule",
+   "Newton",
+   "Watt",
+   "Ampere"
+  ],
+  "answer": "C",
+  "explanation": "Power = work / time, measured in watts."
+ },
+ {
+  "id": "PRACTICE-G-019",
+  "subject": "gat",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The chemical formula of water is",
+  "options": [
+   "HO₂",
+   "H₂O",
+   "H₂O₂",
+   "OH"
+  ],
+  "answer": "B",
+  "explanation": "Two hydrogen atoms and one oxygen atom."
+ },
+ {
+  "id": "PRACTICE-G-020",
+  "subject": "gat",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The atomic number of carbon is",
+  "options": [
+   "8",
+   "6",
+   "14",
+   "12"
+  ],
+  "answer": "B",
+  "explanation": "Carbon has 6 protons."
+ },
+ {
+  "id": "PRACTICE-G-021",
+  "subject": "gat",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The pH of pure water at 25 °C is",
+  "options": [
+   "14",
+   "1",
+   "7",
+   "0"
+  ],
+  "answer": "C",
+  "explanation": "Pure water is neutral."
+ },
+ {
+  "id": "PRACTICE-G-022",
+  "subject": "gat",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The most abundant gas in the Earth's atmosphere is",
+  "options": [
+   "Argon",
+   "Nitrogen",
+   "Oxygen",
+   "Carbon dioxide"
+  ],
+  "answer": "B",
+  "explanation": "Nitrogen makes up about 78%."
+ },
+ {
+  "id": "PRACTICE-G-023",
+  "subject": "gat",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The chemical symbol of sodium is",
+  "options": [
+   "Sd",
+   "Na",
+   "So",
+   "S"
+  ],
+  "answer": "B",
+  "explanation": "Na comes from the Latin 'natrium'."
+ },
+ {
+  "id": "PRACTICE-G-024",
+  "subject": "gat",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The most abundant element in the Earth's crust is",
+  "options": [
+   "Oxygen",
+   "Aluminium",
+   "Silicon",
+   "Iron"
+  ],
+  "answer": "A",
+  "explanation": "Oxygen makes up about 46% of the crust by mass."
+ },
+ {
+  "id": "PRACTICE-G-025",
+  "subject": "gat",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Battle of Plassey was fought in the year",
+  "options": [
+   "1707",
+   "1857",
+   "1764",
+   "1757"
+  ],
+  "answer": "D",
+  "explanation": "Robert Clive defeated Siraj-ud-Daulah in 1757."
+ },
+ {
+  "id": "PRACTICE-G-026",
+  "subject": "gat",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Who was the first Prime Minister of independent India?",
+  "options": [
+   "Lal Bahadur Shastri",
+   "Dr. Rajendra Prasad",
+   "Sardar Patel",
+   "Jawaharlal Nehru"
+  ],
+  "answer": "D",
+  "explanation": "Nehru took office on 15 August 1947."
+ },
+ {
+  "id": "PRACTICE-G-027",
+  "subject": "gat",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Quit India Movement was launched in the year",
+  "options": [
+   "1920",
+   "1930",
+   "1947",
+   "1942"
+  ],
+  "answer": "D",
+  "explanation": "Launched by Gandhiji in August 1942."
+ },
+ {
+  "id": "PRACTICE-G-028",
+  "subject": "gat",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Who founded the Maurya Empire?",
+  "options": [
+   "Chandragupta Maurya",
+   "Ashoka",
+   "Bindusara",
+   "Harshavardhana"
+  ],
+  "answer": "A",
+  "explanation": "Chandragupta Maurya founded it around 321 BCE."
+ },
+ {
+  "id": "PRACTICE-G-029",
+  "subject": "gat",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Jallianwala Bagh massacre took place in the year",
+  "options": [
+   "1930",
+   "1919",
+   "1905",
+   "1921"
+  ],
+  "answer": "B",
+  "explanation": "It happened in Amritsar on 13 April 1919."
+ },
+ {
+  "id": "PRACTICE-G-030",
+  "subject": "gat",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which Mughal emperor built the Taj Mahal?",
+  "options": [
+   "Shah Jahan",
+   "Humayun",
+   "Akbar",
+   "Aurangzeb"
+  ],
+  "answer": "A",
+  "explanation": "Built in memory of Mumtaz Mahal."
+ },
+ {
+  "id": "PRACTICE-G-031",
+  "subject": "gat",
+  "section": "Geography",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The capital of Australia is",
+  "options": [
+   "Sydney",
+   "Canberra",
+   "Melbourne",
+   "Perth"
+  ],
+  "answer": "B",
+  "explanation": "Canberra is the capital."
+ },
+ {
+  "id": "PRACTICE-G-032",
+  "subject": "gat",
+  "section": "Geography",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The largest ocean in the world is the",
+  "options": [
+   "Arctic Ocean",
+   "Indian Ocean",
+   "Pacific Ocean",
+   "Atlantic Ocean"
+  ],
+  "answer": "C",
+  "explanation": "The Pacific covers about one-third of the Earth's surface."
+ },
+ {
+  "id": "PRACTICE-G-033",
+  "subject": "gat",
+  "section": "Geography",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The highest mountain peak in the world above sea level is",
+  "options": [
+   "Mount Kilimanjaro",
+   "Kangchenjunga",
+   "K2",
+   "Mount Everest"
+  ],
+  "answer": "D",
+  "explanation": "Everest is about 8,849 m."
+ },
+ {
+  "id": "PRACTICE-G-034",
+  "subject": "gat",
+  "section": "Geography",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The continent with the largest number of countries is",
+  "options": [
+   "Asia",
+   "South America",
+   "Africa",
+   "Europe"
+  ],
+  "answer": "C",
+  "explanation": "Africa has 54 recognised countries."
+ },
+ {
+  "id": "PRACTICE-G-035",
+  "subject": "gat",
+  "section": "Geography",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The smallest continent by area is",
+  "options": [
+   "Antarctica",
+   "South America",
+   "Europe",
+   "Australia (Oceania)"
+  ],
+  "answer": "D",
+  "explanation": "Australia/Oceania is the smallest continent."
+ },
+ {
+  "id": "PRACTICE-G-036",
+  "subject": "gat",
+  "section": "Polity",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Constitution of India came into force on",
+  "options": [
+   "2 October 1950",
+   "26 November 1949",
+   "15 August 1947",
+   "26 January 1950"
+  ],
+  "answer": "D",
+  "explanation": "Celebrated as Republic Day."
+ },
+ {
+  "id": "PRACTICE-G-037",
+  "subject": "gat",
+  "section": "Polity",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The constitutional head of state of India is the",
+  "options": [
+   "Speaker",
+   "President",
+   "Prime Minister",
+   "Chief Justice"
+  ],
+  "answer": "B",
+  "explanation": "The President is the head of state."
+ },
+ {
+  "id": "PRACTICE-G-038",
+  "subject": "gat",
+  "section": "Polity",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Fundamental Rights are contained in which Part of the Indian Constitution?",
+  "options": [
+   "Part II",
+   "Part V",
+   "Part III",
+   "Part IV"
+  ],
+  "answer": "C",
+  "explanation": "Articles 12 to 35 are in Part III."
+ },
+ {
+  "id": "PRACTICE-G-039",
+  "subject": "gat",
+  "section": "Polity",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The minimum age to be eligible for election as President of India is",
+  "options": [
+   "35 years",
+   "30 years",
+   "25 years",
+   "40 years"
+  ],
+  "answer": "A",
+  "explanation": "Article 58 sets it at 35."
+ },
+ {
+  "id": "PRACTICE-G-040",
+  "subject": "gat",
+  "section": "Polity",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Who is the ex-officio Chairman of the Rajya Sabha?",
+  "options": [
+   "Speaker",
+   "President",
+   "Vice-President",
+   "Prime Minister"
+  ],
+  "answer": "C",
+  "explanation": "The Vice-President presides over the Rajya Sabha."
+ }
+]
