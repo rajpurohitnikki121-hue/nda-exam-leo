@@ -10,6 +10,9 @@ class Settings(BaseSettings):
     ADMIN_IDS: Union[str, int, List[Union[int, str]]] = ""
     DATABASE_URL: str = "sqlite+aiosqlite:///quiz_bot.db"
     LOG_LEVEL: str = "INFO"
+    # Force-subscribe: users must join this channel before using the bot. Empty = off.
+    FORCE_SUB_CHANNEL: str = "@pixiiela"
+    FORCE_SUB_LINK: str = ""  # optional invite link (needed only for private channels)
 
     model_config = SettingsConfigDict(
         env_file=".env",
@@ -43,6 +46,27 @@ class Settings(BaseSettings):
             return int(self.CHANNEL_ID)
         except ValueError:
             return self.CHANNEL_ID
+
+    @property
+    def force_sub_chat(self) -> Union[int, str, None]:
+        raw = (self.FORCE_SUB_CHANNEL or "").strip()
+        if not raw or raw.lower() in ("off", "none", "false", "0"):
+            return None
+        for prefix in ("https://t.me/", "http://t.me/", "t.me/"):
+            if raw.lower().startswith(prefix):
+                raw = raw[len(prefix):].strip("/")
+        if raw.lstrip("-").isdigit():
+            return int(raw)
+        return raw if raw.startswith("@") else f"@{raw}"
+
+    @property
+    def force_sub_url(self) -> str:
+        if self.FORCE_SUB_LINK.strip():
+            return self.FORCE_SUB_LINK.strip()
+        chat = self.force_sub_chat
+        if isinstance(chat, str):
+            return f"https://t.me/{chat.lstrip('@')}"
+        return ""
 
     def is_admin(self, user_id: int) -> bool:
         return user_id in self.admin_id_list

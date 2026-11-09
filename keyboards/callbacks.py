@@ -58,3 +58,7 @@ class NavCB(CallbackData, prefix="nv"):
 class NdaCB(CallbackData, prefix="nda"):
     a: str  # action: home, info, paper, cnt, go, ans, nav, rev
     v: str = ""  # value, e.g. "maths", "maths:25", "maths:25:1", "3:2", "next"
+
+
+class FsubCB(CallbackData, prefix="fs"):
+    a: str  # "check"

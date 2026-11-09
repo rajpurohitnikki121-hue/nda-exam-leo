@@ -83,6 +83,7 @@ class PaperPlan:
     questions: List[NdaQuestion]
     requested: int
     full: bool
+    repeated: int = 0  # how many picked questions the user has seen before
 
     @property
     def shortage(self) -> bool:
@@ -102,7 +103,33 @@ def _seconds_for(questions: List[NdaQuestion], full: bool) -> int:
     return max(60, int(round(secs)))
 
 
-def build_plan(bank: NdaBank, paper: str, count: int, rng: Optional[random.Random] = None) -> PaperPlan:
+def _sample(pool: List[NdaQuestion], k: int, rng: random.Random, seen) -> List[NdaQuestion]:
+    """Random pick that prefers questions the user has not seen yet."""
+    k = min(k, len(pool))
+    fresh = [q for q in pool if q.qid not in seen]
+    if len(fresh) >= k:
+        return rng.sample(fresh, k)
+    repeats = [q for q in pool if q.qid in seen]
+    picked = fresh + rng.sample(repeats, k - len(fresh))
+    rng.shuffle(picked)
+    return picked
+
+
+def build_plan(
+    bank: NdaBank,
+    paper: str,
+    count: int,
+    rng: Optional[random.Random] = None,
+    seen=None,
+) -> PaperPlan:
+    """Pick questions for a test. `seen` = question ids this user already got (they are avoided)."""
+    seen = frozenset(seen or ())
+    plan = _build_plan(bank, paper, count, rng, seen)
+    plan.repeated = sum(1 for q in plan.questions if q.qid in seen)
+    return plan
+
+
+def _build_plan(bank: NdaBank, paper: str, count: int, rng, seen) -> PaperPlan:
     """Pick questions for a test.
 
     paper : "maths" | "gat" | "mixed"
@@ -114,44 +141,44 @@ def build_plan(bank: NdaBank, paper: str, count: int, rng: Optional[random.Rando
     if is_section_paper(paper):  # section-wise practice: count 0 = every question of that section
         pool = section_pool(bank, paper)
         requested = len(pool) if full else count
-        return PaperPlan(questions=rng.sample(pool, min(requested, len(pool))), requested=requested, full=False)
+        return PaperPlan(questions=_sample(pool, requested, rng, seen), requested=requested, full=False)
 
     if paper in ("maths", "gat"):
         pool = _paper_pool(bank, paper)
         if full:
             requested = FULL_COUNT[paper]
             if paper == "gat":
-                picked = _pick_gat_full(pool, rng)
+                picked = _pick_gat_full(pool, rng, seen)
             else:
-                picked = rng.sample(pool, min(requested, len(pool)))
+                picked = _sample(pool, requested, rng, seen)
         else:
             requested = count
-            picked = rng.sample(pool, min(count, len(pool)))
+            picked = _sample(pool, count, rng, seen)
     else:  # mixed
         maths_pool = _paper_pool(bank, "maths")
         gat_pool = _paper_pool(bank, "gat")
         if full:
             requested = FULL_COUNT["maths"] + FULL_COUNT["gat"]
-            picked = rng.sample(maths_pool, min(FULL_COUNT["maths"], len(maths_pool)))
-            picked += _pick_gat_full(gat_pool, rng)
+            picked = _sample(maths_pool, FULL_COUNT["maths"], rng, seen)
+            picked += _pick_gat_full(gat_pool, rng, seen)
         else:
             requested = count
             pool = maths_pool + gat_pool
-            picked = rng.sample(pool, min(count, len(pool)))
+            picked = _sample(pool, count, rng, seen)
 
     return PaperPlan(questions=picked, requested=requested, full=full)
 
 
-def _pick_gat_full(pool: List[NdaQuestion], rng: random.Random) -> List[NdaQuestion]:
+def _pick_gat_full(pool: List[NdaQuestion], rng: random.Random, seen) -> List[NdaQuestion]:
     """50 English + 100 GK like the real paper (fills from the other part if short)."""
     english = [q for q in pool if q.section.lower() == "english"]
     others = [q for q in pool if q.section.lower() != "english"]
-    eng_pick = rng.sample(english, min(GAT_ENGLISH_FULL, len(english)))
-    gk_pick = rng.sample(others, min(GAT_GK_FULL, len(others)))
+    eng_pick = _sample(english, GAT_ENGLISH_FULL, rng, seen)
+    gk_pick = _sample(others, GAT_GK_FULL, rng, seen)
     missing = FULL_COUNT["gat"] - len(eng_pick) - len(gk_pick)
     if missing > 0:
         left = [q for q in pool if q not in eng_pick and q not in gk_pick]
-        extra = rng.sample(left, min(missing, len(left)))
+        extra = _sample(left, missing, rng, seen)
         # extras are GK/English leftovers; keep English first, then the rest
         eng_pick += [q for q in extra if q.section.lower() == "english"]
         gk_pick += [q for q in extra if q.section.lower() != "english"]

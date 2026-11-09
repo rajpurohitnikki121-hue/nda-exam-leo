@@ -8,6 +8,7 @@ from .models import (
     Question,
     UserAttempt,
     ChannelPoll,
+    NdaSeen,
 )
 from .connection import init_db, get_db, async_session_factory, engine
 
@@ -21,6 +22,7 @@ __all__ = [
     "Question",
     "UserAttempt",
     "ChannelPoll",
+    "NdaSeen",
     "init_db",
     "get_db",
     "async_session_factory",

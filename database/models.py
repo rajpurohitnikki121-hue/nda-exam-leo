@@ -181,6 +181,16 @@ class UserAttempt(Base):
         return f"<UserAttempt(user={self.user_id}, q={self.question_id}, correct={self.is_correct})>"
 
 
+class NdaSeen(Base):
+    """Questions a user has already been shown in NDA tests (so new tests give fresh ones)."""
+
+    __tablename__ = "nda_seen"
+
+    user_id: Mapped[int] = mapped_column(BigInteger, primary_key=True, autoincrement=False)
+    qid: Mapped[str] = mapped_column(String(100), primary_key=True, autoincrement=False)
+    seen_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.utcnow)
+
+
 class ChannelPoll(Base):
     __tablename__ = "channel_polls"
 

@@ -5,11 +5,13 @@ from .admin_broadcast import router as admin_broadcast_router
 from .stats import router as stats_router
 from .nda_exam import router as nda_router
 from .owner import router as owner_router
+from .fsub import router as fsub_router
 
 
 def setup_routers() -> Router:
     """Combines all modular routers under a root router."""
     root_router = Router(name="root_router")
+    root_router.include_router(fsub_router)
     root_router.include_router(start_router)
     root_router.include_router(nda_router)
     root_router.include_router(owner_router)
@@ -27,4 +29,5 @@ __all__ = [
     "stats_router",
     "nda_router",
     "owner_router",
+    "fsub_router",
 ]

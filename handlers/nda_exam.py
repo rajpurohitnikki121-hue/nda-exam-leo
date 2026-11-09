@@ -19,6 +19,7 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 from config import settings
 from keyboards.callbacks import NavCB, NdaCB
 from services import nda_engine as engine
+from services import nda_seen
 from services.nda_bank import NdaQuestion, bank
 
 logger = logging.getLogger(__name__)
@@ -161,6 +162,14 @@ async def cmd_nda(message: types.Message) -> None:
     await message.answer(_home_text(), reply_markup=_home_kb())
 
 
+@router.message(Command("resetseen"))
+async def cmd_resetseen(message: types.Message) -> None:
+    n = await nda_seen.reset(message.from_user.id)
+    await message.answer(
+        f"🔄 History reset ho gayi ({n} questions). Ab purane questions bhi dobara aa sakte hain."
+    )
+
+
 @router.callback_query(NdaCB.filter(F.a == "home"))
 async def cb_home(cb: types.CallbackQuery) -> None:
     bank.ensure_loaded()
@@ -259,12 +268,14 @@ async def cb_go(cb: types.CallbackQuery, callback_data: NdaCB, bot: Bot) -> None
         return
 
     bank.ensure_loaded()
-    plan = engine.build_plan(bank, paper, count)
+    uid = cb.from_user.id
+    seen = await nda_seen.get_seen(uid)
+    plan = engine.build_plan(bank, paper, count, seen=seen)
     if not plan.questions:
         await cb.answer("Is paper ke questions abhi bank me nahi hain.", show_alert=True)
         return
 
-    uid = cb.from_user.id
+    await nda_seen.mark_seen(uid, [q.qid for q in plan.questions])
     _discard_active(uid)
 
     session = engine.new_session(uid, paper, negative, plan)
@@ -289,6 +300,11 @@ async def cb_go(cb: types.CallbackQuery, callback_data: NdaCB, bot: Bot) -> None
         cb.from_user.full_name, cb.from_user.username or "-", uid,
         _plabel(paper), session.total, "ON" if negative else "OFF",
     )
+    if plan.repeated:
+        intro += (
+            f"\n♻️ <i>{plan.repeated} question pehle aa chuke hain "
+            "(is topic ke naye questions khatam ho gaye).</i>"
+        )
     await cb.answer("Test shuru ho gaya!")
     text, kb = _render_question(session)
     await _edit(cb, f"{intro}\n\n{text}", kb)
