@@ -33,8 +33,11 @@ from typing import Dict, List, Optional, Tuple
 
 logger = logging.getLogger(__name__)
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "data" / "nda"
-VALID_SUBJECTS = ("maths", "gat")
+_DATA_ROOT = Path(__file__).resolve().parent.parent / "data"
+DATA_DIR = _DATA_ROOT / "nda"  # NDA questions
+DATA_DIRS = (_DATA_ROOT / "nda", _DATA_ROOT / "ssc")  # every *.json in these folders is loaded
+# NDA: maths, gat   |   SSC: ssc_quant, ssc_reasoning, ssc_english, ssc_gs
+VALID_SUBJECTS = ("maths", "gat", "ssc_quant", "ssc_reasoning", "ssc_english", "ssc_gs")
 _LETTERS = "ABCD"
 
 
@@ -85,7 +88,7 @@ def _parse_question(item: dict, origin: str) -> Optional[NdaQuestion]:
         logger.warning("%s: entry without id skipped", origin)
         return None
     if subject not in VALID_SUBJECTS:
-        logger.warning("%s: %s has invalid subject %r (use maths/gat)", origin, qid, subject)
+        logger.warning("%s: %s has invalid subject %r (use one of %s)", origin, qid, subject, ", ".join(VALID_SUBJECTS))
         return None
     if not text:
         logger.warning("%s: %s has empty question", origin, qid)
@@ -124,12 +127,16 @@ class NdaBank:
         self._questions: Dict[str, NdaQuestion] = {}
         self.loaded = False
 
-    def load(self, data_dir: Path = DATA_DIR) -> int:
-        """(Re)load every JSON file in data_dir. Returns number of valid questions."""
+    def load(self, data_dir: Optional[Path] = None) -> int:
+        """(Re)load every JSON file in the data folders. Returns number of valid questions."""
         questions: Dict[str, NdaQuestion] = {}
-        files = sorted(Path(data_dir).glob("*.json")) if Path(data_dir).exists() else []
+        dirs = (Path(data_dir),) if data_dir else DATA_DIRS
+        files: List[Path] = []
+        for d in dirs:
+            if d.exists():
+                files += sorted(d.glob("*.json"))
         if not files:
-            logger.warning("No NDA question files found in %s", data_dir)
+            logger.warning("No question files found in %s", [str(d) for d in dirs])
 
         for path in files:
             try:

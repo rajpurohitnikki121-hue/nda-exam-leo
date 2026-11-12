@@ -18,6 +18,39 @@ FULL_COUNT = {"maths": 120, "gat": 150}
 FULL_MINUTES = {"maths": 150, "gat": 150}
 SUBJECT_LABEL = {"maths": "Maths", "gat": "GAT"}
 PAPER_LABEL = {"maths": "Maths", "gat": "GAT", "mixed": "Maths + GAT"}
+# ---- SSC CGL Tier-1 pattern: 4 sections x 25 Q, +2 each, -0.50 per wrong, 60 min total ----
+SSC_ORDER = ("ssc_reasoning", "ssc_gs", "ssc_quant", "ssc_english")  # same order as the real paper
+SSC_PAPER_SUBJECT = {
+    "sscreasoning": "ssc_reasoning",
+    "sscgs": "ssc_gs",
+    "sscquant": "ssc_quant",
+    "sscenglish": "ssc_english",
+}
+for _s in SSC_ORDER:
+    MARKS[_s] = 2.0
+    PENALTY[_s] = 0.5
+    FULL_COUNT[_s] = 25
+    FULL_MINUTES[_s] = 15
+SSC_FULL_COUNT = 100
+SUBJECT_LABEL.update(
+    {"ssc_reasoning": "Reasoning", "ssc_gs": "General Awareness", "ssc_quant": "Quant", "ssc_english": "English"}
+)
+SUBJECT_ICON = {
+    "maths": "📐", "gat": "🧠",
+    "ssc_reasoning": "🧩", "ssc_gs": "🌍", "ssc_quant": "📐", "ssc_english": "📝",
+}
+PAPER_LABEL.update(
+    {
+        "ssc": "SSC Mixed (Reasoning+GA+Quant+English)",
+        "sscreasoning": "SSC Reasoning",
+        "sscgs": "SSC General Awareness",
+        "sscquant": "SSC Quant (Maths)",
+        "sscenglish": "SSC English",
+    }
+)
+EXAM_SUBJECTS = {"nda": ("maths", "gat"), "ssc": SSC_ORDER}
+SECTION_PREFIXES = {"nda": "s_", "ssc": "t_"}
+
 GAT_ENGLISH_FULL = 50  # English part of the GAT paper
 GAT_GK_FULL = 100  # General Knowledge part of the GAT paper
 
@@ -31,31 +64,50 @@ def section_slug(name: str) -> str:
     return re.sub(r"[^a-z0-9]", "", name.lower())
 
 
+def is_ssc_paper(paper: str) -> bool:
+    return paper == "ssc" or paper in SSC_PAPER_SUBJECT or paper.startswith(SECTION_PREFIXES["ssc"])
+
+
+def _exam_of_section(paper: str) -> Optional[str]:
+    for exam, prefix in SECTION_PREFIXES.items():
+        if paper.startswith(prefix) and len(paper) > len(prefix):
+            return exam
+    return None
+
+
 def is_section_paper(paper: str) -> bool:
-    return paper.startswith(SECTION_PREFIX) and len(paper) > len(SECTION_PREFIX)
+    return _exam_of_section(paper) is not None
 
 
 def section_pool(bank: NdaBank, paper: str) -> List[NdaQuestion]:
-    slug = paper[len(SECTION_PREFIX):]
-    return [q for q in bank.all() if q.section and section_slug(q.section) == slug]
+    exam = _exam_of_section(paper)
+    if exam is None:
+        return []
+    slug = paper[len(SECTION_PREFIXES[exam]):]
+    return [
+        q
+        for q in bank.all()
+        if q.subject in EXAM_SUBJECTS[exam] and q.section and section_slug(q.section) == slug
+    ]
 
 
-def list_sections(bank: NdaBank) -> List[tuple]:
-    """[(paper_key, display_name, subject, count)] sorted by subject then name."""
+def list_sections(bank: NdaBank, exam: str = "nda") -> List[tuple]:
+    """[(paper_key, display_name, subject, count)] for one exam, sorted by subject then name."""
+    subjects = EXAM_SUBJECTS[exam]
     found: Dict[str, list] = {}
     for q in bank.all():
-        if not q.section:
+        if q.subject not in subjects or not q.section:
             continue
         slug = section_slug(q.section)
         if slug not in found:
             found[slug] = [q.section, q.subject, 0]
         found[slug][2] += 1
     rows = [
-        (SECTION_PREFIX + slug, v[0], v[1], v[2])
+        (SECTION_PREFIXES[exam] + slug, v[0], v[1], v[2])
         for slug, v in found.items()
         if v[2] >= MIN_SECTION_Q  # tiny topics stay hidden until they have enough questions
     ]
-    rows.sort(key=lambda r: (r[2] != "maths", r[1].lower()))
+    rows.sort(key=lambda r: (subjects.index(r[2]), r[1].lower()))
     return rows
 
 
@@ -65,12 +117,36 @@ def paper_label(bank: NdaBank, paper: str) -> str:
     if is_section_paper(paper):
         pool = section_pool(bank, paper)
         if pool:
-            return f"{pool[0].section} (section)"
+            tag = "SSC" if is_ssc_paper(paper) else "section"
+            return f"{pool[0].section} ({tag})"
     return paper
 
 
 def is_valid_paper(bank: NdaBank, paper: str) -> bool:
     return paper in PAPER_LABEL or (is_section_paper(paper) and bool(section_pool(bank, paper)))
+
+
+def _balanced(pools: List[List[NdaQuestion]], total: int, rng: random.Random, seen) -> List[NdaQuestion]:
+    """Equal share from each pool (SSC sections); leftovers are filled from pools that have more."""
+    n = len(pools)
+    base, extra = divmod(total, n)
+    quotas = [base] * n
+    order = list(range(n))
+    rng.shuffle(order)
+    for i in order[:extra]:
+        quotas[i] += 1
+    picked: List[NdaQuestion] = []
+    deficit = 0
+    for quota, pool in zip(quotas, pools):
+        take = min(quota, len(pool))
+        picked += _sample(pool, take, rng, seen)
+        deficit += quota - take
+    if deficit:
+        chosen = {q.qid for q in picked}
+        rest = [q for pool in pools for q in pool if q.qid not in chosen]
+        picked += _sample(rest, deficit, rng, seen)
+    picked.sort(key=lambda q: SSC_ORDER.index(q.subject))
+    return picked
 
 
 def _paper_pool(bank: NdaBank, subject: str) -> List[NdaQuestion]:
@@ -93,7 +169,7 @@ class PaperPlan:
 def _seconds_for(questions: List[NdaQuestion], full: bool) -> int:
     """Exam time: full paper = official time, custom = same pace per question."""
     secs = 0.0
-    for subject in ("maths", "gat"):
+    for subject in FULL_COUNT:
         n = sum(1 for q in questions if q.subject == subject)
         if not n:
             continue
@@ -137,6 +213,17 @@ def _build_plan(bank: NdaBank, paper: str, count: int, rng, seen) -> PaperPlan:
     """
     rng = rng or random.Random()
     full = count == 0
+
+    if paper in SSC_PAPER_SUBJECT:  # one SSC section (25 Q = full section)
+        subject = SSC_PAPER_SUBJECT[paper]
+        pool = bank.by_subject(subject)
+        requested = FULL_COUNT[subject] if full else count
+        return PaperPlan(questions=_sample(pool, requested, rng, seen), requested=requested, full=full)
+
+    if paper == "ssc":  # SSC mixed: Reasoning + GA + Quant + English, equal share
+        pools = [bank.by_subject(s) for s in SSC_ORDER]
+        requested = SSC_FULL_COUNT if full else count
+        return PaperPlan(questions=_balanced(pools, requested, rng, seen), requested=requested, full=full)
 
     if is_section_paper(paper):  # section-wise practice: count 0 = every question of that section
         pool = section_pool(bank, paper)

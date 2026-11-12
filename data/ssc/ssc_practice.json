@@ -1,0 +1,2672 @@
+[
+ {
+  "id": "SSC-QNT-001",
+  "subject": "ssc_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is 20% of 250?",
+  "options": [
+   "60",
+   "40",
+   "25",
+   "50"
+  ],
+  "answer": "D",
+  "explanation": "20/100 × 250 = 50."
+ },
+ {
+  "id": "SSC-QNT-002",
+  "subject": "ssc_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "20 is what percent of 80?",
+  "options": [
+   "25%",
+   "30%",
+   "20%",
+   "40%"
+  ],
+  "answer": "A",
+  "explanation": "20/80 × 100 = 25%."
+ },
+ {
+  "id": "SSC-QNT-003",
+  "subject": "ssc_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A number increased by 20% becomes 120. The number is",
+  "options": [
+   "100",
+   "90",
+   "96",
+   "110"
+  ],
+  "answer": "A",
+  "explanation": "x × 1.2 = 120, so x = 100."
+ },
+ {
+  "id": "SSC-QNT-004",
+  "subject": "ssc_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A shirt marked ₹500 is sold at 10% discount. The selling price is",
+  "options": [
+   "₹400",
+   "₹475",
+   "₹490",
+   "₹450"
+  ],
+  "answer": "D",
+  "explanation": "500 − 10% of 500 = 450."
+ },
+ {
+  "id": "SSC-QNT-005",
+  "subject": "ssc_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "An article bought for ₹400 is sold for ₹500. The profit percent is",
+  "options": [
+   "30%",
+   "25%",
+   "15%",
+   "20%"
+  ],
+  "answer": "B",
+  "explanation": "Profit 100 on cost 400 → 25%."
+ },
+ {
+  "id": "SSC-QNT-006",
+  "subject": "ssc_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "An article bought for ₹250 is sold for ₹200. The loss percent is",
+  "options": [
+   "10%",
+   "15%",
+   "20%",
+   "25%"
+  ],
+  "answer": "C",
+  "explanation": "Loss 50 on cost 250 → 20%."
+ },
+ {
+  "id": "SSC-QNT-007",
+  "subject": "ssc_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "An article is sold for ₹600 at 20% profit. Its cost price is",
+  "options": [
+   "₹500",
+   "₹520",
+   "₹480",
+   "₹450"
+  ],
+  "answer": "A",
+  "explanation": "CP = 600 × 100/120 = 500."
+ },
+ {
+  "id": "SSC-QNT-008",
+  "subject": "ssc_quant",
+  "section": "Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The simple interest on ₹1000 at 5% per annum for 3 years is",
+  "options": [
+   "₹250",
+   "₹50",
+   "₹150",
+   "₹100"
+  ],
+  "answer": "C",
+  "explanation": "SI = PRT/100 = 1000×5×3/100 = 150."
+ },
+ {
+  "id": "SSC-QNT-009",
+  "subject": "ssc_quant",
+  "section": "Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The compound interest on ₹1000 at 10% per annum for 2 years is",
+  "options": [
+   "₹100",
+   "₹200",
+   "₹210",
+   "₹220"
+  ],
+  "answer": "C",
+  "explanation": "A = 1000 × 1.1² = 1210, CI = 210."
+ },
+ {
+  "id": "SSC-QNT-010",
+  "subject": "ssc_quant",
+  "section": "Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "At simple interest a sum becomes double in 5 years. The rate per annum is",
+  "options": [
+   "15%",
+   "10%",
+   "20%",
+   "25%"
+  ],
+  "answer": "C",
+  "explanation": "SI = P in 5 years → R = 100/5 = 20%."
+ },
+ {
+  "id": "SSC-QNT-011",
+  "subject": "ssc_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If 2 : 3 = x : 15, then x equals",
+  "options": [
+   "5",
+   "12",
+   "10",
+   "9"
+  ],
+  "answer": "C",
+  "explanation": "x = 2 × 15 / 3 = 10."
+ },
+ {
+  "id": "SSC-QNT-012",
+  "subject": "ssc_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "₹100 is divided in the ratio 2 : 3. The larger part is",
+  "options": [
+   "₹60",
+   "₹50",
+   "₹40",
+   "₹70"
+  ],
+  "answer": "A",
+  "explanation": "3/5 of 100 = 60."
+ },
+ {
+  "id": "SSC-QNT-013",
+  "subject": "ssc_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The mean proportional between 4 and 9 is",
+  "options": [
+   "36",
+   "6.5",
+   "5",
+   "6"
+  ],
+  "answer": "D",
+  "explanation": "√(4 × 9) = 6."
+ },
+ {
+  "id": "SSC-QNT-014",
+  "subject": "ssc_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A can do a work in 10 days and B in 15 days. Together they finish it in",
+  "options": [
+   "5 days",
+   "6 days",
+   "8 days",
+   "12 days"
+  ],
+  "answer": "B",
+  "explanation": "1/10 + 1/15 = 1/6 per day."
+ },
+ {
+  "id": "SSC-QNT-015",
+  "subject": "ssc_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "6 men can finish a job in 12 days. 12 men will finish it in",
+  "options": [
+   "24 days",
+   "3 days",
+   "8 days",
+   "6 days"
+  ],
+  "answer": "D",
+  "explanation": "Men × days is constant: 72 / 12 = 6."
+ },
+ {
+  "id": "SSC-QNT-016",
+  "subject": "ssc_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Pipe A fills a tank in 20 minutes and pipe B in 30 minutes. Together they fill it in",
+  "options": [
+   "10 minutes",
+   "12 minutes",
+   "15 minutes",
+   "25 minutes"
+  ],
+  "answer": "B",
+  "explanation": "1/20 + 1/30 = 1/12 per minute."
+ },
+ {
+  "id": "SSC-QNT-017",
+  "subject": "ssc_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A car moves at 60 km/h for 2.5 hours. The distance covered is",
+  "options": [
+   "120 km",
+   "160 km",
+   "140 km",
+   "150 km"
+  ],
+  "answer": "D",
+  "explanation": "Distance = speed × time = 150 km."
+ },
+ {
+  "id": "SSC-QNT-018",
+  "subject": "ssc_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "72 km/h is equal to how many m/s?",
+  "options": [
+   "15 m/s",
+   "25 m/s",
+   "12 m/s",
+   "20 m/s"
+  ],
+  "answer": "D",
+  "explanation": "Multiply by 5/18: 72 × 5/18 = 20."
+ },
+ {
+  "id": "SSC-QNT-019",
+  "subject": "ssc_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A 150 m long train crosses a pole in 10 seconds. Its speed is",
+  "options": [
+   "10 m/s",
+   "25 m/s",
+   "20 m/s",
+   "15 m/s"
+  ],
+  "answer": "D",
+  "explanation": "150 / 10 = 15 m/s."
+ },
+ {
+  "id": "SSC-QNT-020",
+  "subject": "ssc_quant",
+  "section": "Average",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The average of 10, 20, 30, 40, 50 is",
+  "options": [
+   "20",
+   "30",
+   "35",
+   "25"
+  ],
+  "answer": "B",
+  "explanation": "Sum 150 / 5 = 30."
+ },
+ {
+  "id": "SSC-QNT-021",
+  "subject": "ssc_quant",
+  "section": "Average",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The average of the first five natural numbers is",
+  "options": [
+   "5",
+   "4",
+   "3",
+   "2.5"
+  ],
+  "answer": "C",
+  "explanation": "15 / 5 = 3."
+ },
+ {
+  "id": "SSC-QNT-022",
+  "subject": "ssc_quant",
+  "section": "Average",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The ages of three persons are 20, 24 and 28 years. Their average age is",
+  "options": [
+   "22 years",
+   "23 years",
+   "24 years",
+   "26 years"
+  ],
+  "answer": "C",
+  "explanation": "72 / 3 = 24."
+ },
+ {
+  "id": "SSC-QNT-023",
+  "subject": "ssc_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The HCF of 36 and 48 is",
+  "options": [
+   "6",
+   "8",
+   "24",
+   "12"
+  ],
+  "answer": "D",
+  "explanation": "36 = 2²·3², 48 = 2⁴·3 → HCF = 12."
+ },
+ {
+  "id": "SSC-QNT-024",
+  "subject": "ssc_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The LCM of 6 and 8 is",
+  "options": [
+   "14",
+   "24",
+   "48",
+   "12"
+  ],
+  "answer": "B",
+  "explanation": "LCM = 24."
+ },
+ {
+  "id": "SSC-QNT-025",
+  "subject": "ssc_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The square root of 1764 is",
+  "options": [
+   "32",
+   "44",
+   "46",
+   "42"
+  ],
+  "answer": "D",
+  "explanation": "42 × 42 = 1764."
+ },
+ {
+  "id": "SSC-QNT-026",
+  "subject": "ssc_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The smallest prime number is",
+  "options": [
+   "2",
+   "1",
+   "3",
+   "0"
+  ],
+  "answer": "A",
+  "explanation": "2 is the smallest (and only even) prime."
+ },
+ {
+  "id": "SSC-QNT-027",
+  "subject": "ssc_quant",
+  "section": "Algebra",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If x + 1/x = 3, then x² + 1/x² equals",
+  "options": [
+   "9",
+   "6",
+   "7",
+   "11"
+  ],
+  "answer": "C",
+  "explanation": "(x + 1/x)² − 2 = 9 − 2 = 7."
+ },
+ {
+  "id": "SSC-QNT-028",
+  "subject": "ssc_quant",
+  "section": "Algebra",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of 2x² − 3x + 1 at x = 2 is",
+  "options": [
+   "1",
+   "5",
+   "7",
+   "3"
+  ],
+  "answer": "D",
+  "explanation": "8 − 6 + 1 = 3."
+ },
+ {
+  "id": "SSC-QNT-029",
+  "subject": "ssc_quant",
+  "section": "Algebra",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "(a + b)² − (a − b)² is equal to",
+  "options": [
+   "2a² + 2b²",
+   "0",
+   "2ab",
+   "4ab"
+  ],
+  "answer": "D",
+  "explanation": "(a² + 2ab + b²) − (a² − 2ab + b²) = 4ab."
+ },
+ {
+  "id": "SSC-QNT-030",
+  "subject": "ssc_quant",
+  "section": "Geometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The sum of the interior angles of a triangle is",
+  "options": [
+   "360°",
+   "90°",
+   "270°",
+   "180°"
+  ],
+  "answer": "D",
+  "explanation": "Always 180°."
+ },
+ {
+  "id": "SSC-QNT-031",
+  "subject": "ssc_quant",
+  "section": "Geometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Each interior angle of a regular hexagon is",
+  "options": [
+   "90°",
+   "120°",
+   "135°",
+   "108°"
+  ],
+  "answer": "B",
+  "explanation": "(6 − 2) × 180° / 6 = 120°."
+ },
+ {
+  "id": "SSC-QNT-032",
+  "subject": "ssc_quant",
+  "section": "Geometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The hypotenuse of a right triangle with the other sides 6 cm and 8 cm is",
+  "options": [
+   "9 cm",
+   "10 cm",
+   "12 cm",
+   "14 cm"
+  ],
+  "answer": "B",
+  "explanation": "√(36 + 64) = 10."
+ },
+ {
+  "id": "SSC-QNT-033",
+  "subject": "ssc_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The area of a rectangle of length 12 cm and breadth 5 cm is",
+  "options": [
+   "60 cm²",
+   "34 cm²",
+   "17 cm²",
+   "120 cm²"
+  ],
+  "answer": "A",
+  "explanation": "12 × 5 = 60."
+ },
+ {
+  "id": "SSC-QNT-034",
+  "subject": "ssc_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The volume of a cube of side 4 cm is",
+  "options": [
+   "16 cm³",
+   "64 cm³",
+   "96 cm³",
+   "48 cm³"
+  ],
+  "answer": "B",
+  "explanation": "4³ = 64."
+ },
+ {
+  "id": "SSC-QNT-035",
+  "subject": "ssc_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The circumference of a circle of radius 7 cm (π = 22/7) is",
+  "options": [
+   "14 cm",
+   "44 cm",
+   "22 cm",
+   "154 cm"
+  ],
+  "answer": "B",
+  "explanation": "2πr = 2 × 22/7 × 7 = 44."
+ },
+ {
+  "id": "SSC-QNT-036",
+  "subject": "ssc_quant",
+  "section": "Trigonometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of sin 30° is",
+  "options": [
+   "1/2",
+   "1",
+   "√3/2",
+   "0"
+  ],
+  "answer": "A",
+  "explanation": "sin 30° = 1/2."
+ },
+ {
+  "id": "SSC-QNT-037",
+  "subject": "ssc_quant",
+  "section": "Trigonometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "sin²θ + cos²θ is equal to",
+  "options": [
+   "1",
+   "0",
+   "tan²θ",
+   "2"
+  ],
+  "answer": "A",
+  "explanation": "Basic identity."
+ },
+ {
+  "id": "SSC-QNT-038",
+  "subject": "ssc_quant",
+  "section": "Trigonometry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The value of cos 0° is",
+  "options": [
+   "1/2",
+   "−1",
+   "0",
+   "1"
+  ],
+  "answer": "D",
+  "explanation": "cos 0° = 1."
+ },
+ {
+  "id": "SSC-RSN-001",
+  "subject": "ssc_reasoning",
+  "section": "Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 2, 4, 8, 16, ?",
+  "options": [
+   "36",
+   "30",
+   "32",
+   "24"
+  ],
+  "answer": "C",
+  "explanation": "Each term is double the previous term."
+ },
+ {
+  "id": "SSC-RSN-002",
+  "subject": "ssc_reasoning",
+  "section": "Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 3, 6, 11, 18, 27, ?",
+  "options": [
+   "38",
+   "35",
+   "36",
+   "40"
+  ],
+  "answer": "A",
+  "explanation": "Differences are 3, 5, 7, 9, so next difference is 11: 27 + 11 = 38."
+ },
+ {
+  "id": "SSC-RSN-003",
+  "subject": "ssc_reasoning",
+  "section": "Odd One Out",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the odd one out.",
+  "options": [
+   "Potato",
+   "Banana",
+   "Mango",
+   "Apple"
+  ],
+  "answer": "A",
+  "explanation": "Potato is a vegetable; the others are fruits."
+ },
+ {
+  "id": "SSC-RSN-004",
+  "subject": "ssc_reasoning",
+  "section": "Odd One Out",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the odd one out: 9, 16, 25, 30",
+  "options": [
+   "30",
+   "25",
+   "16",
+   "9"
+  ],
+  "answer": "A",
+  "explanation": "9, 16 and 25 are perfect squares; 30 is not."
+ },
+ {
+  "id": "SSC-RSN-005",
+  "subject": "ssc_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If A = 1, B = 2, C = 3 and so on, then the code for DOG is",
+  "options": [
+   "4-15-7",
+   "4-15-8",
+   "4-14-7",
+   "3-15-7"
+  ],
+  "answer": "A",
+  "explanation": "D = 4, O = 15, G = 7."
+ },
+ {
+  "id": "SSC-RSN-006",
+  "subject": "ssc_reasoning",
+  "section": "Analogy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Hand : Glove :: Foot : ?",
+  "options": [
+   "Walk",
+   "Leg",
+   "Shoe",
+   "Toe"
+  ],
+  "answer": "C",
+  "explanation": "A glove is worn on the hand, a shoe on the foot."
+ },
+ {
+  "id": "SSC-RSN-007",
+  "subject": "ssc_reasoning",
+  "section": "Logical Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man walks 3 km north and then 4 km east. His distance from the starting point is",
+  "options": [
+   "6 km",
+   "4 km",
+   "7 km",
+   "5 km"
+  ],
+  "answer": "D",
+  "explanation": "√(3² + 4²) = 5 km."
+ },
+ {
+  "id": "SSC-RSN-008",
+  "subject": "ssc_reasoning",
+  "section": "Logical Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A is the brother of B, and B is the mother of C. A is C's",
+  "options": [
+   "Grandfather",
+   "Paternal uncle",
+   "Maternal uncle",
+   "Father"
+  ],
+  "answer": "C",
+  "explanation": "A is the brother of C's mother."
+ },
+ {
+  "id": "SSC-RSN-009",
+  "subject": "ssc_reasoning",
+  "section": "Logical Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a row of 20 students, Ravi is 8th from the left. His position from the right is",
+  "options": [
+   "14th",
+   "12th",
+   "13th",
+   "8th"
+  ],
+  "answer": "C",
+  "explanation": "20 − 8 + 1 = 13."
+ },
+ {
+  "id": "SSC-RSN-010",
+  "subject": "ssc_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The angle between the hands of a clock at 3:00 is",
+  "options": [
+   "90°",
+   "45°",
+   "120°",
+   "60°"
+  ],
+  "answer": "A",
+  "explanation": "The hour hand is at 3 and the minute hand at 12: 3 × 30° = 90°."
+ },
+ {
+  "id": "SSC-RSN-011",
+  "subject": "ssc_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If today is Monday, the day after 10 days will be",
+  "options": [
+   "Thursday",
+   "Tuesday",
+   "Wednesday",
+   "Friday"
+  ],
+  "answer": "A",
+  "explanation": "10 days = 1 week + 3 days; Monday + 3 = Thursday."
+ },
+ {
+  "id": "SSC-RSN-012",
+  "subject": "ssc_reasoning",
+  "section": "Analogy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "3 : 27 :: 4 : ?",
+  "options": [
+   "48",
+   "64",
+   "16",
+   "81"
+  ],
+  "answer": "B",
+  "explanation": "The second number is the cube of the first."
+ },
+ {
+  "id": "SSC-RSN-013",
+  "subject": "ssc_reasoning",
+  "section": "Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next letter: A, C, E, G, ?",
+  "options": [
+   "H",
+   "K",
+   "I",
+   "J"
+  ],
+  "answer": "C",
+  "explanation": "Every second letter is taken."
+ },
+ {
+  "id": "SSC-RSN-014",
+  "subject": "ssc_reasoning",
+  "section": "Logical Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which letter is the 4th to the left of J in the English alphabet?",
+  "options": [
+   "G",
+   "E",
+   "F",
+   "D"
+  ],
+  "answer": "C",
+  "explanation": "J is the 10th letter; 10 − 4 = 6, which is F."
+ },
+ {
+  "id": "SSC-RSN-015",
+  "subject": "ssc_reasoning",
+  "section": "Logical Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Statements: All cats are dogs. All dogs are birds. Conclusion: All cats are birds.",
+  "options": [
+   "Conclusion does not follow",
+   "Cannot say",
+   "Conclusion follows",
+   "Only partly follows"
+  ],
+  "answer": "C",
+  "explanation": "Cats ⊂ dogs ⊂ birds, so all cats are birds."
+ },
+ {
+  "id": "SSC-RSN-016",
+  "subject": "ssc_reasoning",
+  "section": "Logical Reasoning",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A is taller than B, and B is taller than C. Who is the shortest?",
+  "options": [
+   "B",
+   "C",
+   "A",
+   "Cannot be determined"
+  ],
+  "answer": "B",
+  "explanation": "A > B > C."
+ },
+ {
+  "id": "SSC-RSN-017",
+  "subject": "ssc_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The angle between the clock hands at 3:15 is",
+  "options": [
+   "0°",
+   "15°",
+   "7.5°",
+   "30°"
+  ],
+  "answer": "C",
+  "explanation": "Hour hand 97.5°, minute hand 90°, so 7.5°."
+ },
+ {
+  "id": "SSC-RSN-018",
+  "subject": "ssc_reasoning",
+  "section": "Odd One Out",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the odd one out: Triangle, Square, Circle, Pentagon",
+  "options": [
+   "Triangle",
+   "Square",
+   "Pentagon",
+   "Circle"
+  ],
+  "answer": "D",
+  "explanation": "The others are polygons with straight sides."
+ },
+ {
+  "id": "SSC-RSN-019",
+  "subject": "ssc_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If ROSE is coded as TQUG, then LOVE is coded as",
+  "options": [
+   "NQXG",
+   "MQXH",
+   "NPXG",
+   "MPWF"
+  ],
+  "answer": "A",
+  "explanation": "Each letter is moved 2 steps ahead."
+ },
+ {
+  "id": "SSC-RSN-020",
+  "subject": "ssc_reasoning",
+  "section": "Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 1, 4, 9, 16, 25, ?",
+  "options": [
+   "30",
+   "36",
+   "49",
+   "32"
+  ],
+  "answer": "B",
+  "explanation": "Squares of 1, 2, 3, 4, 5, 6."
+ },
+ {
+  "id": "SSC-RSN-021",
+  "subject": "ssc_reasoning",
+  "section": "Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 7, 14, 28, 56, ?",
+  "options": [
+   "112",
+   "120",
+   "98",
+   "84"
+  ],
+  "answer": "A",
+  "explanation": "Each number is double the previous."
+ },
+ {
+  "id": "SSC-RSN-022",
+  "subject": "ssc_reasoning",
+  "section": "Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 1, 3, 6, 10, 15, ?",
+  "options": [
+   "22",
+   "21",
+   "20",
+   "25"
+  ],
+  "answer": "B",
+  "explanation": "Differences 2, 3, 4, 5, then 6: 15 + 6 = 21."
+ },
+ {
+  "id": "SSC-RSN-023",
+  "subject": "ssc_reasoning",
+  "section": "Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 100, 95, 90, 85, ?",
+  "options": [
+   "80",
+   "75",
+   "70",
+   "82"
+  ],
+  "answer": "A",
+  "explanation": "Each number decreases by 5."
+ },
+ {
+  "id": "SSC-RSN-024",
+  "subject": "ssc_reasoning",
+  "section": "Analogy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Doctor : Hospital :: Teacher : ?",
+  "options": [
+   "Class",
+   "Student",
+   "Book",
+   "School"
+  ],
+  "answer": "D",
+  "explanation": "A doctor works in a hospital, a teacher in a school."
+ },
+ {
+  "id": "SSC-RSN-025",
+  "subject": "ssc_reasoning",
+  "section": "Analogy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Bird : Fly :: Fish : ?",
+  "options": [
+   "Run",
+   "Walk",
+   "Water",
+   "Swim"
+  ],
+  "answer": "D",
+  "explanation": "Birds fly, fish swim."
+ },
+ {
+  "id": "SSC-RSN-026",
+  "subject": "ssc_reasoning",
+  "section": "Analogy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Pen : Write :: Knife : ?",
+  "options": [
+   "Handle",
+   "Sharp",
+   "Kitchen",
+   "Cut"
+  ],
+  "answer": "D",
+  "explanation": "A pen is used to write, a knife to cut."
+ },
+ {
+  "id": "SSC-RSN-027",
+  "subject": "ssc_reasoning",
+  "section": "Odd One Out",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the odd one out: Lion, Tiger, Leopard, Cow",
+  "options": [
+   "Cow",
+   "Lion",
+   "Tiger",
+   "Leopard"
+  ],
+  "answer": "A",
+  "explanation": "Cow is a domestic herbivore; the others are wild big cats."
+ },
+ {
+  "id": "SSC-RSN-028",
+  "subject": "ssc_reasoning",
+  "section": "Odd One Out",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the odd one out: Delhi, Mumbai, Kolkata, Kathmandu",
+  "options": [
+   "Kolkata",
+   "Mumbai",
+   "Delhi",
+   "Kathmandu"
+  ],
+  "answer": "D",
+  "explanation": "Kathmandu is not in India."
+ },
+ {
+  "id": "SSC-RSN-029",
+  "subject": "ssc_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If CAT is written as DBU, then DOG is written as",
+  "options": [
+   "EOH",
+   "EPG",
+   "EPH",
+   "DPH"
+  ],
+  "answer": "C",
+  "explanation": "Each letter is moved one step ahead."
+ },
+ {
+  "id": "SSC-RSN-030",
+  "subject": "ssc_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The angle between the hands of a clock at 6:00 is",
+  "options": [
+   "150°",
+   "120°",
+   "180°",
+   "90°"
+  ],
+  "answer": "C",
+  "explanation": "They point in exactly opposite directions."
+ },
+ {
+  "id": "SSC-RSN-031",
+  "subject": "ssc_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If 1 January 2023 was a Sunday, then 1 January 2024 was a",
+  "options": [
+   "Tuesday",
+   "Monday",
+   "Saturday",
+   "Sunday"
+  ],
+  "answer": "B",
+  "explanation": "2023 is not a leap year (365 = 52 weeks + 1 day), so the day moves one ahead."
+ },
+ {
+  "id": "SSC-RSN-032",
+  "subject": "ssc_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The number of days in a leap year is",
+  "options": [
+   "366",
+   "364",
+   "367",
+   "365"
+  ],
+  "answer": "A",
+  "explanation": "A leap year has 366 days."
+ },
+ {
+  "id": "SSC-ENG-001",
+  "subject": "ssc_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'ABUNDANT'.",
+  "options": [
+   "Plentiful",
+   "Tiny",
+   "Costly",
+   "Scarce"
+  ],
+  "answer": "A",
+  "explanation": "Abundant means existing in large quantities."
+ },
+ {
+  "id": "SSC-ENG-002",
+  "subject": "ssc_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'ANCIENT'.",
+  "options": [
+   "Antique",
+   "Old",
+   "Modern",
+   "Historic"
+  ],
+  "answer": "C",
+  "explanation": "Ancient means very old; the opposite is modern."
+ },
+ {
+  "id": "SSC-ENG-003",
+  "subject": "ssc_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'BRAVE'.",
+  "options": [
+   "Courageous",
+   "Careless",
+   "Lazy",
+   "Timid"
+  ],
+  "answer": "A",
+  "explanation": "Brave and courageous both mean showing no fear."
+ },
+ {
+  "id": "SSC-ENG-004",
+  "subject": "ssc_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'VICTORY'.",
+  "options": [
+   "Triumph",
+   "Success",
+   "Defeat",
+   "Win"
+  ],
+  "answer": "C",
+  "explanation": "The opposite of victory is defeat."
+ },
+ {
+  "id": "SSC-ENG-005",
+  "subject": "ssc_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the correctly spelt word.",
+  "options": [
+   "Neccessary",
+   "Necesary",
+   "Nesessary",
+   "Necessary"
+  ],
+  "answer": "D",
+  "explanation": "Necessary: one C and double S."
+ },
+ {
+  "id": "SSC-ENG-006",
+  "subject": "ssc_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Fill in the blank: She ____ to school every day.",
+  "options": [
+   "goes",
+   "gone",
+   "go",
+   "going"
+  ],
+  "answer": "A",
+  "explanation": "Third person singular present tense takes 'goes'."
+ },
+ {
+  "id": "SSC-ENG-007",
+  "subject": "ssc_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Fill in the blank: He has been living here ____ 2015.",
+  "options": [
+   "at",
+   "since",
+   "for",
+   "from"
+  ],
+  "answer": "B",
+  "explanation": "'Since' is used with a point in time."
+ },
+ {
+  "id": "SSC-ENG-008",
+  "subject": "ssc_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the plural of 'child'?",
+  "options": [
+   "Childrens",
+   "Childs",
+   "Childes",
+   "Children"
+  ],
+  "answer": "D",
+  "explanation": "Child has an irregular plural."
+ },
+ {
+  "id": "SSC-ENG-009",
+  "subject": "ssc_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Fear of heights is called",
+  "options": [
+   "Acrophobia",
+   "Claustrophobia",
+   "Xenophobia",
+   "Hydrophobia"
+  ],
+  "answer": "A",
+  "explanation": "Acrophobia = fear of heights."
+ },
+ {
+  "id": "SSC-ENG-010",
+  "subject": "ssc_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the passive form of 'They built a bridge.'",
+  "options": [
+   "A bridge built them.",
+   "They were built by a bridge.",
+   "A bridge is built by them.",
+   "A bridge was built by them."
+  ],
+  "answer": "D",
+  "explanation": "Simple past active → was/were + past participle."
+ },
+ {
+  "id": "SSC-ENG-011",
+  "subject": "ssc_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'RAPID'.",
+  "options": [
+   "Slow",
+   "Late",
+   "Gentle",
+   "Quick"
+  ],
+  "answer": "D",
+  "explanation": "Rapid means very fast."
+ },
+ {
+  "id": "SSC-ENG-012",
+  "subject": "ssc_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'DILIGENT'.",
+  "options": [
+   "Lazy",
+   "Careless",
+   "Hardworking",
+   "Rude"
+  ],
+  "answer": "C",
+  "explanation": "Diligent means showing careful and persistent effort."
+ },
+ {
+  "id": "SSC-ENG-013",
+  "subject": "ssc_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'GENEROUS'.",
+  "options": [
+   "Helpful",
+   "Kind",
+   "Stingy",
+   "Liberal"
+  ],
+  "answer": "C",
+  "explanation": "Generous means giving freely; the opposite is stingy."
+ },
+ {
+  "id": "SSC-ENG-014",
+  "subject": "ssc_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'EXPAND'.",
+  "options": [
+   "Spread",
+   "Grow",
+   "Contract",
+   "Extend"
+  ],
+  "answer": "C",
+  "explanation": "Expand means to become larger."
+ },
+ {
+  "id": "SSC-ENG-015",
+  "subject": "ssc_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'TRANSPARENT'.",
+  "options": [
+   "Bright",
+   "Thin",
+   "Opaque",
+   "Clear"
+  ],
+  "answer": "C",
+  "explanation": "Opaque does not let light through."
+ },
+ {
+  "id": "SSC-ENG-016",
+  "subject": "ssc_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'HUGE'.",
+  "options": [
+   "Enormous",
+   "Narrow",
+   "Weak",
+   "Tiny"
+  ],
+  "answer": "A",
+  "explanation": "Huge and enormous both mean very large."
+ },
+ {
+  "id": "SSC-ENG-017",
+  "subject": "ssc_english",
+  "section": "Idioms & Phrases",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The idiom 'a piece of cake' means",
+  "options": [
+   "Something very easy",
+   "A gift",
+   "Something sweet",
+   "A small portion"
+  ],
+  "answer": "A",
+  "explanation": "It describes a task that is very easy."
+ },
+ {
+  "id": "SSC-ENG-018",
+  "subject": "ssc_english",
+  "section": "Idioms & Phrases",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The idiom 'to break the ice' means",
+  "options": [
+   "To start a conversation in an awkward situation",
+   "To break something",
+   "To feel cold",
+   "To end a friendship"
+  ],
+  "answer": "A",
+  "explanation": "It means making people comfortable at the start."
+ },
+ {
+  "id": "SSC-ENG-019",
+  "subject": "ssc_english",
+  "section": "Idioms & Phrases",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The idiom 'once in a blue moon' means",
+  "options": [
+   "Every night",
+   "Very rarely",
+   "At midnight",
+   "Very often"
+  ],
+  "answer": "B",
+  "explanation": "It describes something that happens very rarely."
+ },
+ {
+  "id": "SSC-ENG-020",
+  "subject": "ssc_english",
+  "section": "Idioms & Phrases",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The idiom 'to spill the beans' means",
+  "options": [
+   "To make a mess",
+   "To cook a meal",
+   "To waste food",
+   "To reveal a secret"
+  ],
+  "answer": "D",
+  "explanation": "It means telling something that was meant to be secret."
+ },
+ {
+  "id": "SSC-ENG-021",
+  "subject": "ssc_english",
+  "section": "Idioms & Phrases",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The idiom 'to hit the nail on the head' means",
+  "options": [
+   "To say exactly the right thing",
+   "To hurt oneself",
+   "To build a house",
+   "To work hard"
+  ],
+  "answer": "A",
+  "explanation": "It means to be exactly right."
+ },
+ {
+  "id": "SSC-ENG-022",
+  "subject": "ssc_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "One who knows everything is called",
+  "options": [
+   "Optimist",
+   "Orator",
+   "Omnipotent",
+   "Omniscient"
+  ],
+  "answer": "D",
+  "explanation": "Omniscient = all-knowing."
+ },
+ {
+  "id": "SSC-ENG-023",
+  "subject": "ssc_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A person who loves books is called a",
+  "options": [
+   "Philosopher",
+   "Bibliophile",
+   "Bibliographer",
+   "Librarian"
+  ],
+  "answer": "B",
+  "explanation": "Biblio = book, phile = lover."
+ },
+ {
+  "id": "SSC-ENG-024",
+  "subject": "ssc_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Government by the people is called",
+  "options": [
+   "Democracy",
+   "Aristocracy",
+   "Autocracy",
+   "Monarchy"
+  ],
+  "answer": "A",
+  "explanation": "Democracy = rule by the people."
+ },
+ {
+  "id": "SSC-ENG-025",
+  "subject": "ssc_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The study of stars and planets is called",
+  "options": [
+   "Zoology",
+   "Astronomy",
+   "Geology",
+   "Astrology"
+  ],
+  "answer": "B",
+  "explanation": "Astronomy is the scientific study of celestial bodies."
+ },
+ {
+  "id": "SSC-ENG-026",
+  "subject": "ssc_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "He is good ___ mathematics.",
+  "options": [
+   "with",
+   "on",
+   "at",
+   "in"
+  ],
+  "answer": "C",
+  "explanation": "We say 'good at' a subject."
+ },
+ {
+  "id": "SSC-ENG-027",
+  "subject": "ssc_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "She is senior ___ me.",
+  "options": [
+   "than",
+   "from",
+   "over",
+   "to"
+  ],
+  "answer": "D",
+  "explanation": "Senior, junior, superior, inferior take 'to'."
+ },
+ {
+  "id": "SSC-ENG-028",
+  "subject": "ssc_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "He is ___ honest man.",
+  "options": [
+   "a",
+   "the",
+   "no article",
+   "an"
+  ],
+  "answer": "D",
+  "explanation": "Honest begins with a vowel sound, so 'an'."
+ },
+ {
+  "id": "SSC-ENG-029",
+  "subject": "ssc_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Neither of the boys ___ present.",
+  "options": [
+   "were",
+   "are",
+   "have been",
+   "was"
+  ],
+  "answer": "D",
+  "explanation": "'Neither of' takes a singular verb."
+ },
+ {
+  "id": "SSC-ENG-030",
+  "subject": "ssc_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "They ___ playing football since morning.",
+  "options": [
+   "were",
+   "are",
+   "has been",
+   "have been"
+  ],
+  "answer": "D",
+  "explanation": "Present perfect continuous with 'since'."
+ },
+ {
+  "id": "SSC-GS-001",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The SI unit of force is",
+  "options": [
+   "Pascal",
+   "Watt",
+   "Newton",
+   "Joule"
+  ],
+  "answer": "C",
+  "explanation": "Force is measured in newtons (N)."
+ },
+ {
+  "id": "SSC-GS-002",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The speed of light in vacuum is approximately",
+  "options": [
+   "3 × 10⁸ m/s",
+   "3 × 10⁵ m/s",
+   "3 × 10¹⁰ m/s",
+   "3 × 10⁶ m/s"
+  ],
+  "answer": "A",
+  "explanation": "c ≈ 3 × 10⁸ m/s."
+ },
+ {
+  "id": "SSC-GS-003",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The acceleration due to gravity on the Earth's surface is approximately",
+  "options": [
+   "9.8 m/s²",
+   "98 m/s²",
+   "8.9 m/s²",
+   "6.7 m/s²"
+  ],
+  "answer": "A",
+  "explanation": "g ≈ 9.8 m/s²."
+ },
+ {
+  "id": "SSC-GS-004",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The SI unit of frequency is",
+  "options": [
+   "Farad",
+   "Decibel",
+   "Hertz",
+   "Tesla"
+  ],
+  "answer": "C",
+  "explanation": "Frequency is measured in hertz (Hz)."
+ },
+ {
+  "id": "SSC-GS-005",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which type of lens is a converging lens?",
+  "options": [
+   "Plano-concave lens",
+   "Convex lens",
+   "Concave lens",
+   "Cylindrical lens"
+  ],
+  "answer": "B",
+  "explanation": "A convex lens converges parallel light rays."
+ },
+ {
+  "id": "SSC-GS-006",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "According to Ohm's law, voltage V is equal to",
+  "options": [
+   "I / R",
+   "I + R",
+   "R / I",
+   "I × R"
+  ],
+  "answer": "D",
+  "explanation": "V = IR."
+ },
+ {
+  "id": "SSC-GS-007",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The energy possessed by a body due to its motion is called",
+  "options": [
+   "Chemical energy",
+   "Kinetic energy",
+   "Potential energy",
+   "Thermal energy"
+  ],
+  "answer": "B",
+  "explanation": "KE = ½mv²."
+ },
+ {
+  "id": "SSC-GS-008",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The SI unit of power is",
+  "options": [
+   "Watt",
+   "Newton",
+   "Ampere",
+   "Joule"
+  ],
+  "answer": "A",
+  "explanation": "Power = work / time, measured in watts."
+ },
+ {
+  "id": "SSC-GS-009",
+  "subject": "ssc_gs",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The chemical formula of water is",
+  "options": [
+   "H₂O",
+   "OH",
+   "H₂O₂",
+   "HO₂"
+  ],
+  "answer": "A",
+  "explanation": "Two hydrogen atoms and one oxygen atom."
+ },
+ {
+  "id": "SSC-GS-010",
+  "subject": "ssc_gs",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The atomic number of carbon is",
+  "options": [
+   "14",
+   "12",
+   "8",
+   "6"
+  ],
+  "answer": "D",
+  "explanation": "Carbon has 6 protons."
+ },
+ {
+  "id": "SSC-GS-011",
+  "subject": "ssc_gs",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The pH of pure water at 25 °C is",
+  "options": [
+   "0",
+   "7",
+   "14",
+   "1"
+  ],
+  "answer": "B",
+  "explanation": "Pure water is neutral."
+ },
+ {
+  "id": "SSC-GS-012",
+  "subject": "ssc_gs",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The most abundant gas in the Earth's atmosphere is",
+  "options": [
+   "Carbon dioxide",
+   "Nitrogen",
+   "Argon",
+   "Oxygen"
+  ],
+  "answer": "B",
+  "explanation": "Nitrogen makes up about 78%."
+ },
+ {
+  "id": "SSC-GS-013",
+  "subject": "ssc_gs",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The chemical symbol of sodium is",
+  "options": [
+   "S",
+   "Na",
+   "Sd",
+   "So"
+  ],
+  "answer": "B",
+  "explanation": "Na comes from the Latin 'natrium'."
+ },
+ {
+  "id": "SSC-GS-014",
+  "subject": "ssc_gs",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The most abundant element in the Earth's crust is",
+  "options": [
+   "Aluminium",
+   "Oxygen",
+   "Silicon",
+   "Iron"
+  ],
+  "answer": "B",
+  "explanation": "Oxygen makes up about 46% of the crust by mass."
+ },
+ {
+  "id": "SSC-GS-015",
+  "subject": "ssc_gs",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Battle of Plassey was fought in the year",
+  "options": [
+   "1707",
+   "1757",
+   "1764",
+   "1857"
+  ],
+  "answer": "B",
+  "explanation": "Robert Clive defeated Siraj-ud-Daulah in 1757."
+ },
+ {
+  "id": "SSC-GS-016",
+  "subject": "ssc_gs",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Who was the first Prime Minister of independent India?",
+  "options": [
+   "Lal Bahadur Shastri",
+   "Sardar Patel",
+   "Jawaharlal Nehru",
+   "Dr. Rajendra Prasad"
+  ],
+  "answer": "C",
+  "explanation": "Nehru took office on 15 August 1947."
+ },
+ {
+  "id": "SSC-GS-017",
+  "subject": "ssc_gs",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Quit India Movement was launched in the year",
+  "options": [
+   "1930",
+   "1920",
+   "1942",
+   "1947"
+  ],
+  "answer": "C",
+  "explanation": "Launched by Gandhiji in August 1942."
+ },
+ {
+  "id": "SSC-GS-018",
+  "subject": "ssc_gs",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Who founded the Maurya Empire?",
+  "options": [
+   "Ashoka",
+   "Bindusara",
+   "Harshavardhana",
+   "Chandragupta Maurya"
+  ],
+  "answer": "D",
+  "explanation": "Chandragupta Maurya founded it around 321 BCE."
+ },
+ {
+  "id": "SSC-GS-019",
+  "subject": "ssc_gs",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Jallianwala Bagh massacre took place in the year",
+  "options": [
+   "1905",
+   "1930",
+   "1921",
+   "1919"
+  ],
+  "answer": "D",
+  "explanation": "It happened in Amritsar on 13 April 1919."
+ },
+ {
+  "id": "SSC-GS-020",
+  "subject": "ssc_gs",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which Mughal emperor built the Taj Mahal?",
+  "options": [
+   "Humayun",
+   "Akbar",
+   "Shah Jahan",
+   "Aurangzeb"
+  ],
+  "answer": "C",
+  "explanation": "Built in memory of Mumtaz Mahal."
+ },
+ {
+  "id": "SSC-GS-021",
+  "subject": "ssc_gs",
+  "section": "Geography",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The capital of Australia is",
+  "options": [
+   "Perth",
+   "Sydney",
+   "Melbourne",
+   "Canberra"
+  ],
+  "answer": "D",
+  "explanation": "Canberra is the capital."
+ },
+ {
+  "id": "SSC-GS-022",
+  "subject": "ssc_gs",
+  "section": "Geography",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The largest ocean in the world is the",
+  "options": [
+   "Pacific Ocean",
+   "Indian Ocean",
+   "Atlantic Ocean",
+   "Arctic Ocean"
+  ],
+  "answer": "A",
+  "explanation": "The Pacific covers about one-third of the Earth's surface."
+ },
+ {
+  "id": "SSC-GS-023",
+  "subject": "ssc_gs",
+  "section": "Geography",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The highest mountain peak in the world above sea level is",
+  "options": [
+   "K2",
+   "Mount Everest",
+   "Mount Kilimanjaro",
+   "Kangchenjunga"
+  ],
+  "answer": "B",
+  "explanation": "Everest is about 8,849 m."
+ },
+ {
+  "id": "SSC-GS-024",
+  "subject": "ssc_gs",
+  "section": "Geography",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The continent with the largest number of countries is",
+  "options": [
+   "Europe",
+   "Africa",
+   "South America",
+   "Asia"
+  ],
+  "answer": "B",
+  "explanation": "Africa has 54 recognised countries."
+ },
+ {
+  "id": "SSC-GS-025",
+  "subject": "ssc_gs",
+  "section": "Geography",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The smallest continent by area is",
+  "options": [
+   "Europe",
+   "Australia (Oceania)",
+   "Antarctica",
+   "South America"
+  ],
+  "answer": "B",
+  "explanation": "Australia/Oceania is the smallest continent."
+ },
+ {
+  "id": "SSC-GS-026",
+  "subject": "ssc_gs",
+  "section": "Polity",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Constitution of India came into force on",
+  "options": [
+   "26 November 1949",
+   "2 October 1950",
+   "26 January 1950",
+   "15 August 1947"
+  ],
+  "answer": "C",
+  "explanation": "Celebrated as Republic Day."
+ },
+ {
+  "id": "SSC-GS-027",
+  "subject": "ssc_gs",
+  "section": "Polity",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The constitutional head of state of India is the",
+  "options": [
+   "Speaker",
+   "Prime Minister",
+   "President",
+   "Chief Justice"
+  ],
+  "answer": "C",
+  "explanation": "The President is the head of state."
+ },
+ {
+  "id": "SSC-GS-028",
+  "subject": "ssc_gs",
+  "section": "Polity",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Fundamental Rights are contained in which Part of the Indian Constitution?",
+  "options": [
+   "Part II",
+   "Part IV",
+   "Part III",
+   "Part V"
+  ],
+  "answer": "C",
+  "explanation": "Articles 12 to 35 are in Part III."
+ },
+ {
+  "id": "SSC-GS-029",
+  "subject": "ssc_gs",
+  "section": "Polity",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The minimum age to be eligible for election as President of India is",
+  "options": [
+   "25 years",
+   "40 years",
+   "30 years",
+   "35 years"
+  ],
+  "answer": "D",
+  "explanation": "Article 58 sets it at 35."
+ },
+ {
+  "id": "SSC-GS-030",
+  "subject": "ssc_gs",
+  "section": "Polity",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Who is the ex-officio Chairman of the Rajya Sabha?",
+  "options": [
+   "President",
+   "Speaker",
+   "Prime Minister",
+   "Vice-President"
+  ],
+  "answer": "D",
+  "explanation": "The Vice-President presides over the Rajya Sabha."
+ },
+ {
+  "id": "SSC-GS-031",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which organelle is called the powerhouse of the cell?",
+  "options": [
+   "Mitochondria",
+   "Nucleus",
+   "Golgi body",
+   "Ribosome"
+  ],
+  "answer": "A",
+  "explanation": "Mitochondria release energy (ATP) through cellular respiration."
+ },
+ {
+  "id": "SSC-GS-032",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which vitamin is produced in the skin by sunlight?",
+  "options": [
+   "Vitamin A",
+   "Vitamin K",
+   "Vitamin C",
+   "Vitamin D"
+  ],
+  "answer": "D",
+  "explanation": "Sunlight helps the skin make vitamin D."
+ },
+ {
+  "id": "SSC-GS-033",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which blood group is called the universal donor?",
+  "options": [
+   "B negative",
+   "A positive",
+   "O negative",
+   "AB positive"
+  ],
+  "answer": "C",
+  "explanation": "O negative red cells can be given to almost all patients."
+ },
+ {
+  "id": "SSC-GS-034",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Plants prepare their food by the process of",
+  "options": [
+   "Digestion",
+   "Photosynthesis",
+   "Transpiration",
+   "Respiration"
+  ],
+  "answer": "B",
+  "explanation": "Plants make glucose from CO₂ and water using sunlight."
+ },
+ {
+  "id": "SSC-GS-035",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "How many chambers does the human heart have?",
+  "options": [
+   "5",
+   "2",
+   "4",
+   "3"
+  ],
+  "answer": "C",
+  "explanation": "Two atria and two ventricles."
+ },
+ {
+  "id": "SSC-GS-036",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Deficiency of Vitamin C causes",
+  "options": [
+   "Scurvy",
+   "Beriberi",
+   "Night blindness",
+   "Rickets"
+  ],
+  "answer": "A",
+  "explanation": "Scurvy is caused by lack of vitamin C."
+ },
+ {
+  "id": "SSC-GS-037",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which mineral is present in haemoglobin?",
+  "options": [
+   "Sodium",
+   "Iron",
+   "Iodine",
+   "Calcium"
+  ],
+  "answer": "B",
+  "explanation": "Haemoglobin carries oxygen using iron."
+ },
+ {
+  "id": "SSC-GS-038",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The largest organ of the human body is the",
+  "options": [
+   "Heart",
+   "Skin",
+   "Liver",
+   "Lungs"
+  ],
+  "answer": "B",
+  "explanation": "Skin has the largest surface area."
+ },
+ {
+  "id": "SSC-GS-039",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Insulin is secreted by the",
+  "options": [
+   "Pancreas",
+   "Liver",
+   "Thyroid",
+   "Kidney"
+  ],
+  "answer": "A",
+  "explanation": "Beta cells of the pancreas make insulin."
+ },
+ {
+  "id": "SSC-GS-040",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The number of bones in an adult human body is",
+  "options": [
+   "300",
+   "212",
+   "180",
+   "206"
+  ],
+  "answer": "D",
+  "explanation": "An adult has 206 bones."
+ },
+ {
+  "id": "SSC-GS-041",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Malaria is caused by a",
+  "options": [
+   "Protozoan (Plasmodium)",
+   "Bacterium",
+   "Fungus",
+   "Virus"
+  ],
+  "answer": "A",
+  "explanation": "The female Anopheles mosquito spreads Plasmodium."
+ },
+ {
+  "id": "SSC-GS-042",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which vitamin is essential for blood clotting?",
+  "options": [
+   "Vitamin D",
+   "Vitamin E",
+   "Vitamin B",
+   "Vitamin K"
+  ],
+  "answer": "D",
+  "explanation": "Vitamin K helps make clotting factors."
+ },
+ {
+  "id": "SSC-GS-043",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which gas is released by plants during photosynthesis?",
+  "options": [
+   "Oxygen",
+   "Hydrogen",
+   "Carbon dioxide",
+   "Nitrogen"
+  ],
+  "answer": "A",
+  "explanation": "Oxygen is released as a by-product."
+ },
+ {
+  "id": "SSC-GS-044",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The study of birds is called",
+  "options": [
+   "Ichthyology",
+   "Herpetology",
+   "Ornithology",
+   "Entomology"
+  ],
+  "answer": "C",
+  "explanation": "Ornithology = study of birds."
+ },
+ {
+  "id": "SSC-GS-045",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The full form of DNA is",
+  "options": [
+   "Deoxyribonucleic acid",
+   "Diribonucleic acid",
+   "Deoxyribose acid",
+   "Dinucleic acid"
+  ],
+  "answer": "A",
+  "explanation": "DNA carries genetic information."
+ },
+ {
+  "id": "SSC-GS-046",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The SI unit of work is",
+  "options": [
+   "Joule",
+   "Pascal",
+   "Newton",
+   "Watt"
+  ],
+  "answer": "A",
+  "explanation": "Work = force × distance, measured in joules."
+ },
+ {
+  "id": "SSC-GS-047",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Sound cannot travel through",
+  "options": [
+   "Air",
+   "Water",
+   "Vacuum",
+   "Steel"
+  ],
+  "answer": "C",
+  "explanation": "Sound needs a material medium."
+ },
+ {
+  "id": "SSC-GS-048",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which mirror is used by dentists?",
+  "options": [
+   "Cylindrical mirror",
+   "Convex mirror",
+   "Plane mirror",
+   "Concave mirror"
+  ],
+  "answer": "D",
+  "explanation": "A concave mirror gives a magnified image."
+ },
+ {
+  "id": "SSC-GS-049",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A rainbow is formed due to",
+  "options": [
+   "Diffraction",
+   "Reflection only",
+   "Dispersion of light",
+   "Polarisation"
+  ],
+  "answer": "C",
+  "explanation": "Raindrops split white light into colours."
+ },
+ {
+  "id": "SSC-GS-050",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The SI unit of electrical resistance is",
+  "options": [
+   "Volt",
+   "Farad",
+   "Ampere",
+   "Ohm"
+  ],
+  "answer": "D",
+  "explanation": "R = V/I, measured in ohms."
+ },
+ {
+  "id": "SSC-GS-051",
+  "subject": "ssc_gs",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The chemical formula of common salt is",
+  "options": [
+   "KCl",
+   "Na₂O",
+   "NaOH",
+   "NaCl"
+  ],
+  "answer": "D",
+  "explanation": "Sodium chloride."
+ },
+ {
+  "id": "SSC-GS-052",
+  "subject": "ssc_gs",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Rusting of iron is an example of",
+  "options": [
+   "Oxidation",
+   "Sublimation",
+   "Evaporation",
+   "Reduction"
+  ],
+  "answer": "A",
+  "explanation": "Iron reacts with oxygen and moisture."
+ },
+ {
+  "id": "SSC-GS-053",
+  "subject": "ssc_gs",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which gas is commonly used in fire extinguishers?",
+  "options": [
+   "Methane",
+   "Hydrogen",
+   "Oxygen",
+   "Carbon dioxide"
+  ],
+  "answer": "D",
+  "explanation": "CO₂ does not support burning."
+ },
+ {
+  "id": "SSC-GS-054",
+  "subject": "ssc_gs",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which acid is present in lemon?",
+  "options": [
+   "Citric acid",
+   "Lactic acid",
+   "Tartaric acid",
+   "Acetic acid"
+  ],
+  "answer": "A",
+  "explanation": "Citrus fruits contain citric acid."
+ },
+ {
+  "id": "SSC-GS-055",
+  "subject": "ssc_gs",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The lightest gas is",
+  "options": [
+   "Oxygen",
+   "Hydrogen",
+   "Helium",
+   "Nitrogen"
+  ],
+  "answer": "B",
+  "explanation": "Hydrogen has the lowest density."
+ },
+ {
+  "id": "SSC-GS-056",
+  "subject": "ssc_gs",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Reserve Bank of India was established in the year",
+  "options": [
+   "1969",
+   "1935",
+   "1947",
+   "1950"
+  ],
+  "answer": "B",
+  "explanation": "RBI began working on 1 April 1935."
+ },
+ {
+  "id": "SSC-GS-057",
+  "subject": "ssc_gs",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of the Reserve Bank of India is in",
+  "options": [
+   "Chennai",
+   "Kolkata",
+   "New Delhi",
+   "Mumbai"
+  ],
+  "answer": "D",
+  "explanation": "RBI's central office is in Mumbai."
+ },
+ {
+  "id": "SSC-GS-058",
+  "subject": "ssc_gs",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "GST was introduced in India on",
+  "options": [
+   "15 August 2017",
+   "1 July 2017",
+   "26 January 2018",
+   "1 April 2016"
+  ],
+  "answer": "B",
+  "explanation": "GST came into force on 1 July 2017."
+ },
+ {
+  "id": "SSC-GS-059",
+  "subject": "ssc_gs",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Planning Commission was replaced by",
+  "options": [
+   "Election Commission",
+   "NITI Aayog",
+   "Finance Commission",
+   "Law Commission"
+  ],
+  "answer": "B",
+  "explanation": "NITI Aayog was set up in 2015."
+ },
+ {
+  "id": "SSC-GS-060",
+  "subject": "ssc_gs",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The financial year in India runs from",
+  "options": [
+   "1 April to 31 March",
+   "1 July to 30 June",
+   "1 October to 30 September",
+   "1 January to 31 December"
+  ],
+  "answer": "A",
+  "explanation": "The Indian financial year starts on 1 April."
+ },
+ {
+  "id": "SSC-GS-061",
+  "subject": "ssc_gs",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Union Budget is presented in Parliament by the",
+  "options": [
+   "President",
+   "Finance Minister",
+   "RBI Governor",
+   "Prime Minister"
+  ],
+  "answer": "B",
+  "explanation": "The Finance Minister presents it, normally in the Lok Sabha."
+ },
+ {
+  "id": "SSC-GS-062",
+  "subject": "ssc_gs",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The repo rate is the rate at which",
+  "options": [
+   "RBI lends to commercial banks",
+   "Banks lend to the public",
+   "RBI borrows from the public",
+   "Banks lend to each other"
+  ],
+  "answer": "A",
+  "explanation": "Repo = repurchase rate for short-term loans from RBI."
+ },
+ {
+  "id": "SSC-GS-063",
+  "subject": "ssc_gs",
+  "section": "Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The symbol ₹ is the symbol of the",
+  "options": [
+   "Yen",
+   "Indian Rupee",
+   "Euro",
+   "Dollar"
+  ],
+  "answer": "B",
+  "explanation": "The rupee sign was adopted in 2010."
+ },
+ {
+  "id": "SSC-GS-064",
+  "subject": "ssc_gs",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Who was the first President of India?",
+  "options": [
+   "Dr. Rajendra Prasad",
+   "Jawaharlal Nehru",
+   "Dr. Zakir Husain",
+   "Dr. S. Radhakrishnan"
+  ],
+  "answer": "A",
+  "explanation": "He served from 1950 to 1962."
+ },
+ {
+  "id": "SSC-GS-065",
+  "subject": "ssc_gs",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Who wrote the Indian National Anthem 'Jana Gana Mana'?",
+  "options": [
+   "Sarojini Naidu",
+   "Rabindranath Tagore",
+   "Muhammad Iqbal",
+   "Bankim Chandra Chatterjee"
+  ],
+  "answer": "B",
+  "explanation": "Tagore wrote it in 1911."
+ },
+ {
+  "id": "SSC-GS-066",
+  "subject": "ssc_gs",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Mohenjo-daro, a site of the Indus Valley Civilization, is in present-day",
+  "options": [
+   "Pakistan",
+   "India",
+   "Afghanistan",
+   "Nepal"
+  ],
+  "answer": "A",
+  "explanation": "It lies in Sindh, Pakistan."
+ },
+ {
+  "id": "SSC-GS-067",
+  "subject": "ssc_gs",
+  "section": "History",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Who was the first Governor-General of independent India?",
+  "options": [
+   "Lord Wellesley",
+   "Lord Curzon",
+   "C. Rajagopalachari",
+   "Lord Mountbatten"
+  ],
+  "answer": "D",
+  "explanation": "Mountbatten served from August 1947 to June 1948."
+ },
+ {
+  "id": "SSC-GS-068",
+  "subject": "ssc_gs",
+  "section": "Geography",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The river Ganga originates from the",
+  "options": [
+   "Siachen glacier",
+   "Yamunotri glacier",
+   "Gangotri glacier",
+   "Amarkantak"
+  ],
+  "answer": "C",
+  "explanation": "The Bhagirathi starts at Gaumukh, Gangotri glacier."
+ },
+ {
+  "id": "SSC-GS-069",
+  "subject": "ssc_gs",
+  "section": "Geography",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The largest state of India by area is",
+  "options": [
+   "Madhya Pradesh",
+   "Uttar Pradesh",
+   "Rajasthan",
+   "Maharashtra"
+  ],
+  "answer": "C",
+  "explanation": "Rajasthan covers about 3.42 lakh sq km."
+ },
+ {
+  "id": "SSC-GS-070",
+  "subject": "ssc_gs",
+  "section": "Geography",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Tropic of Cancer passes through how many Indian states?",
+  "options": [
+   "7",
+   "9",
+   "6",
+   "8"
+  ],
+  "answer": "D",
+  "explanation": "Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram."
+ },
+ {
+  "id": "SSC-GS-071",
+  "subject": "ssc_gs",
+  "section": "Geography",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which planet is known as the Red Planet?",
+  "options": [
+   "Mercury",
+   "Mars",
+   "Jupiter",
+   "Venus"
+  ],
+  "answer": "B",
+  "explanation": "Iron oxide on its surface gives it a red colour."
+ },
+ {
+  "id": "SSC-GS-072",
+  "subject": "ssc_gs",
+  "section": "Polity",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Who appoints the Chief Justice of India?",
+  "options": [
+   "The Prime Minister",
+   "The Parliament",
+   "The President",
+   "The Law Minister"
+  ],
+  "answer": "C",
+  "explanation": "The President appoints the CJI."
+ },
+ {
+  "id": "SSC-GS-073",
+  "subject": "ssc_gs",
+  "section": "Polity",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Untouchability is abolished by which Article of the Constitution?",
+  "options": [
+   "Article 17",
+   "Article 14",
+   "Article 21",
+   "Article 32"
+  ],
+  "answer": "A",
+  "explanation": "Article 17 abolishes untouchability."
+ },
+ {
+  "id": "SSC-GS-074",
+  "subject": "ssc_gs",
+  "section": "Polity",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Preamble describes India as a",
+  "options": [
+   "Unitary Democratic State",
+   "Federal Monarchy",
+   "Socialist Federation",
+   "Sovereign, Socialist, Secular, Democratic Republic"
+  ],
+  "answer": "D",
+  "explanation": "This is the wording of the Preamble."
+ },
+ {
+  "id": "SSC-GS-075",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The SI unit of pressure is",
+  "options": [
+   "Joule",
+   "Newton",
+   "Pascal",
+   "Watt"
+  ],
+  "answer": "C",
+  "explanation": "1 Pa = 1 N/m²."
+ },
+ {
+  "id": "SSC-GS-076",
+  "subject": "ssc_gs",
+  "section": "Physics",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The speed of sound in air is approximately",
+  "options": [
+   "3 × 10⁸ m/s",
+   "34 m/s",
+   "343 m/s",
+   "1500 m/s"
+  ],
+  "answer": "C",
+  "explanation": "About 343 m/s at 20 °C."
+ },
+ {
+  "id": "SSC-GS-077",
+  "subject": "ssc_gs",
+  "section": "Chemistry",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The chemical symbol of gold is",
+  "options": [
+   "Gd",
+   "Au",
+   "Go",
+   "Ag"
+  ],
+  "answer": "B",
+  "explanation": "Au comes from the Latin 'aurum'."
+ },
+ {
+  "id": "SSC-GS-078",
+  "subject": "ssc_gs",
+  "section": "Biology",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which gas do humans need for respiration?",
+  "options": [
+   "Oxygen",
+   "Helium",
+   "Carbon dioxide",
+   "Nitrogen"
+  ],
+  "answer": "A",
+  "explanation": "We breathe in oxygen."
+ }
+]

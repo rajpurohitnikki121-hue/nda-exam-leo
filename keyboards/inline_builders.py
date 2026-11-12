@@ -27,6 +27,12 @@ def build_main_menu_kb(is_admin: bool = False) -> InlineKeyboardMarkup:
             callback_data=NdaCB(a="home").pack(),
         )
     )
+    builder.row(
+        InlineKeyboardButton(
+            text="📝 SSC Exam Practice",
+            callback_data=NdaCB(a="ssc").pack(),
+        )
+    )
     return builder.as_markup()
 
 

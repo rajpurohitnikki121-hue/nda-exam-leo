@@ -30,6 +30,7 @@ async def set_bot_commands(bot: Bot) -> None:
         BotCommand(command="start", description="🚀 Launch Bot & Main Dashboard"),
         BotCommand(command="menu", description="🏠 Main Menu"),
         BotCommand(command="nda", description="🎖️ NDA Exam Practice (Maths / GAT)"),
+        BotCommand(command="ssc", description="📝 SSC Exam Practice (Reasoning/GA/Quant/English)"),
         BotCommand(command="stats", description="📊 My Performance & Accuracy"),
         BotCommand(command="leaderboard", description="🏆 Channel Leaderboard"),
         BotCommand(command="help", description="📖 User Manual & Command List"),
