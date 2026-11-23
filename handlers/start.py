@@ -31,12 +31,13 @@ async def cmd_start(message: types.Message, state: FSMContext) -> None:
 
     is_admin = settings.is_admin(user.id)
     welcome_text = (
-        f"🎖️ <b>NDA + SSC Exam Practice Bot</b> 🇮🇳\n"
+        f"🎖️ <b>NDA + SSC + Banking Exam Practice Bot</b> 🇮🇳\n"
         f"<i>Real exam style me practice: bot khud questions bhejta hai aur end me marks deta hai.</i>\n\n"
         f"Hello <b>{html.escape(user.first_name)}</b>! 🎯\n\n"
         f"⚡ <b>Kya milega:</b>\n"
         f"✅ <b>NDA</b>: Maths (120 Q) + GAT (150 Q), full paper with timer\n"
         f"✅ <b>SSC</b>: Reasoning, GA, Quant, English (100 Q · 60 min)\n"
+        f"✅ <b>Banking</b>: English, Quant, Reasoning + Banking GA (IBPS/SBI style)\n"
         f"✅ Custom test (10/25/50 Q) ya topic-wise practice\n"
         f"✅ <b>Negative marking</b> ON/OFF option\n"
         f"✅ End me score, accuracy aur galat questions ka review\n\n"
@@ -79,6 +80,7 @@ async def cmd_help(message: types.Message) -> None:
         "• /start — Welcome screen\n"
         "• /nda — NDA test shuru karo\n"
         "• /ssc — SSC test shuru karo\n"
+        "• /bank — Banking test shuru karo\n"
         "• /menu — Main menu\n"
         "• /stats — Performance\n"
         "• /leaderboard — Leaderboard\n"

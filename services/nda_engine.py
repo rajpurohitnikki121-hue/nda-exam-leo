@@ -48,8 +48,44 @@ PAPER_LABEL.update(
         "sscenglish": "SSC English",
     }
 )
-EXAM_SUBJECTS = {"nda": ("maths", "gat"), "ssc": SSC_ORDER}
-SECTION_PREFIXES = {"nda": "s_", "ssc": "t_"}
+# ---- Banking Prelims (IBPS / SBI style): English 30 + Quant 35 + Reasoning 35 = 100 Q, 60 min,
+# +1 per correct, -0.25 per wrong. Banking/General Awareness (bank_ga) is a separate practice
+# section (Mains-style: 50 Q, 35 min).
+BANK_ORDER = ("bank_english", "bank_quant", "bank_reasoning")  # prelims papers
+BANK_SUBJECTS = BANK_ORDER + ("bank_ga",)
+BANK_PAPER_SUBJECT = {
+    "bankenglish": "bank_english",
+    "bankquant": "bank_quant",
+    "bankreasoning": "bank_reasoning",
+    "bankga": "bank_ga",
+}
+for _s, _n, _m in (("bank_english", 30, 20), ("bank_quant", 35, 20), ("bank_reasoning", 35, 20), ("bank_ga", 50, 35)):
+    MARKS[_s] = 1.0
+    PENALTY[_s] = 0.25
+    FULL_COUNT[_s] = _n
+    FULL_MINUTES[_s] = _m
+BANK_FULL_COUNT = 100
+SUBJECT_LABEL.update(
+    {
+        "bank_english": "English",
+        "bank_quant": "Quant",
+        "bank_reasoning": "Reasoning",
+        "bank_ga": "Banking & General Awareness",
+    }
+)
+SUBJECT_ICON.update({"bank_english": "📝", "bank_quant": "📐", "bank_reasoning": "🧩", "bank_ga": "🏦"})
+PAPER_LABEL.update(
+    {
+        "bank": "Banking Prelims (English+Quant+Reasoning)",
+        "bankenglish": "Banking English",
+        "bankquant": "Banking Quant",
+        "bankreasoning": "Banking Reasoning",
+        "bankga": "Banking & General Awareness",
+    }
+)
+SINGLE_PAPER_SUBJECT = {**SSC_PAPER_SUBJECT, **BANK_PAPER_SUBJECT}
+EXAM_SUBJECTS = {"nda": ("maths", "gat"), "ssc": SSC_ORDER, "bank": BANK_SUBJECTS}
+SECTION_PREFIXES = {"nda": "s_", "ssc": "t_", "bank": "b_"}
 
 GAT_ENGLISH_FULL = 50  # English part of the GAT paper
 GAT_GK_FULL = 100  # General Knowledge part of the GAT paper
@@ -64,8 +100,17 @@ def section_slug(name: str) -> str:
     return re.sub(r"[^a-z0-9]", "", name.lower())
 
 
+def exam_of_paper(paper: str) -> str:
+    """"nda" | "ssc" | "bank" for any paper key (mixed, single section or topic-wise)."""
+    if paper == "ssc" or paper in SSC_PAPER_SUBJECT or paper.startswith(SECTION_PREFIXES["ssc"]):
+        return "ssc"
+    if paper == "bank" or paper in BANK_PAPER_SUBJECT or paper.startswith(SECTION_PREFIXES["bank"]):
+        return "bank"
+    return "nda"
+
+
 def is_ssc_paper(paper: str) -> bool:
-    return paper == "ssc" or paper in SSC_PAPER_SUBJECT or paper.startswith(SECTION_PREFIXES["ssc"])
+    return exam_of_paper(paper) == "ssc"
 
 
 def _exam_of_section(paper: str) -> Optional[str]:
@@ -117,7 +162,7 @@ def paper_label(bank: NdaBank, paper: str) -> str:
     if is_section_paper(paper):
         pool = section_pool(bank, paper)
         if pool:
-            tag = "SSC" if is_ssc_paper(paper) else "section"
+            tag = {"ssc": "SSC", "bank": "Banking"}.get(exam_of_paper(paper), "section")
             return f"{pool[0].section} ({tag})"
     return paper
 
@@ -126,14 +171,17 @@ def is_valid_paper(bank: NdaBank, paper: str) -> bool:
     return paper in PAPER_LABEL or (is_section_paper(paper) and bool(section_pool(bank, paper)))
 
 
-def _balanced(pools: List[List[NdaQuestion]], total: int, rng: random.Random, seen) -> List[NdaQuestion]:
-    """Equal share from each pool (SSC sections); leftovers are filled from pools that have more."""
-    n = len(pools)
-    base, extra = divmod(total, n)
-    quotas = [base] * n
-    order = list(range(n))
-    rng.shuffle(order)
-    for i in order[:extra]:
+def _balanced(
+    pools: List[List[NdaQuestion]], subjects: tuple, total: int, rng: random.Random, seen
+) -> List[NdaQuestion]:
+    """Share of each section follows the real paper (weights = full-paper question counts)."""
+    weights = [FULL_COUNT[s] for s in subjects]
+    wsum = sum(weights)
+    raw = [total * w / wsum for w in weights]
+    quotas = [int(x) for x in raw]
+    left = total - sum(quotas)
+    order = sorted(range(len(raw)), key=lambda i: (-(raw[i] - quotas[i]), rng.random()))
+    for i in order[:left]:
         quotas[i] += 1
     picked: List[NdaQuestion] = []
     deficit = 0
@@ -145,7 +193,7 @@ def _balanced(pools: List[List[NdaQuestion]], total: int, rng: random.Random, se
         chosen = {q.qid for q in picked}
         rest = [q for pool in pools for q in pool if q.qid not in chosen]
         picked += _sample(rest, deficit, rng, seen)
-    picked.sort(key=lambda q: SSC_ORDER.index(q.subject))
+    picked.sort(key=lambda q: subjects.index(q.subject))
     return picked
 
 
@@ -214,8 +262,8 @@ def _build_plan(bank: NdaBank, paper: str, count: int, rng, seen) -> PaperPlan:
     rng = rng or random.Random()
     full = count == 0
 
-    if paper in SSC_PAPER_SUBJECT:  # one SSC section (25 Q = full section)
-        subject = SSC_PAPER_SUBJECT[paper]
+    if paper in SINGLE_PAPER_SUBJECT:  # one section of SSC / Banking (full = real section size)
+        subject = SINGLE_PAPER_SUBJECT[paper]
         pool = bank.by_subject(subject)
         requested = FULL_COUNT[subject] if full else count
         return PaperPlan(questions=_sample(pool, requested, rng, seen), requested=requested, full=full)
@@ -223,7 +271,16 @@ def _build_plan(bank: NdaBank, paper: str, count: int, rng, seen) -> PaperPlan:
     if paper == "ssc":  # SSC mixed: Reasoning + GA + Quant + English, equal share
         pools = [bank.by_subject(s) for s in SSC_ORDER]
         requested = SSC_FULL_COUNT if full else count
-        return PaperPlan(questions=_balanced(pools, requested, rng, seen), requested=requested, full=full)
+        return PaperPlan(
+            questions=_balanced(pools, SSC_ORDER, requested, rng, seen), requested=requested, full=full
+        )
+
+    if paper == "bank":  # Banking prelims: English 30 / Quant 35 / Reasoning 35
+        pools = [bank.by_subject(s) for s in BANK_ORDER]
+        requested = BANK_FULL_COUNT if full else count
+        return PaperPlan(
+            questions=_balanced(pools, BANK_ORDER, requested, rng, seen), requested=requested, full=full
+        )
 
     if is_section_paper(paper):  # section-wise practice: count 0 = every question of that section
         pool = section_pool(bank, paper)

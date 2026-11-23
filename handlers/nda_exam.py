@@ -26,6 +26,7 @@ logger = logging.getLogger(__name__)
 router = Router(name="nda_router")
 
 LETTERS = "ABCD"
+EXAM_PREFIX = {"ssc": "SSC ", "bank": "Banking "}
 COUNT_CHOICES = (10, 25, 50)
 
 # One active test per user. LAST keeps the finished test for "Review mistakes".
@@ -51,16 +52,27 @@ def _picon(paper: str) -> str:
         return "📐"
     if paper == "mixed":
         return "🔀"
-    if engine.is_ssc_paper(paper):
+    exam = engine.exam_of_paper(paper)
+    if exam == "ssc":
         return "📝"
+    if exam == "bank":
+        return "🏦"
     return "🧠"
+
+
+def _home_cb(exam: str) -> NdaCB:
+    """Callback that opens the home screen of an exam."""
+    return NdaCB(a={"nda": "home", "ssc": "ssc", "bank": "bnk"}[exam])
 
 
 def _full_info(paper: str) -> str:
     if paper == "ssc":
         return "100 Q · 60 min"
-    if paper in engine.SSC_PAPER_SUBJECT:
-        return "25 Q · 15 min"
+    if paper == "bank":
+        return "100 Q · 60 min"
+    if paper in engine.SINGLE_PAPER_SUBJECT:
+        subject = engine.SINGLE_PAPER_SUBJECT[paper]
+        return f"{engine.FULL_COUNT[subject]} Q · {engine.FULL_MINUTES[subject]} min"
     if paper == "maths":
         return "120 Q · 150 min"
     if paper == "gat":
@@ -126,16 +138,17 @@ def _count_kb(paper: str) -> InlineKeyboardMarkup:
                 callback_data=NdaCB(a="cnt", v=f"{paper}-0").pack(),
             )
         )
-        back = NdaCB(a="secs", v="ssc" if engine.is_ssc_paper(paper) else "")
+        exam = engine.exam_of_paper(paper)
+        back = NdaCB(a="secs", v="" if exam == "nda" else exam)
     else:
-        if paper == "ssc":
-            full_label = f"📄 Full SSC paper ({_full_info(paper)})"
-        elif paper in engine.SSC_PAPER_SUBJECT:
+        if paper in ("ssc", "bank"):
+            full_label = f"📄 Full {'SSC' if paper == 'ssc' else 'Banking Prelims'} paper ({_full_info(paper)})"
+        elif paper in engine.SINGLE_PAPER_SUBJECT:
             full_label = f"📄 Full section ({_full_info(paper)})"
         else:
             full_label = f"📄 Full NDA paper ({_full_info(paper)})"
         b.row(InlineKeyboardButton(text=full_label, callback_data=NdaCB(a="cnt", v=f"{paper}-0").pack()))
-        back = NdaCB(a="ssc") if engine.is_ssc_paper(paper) else NdaCB(a="home")
+        back = _home_cb(engine.exam_of_paper(paper))
     b.row(InlineKeyboardButton(text="⬅️ Back", callback_data=back.pack()))
     return b.as_markup()
 
@@ -227,6 +240,63 @@ async def cb_ssc_home(cb: types.CallbackQuery) -> None:
     await cb.answer()
 
 
+BANK_SCHEME_TEXT = (
+    "📊 <b>Banking Marking Scheme</b> (IBPS / SBI Prelims style)\n"
+    "━━━━━━━━━━━━━━━━━━\n"
+    "📝 English 30 Q · 📐 Quant 35 Q · 🧩 Reasoning 35 Q\n"
+    "= <b>100 Q · 100 marks · 60 minute</b> (har section 20 min)\n\n"
+    "• Har sahi answer: <b>+1</b>\n"
+    "• Har galat answer: <b>−0.25</b> (negative marking ON ho to)\n"
+    "• Skip kiya hua question: <b>0 marks</b>\n"
+    "• 🏦 Banking &amp; General Awareness alag practice section hai (Mains style: 50 Q · 35 min)\n"
+    "• Custom test me time utni hi speed se milta hai"
+)
+
+
+def _bank_home_text() -> str:
+    counts = bank.counts()
+    return (
+        "🏦 <b>Banking Exam Practice</b>\n"
+        "IBPS / SBI / RRB style. Bot khud questions bhejega, end me marks denge.\n\n"
+        "Prelims: English 30 + Quant 35 + Reasoning 35 = 100 Q · 60 min · negative −0.25\n"
+        "Plus: 🏦 Banking &amp; General Awareness\n\n"
+        f"📚 Question bank: English <b>{counts['bank_english']}</b> · Quant <b>{counts['bank_quant']}</b> · "
+        f"Reasoning <b>{counts['bank_reasoning']}</b> · Banking GA <b>{counts['bank_ga']}</b>\n"
+        "⚠️ <i>Ye original practice questions hain, asli PYQ nahi.</i>\n\n"
+        "👇 <i>Paper choose karo:</i>"
+    )
+
+
+def _bank_home_kb() -> InlineKeyboardMarkup:
+    b = InlineKeyboardBuilder()
+    b.row(InlineKeyboardButton(text="🎯 Full Prelims (100 Q · 60 min)", callback_data=NdaCB(a="paper", v="bank").pack()))
+    b.row(
+        InlineKeyboardButton(text="📝 English", callback_data=NdaCB(a="paper", v="bankenglish").pack()),
+        InlineKeyboardButton(text="📐 Quant", callback_data=NdaCB(a="paper", v="bankquant").pack()),
+    )
+    b.row(
+        InlineKeyboardButton(text="🧩 Reasoning", callback_data=NdaCB(a="paper", v="bankreasoning").pack()),
+        InlineKeyboardButton(text="🏦 Banking & GA", callback_data=NdaCB(a="paper", v="bankga").pack()),
+    )
+    b.row(InlineKeyboardButton(text="📚 Topic-wise", callback_data=NdaCB(a="secs", v="bank").pack()))
+    b.row(InlineKeyboardButton(text="📊 Marking scheme", callback_data=NdaCB(a="info", v="bank").pack()))
+    b.row(InlineKeyboardButton(text="🏠 Main Menu", callback_data=NavCB(to="menu").pack()))
+    return b.as_markup()
+
+
+@router.message(Command("bank"))
+async def cmd_bank_exam(message: types.Message) -> None:
+    bank.ensure_loaded()
+    await message.answer(_bank_home_text(), reply_markup=_bank_home_kb())
+
+
+@router.callback_query(NdaCB.filter(F.a == "bnk"))
+async def cb_bank_home(cb: types.CallbackQuery) -> None:
+    bank.ensure_loaded()
+    await _edit(cb, _bank_home_text(), _bank_home_kb())
+    await cb.answer()
+
+
 @router.message(Command("nda"))
 async def cmd_nda(message: types.Message) -> None:
     bank.ensure_loaded()
@@ -250,17 +320,18 @@ async def cb_home(cb: types.CallbackQuery) -> None:
 
 @router.callback_query(NdaCB.filter(F.a == "info"))
 async def cb_info(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
-    ssc = callback_data.v == "ssc"
+    exam = callback_data.v if callback_data.v in ("ssc", "bank") else "nda"
     b = InlineKeyboardBuilder()
-    b.row(InlineKeyboardButton(text="⬅️ Back", callback_data=(NdaCB(a="ssc") if ssc else NdaCB(a="home")).pack()))
-    await _edit(cb, SSC_SCHEME_TEXT if ssc else SCHEME_TEXT, b.as_markup())
+    b.row(InlineKeyboardButton(text="⬅️ Back", callback_data=_home_cb(exam).pack()))
+    text = {"ssc": SSC_SCHEME_TEXT, "bank": BANK_SCHEME_TEXT, "nda": SCHEME_TEXT}[exam]
+    await _edit(cb, text, b.as_markup())
     await cb.answer()
 
 
 @router.callback_query(NdaCB.filter(F.a == "secs"))
 async def cb_sections(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
     bank.ensure_loaded()
-    exam = "ssc" if callback_data.v == "ssc" else "nda"
+    exam = callback_data.v if callback_data.v in ("ssc", "bank") else "nda"
     rows = engine.list_sections(bank, exam)
     b = InlineKeyboardBuilder()
     buttons = [
@@ -272,16 +343,18 @@ async def cb_sections(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
     ]
     for i in range(0, len(buttons), 2):
         b.row(*buttons[i : i + 2])
-    b.row(InlineKeyboardButton(text="⬅️ Back", callback_data=(NdaCB(a="ssc") if exam == "ssc" else NdaCB(a="home")).pack()))
+    b.row(InlineKeyboardButton(text="⬅️ Back", callback_data=_home_cb(exam).pack()))
     if exam == "ssc":
         marking = "<i>Marking: har sahi +2, galat −0.50 (SSC pattern).</i>"
+    elif exam == "bank":
+        marking = "<i>Marking: har sahi +1, galat −0.25 (Banking pattern).</i>"
     else:
         marking = (
             "<i>Marking: Maths topics +2.5/−0.83, baaki topics +4/−1.33 (GAT jaisi). "
             "Reasoning sirf yahin hai, real NDA paper me nahi aata.</i>"
         )
     text = (
-        f"📚 <b>{'SSC ' if exam == 'ssc' else ''}Section-wise practice</b>\n"
+        f"📚 <b>{EXAM_PREFIX.get(exam, '')}Section-wise practice</b>\n"
         "Kisi ek topic ke questions alag se practice karo. Brackets me questions ki sankhya hai.\n\n"
         f"{marking}"
     )
@@ -297,8 +370,10 @@ async def cb_paper(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
         return
     if engine.is_section_paper(paper):
         note = f"<i>Is topic me {len(engine.section_pool(bank, paper))} questions hain.</i>"
-    elif engine.is_ssc_paper(paper):
+    elif engine.exam_of_paper(paper) == "ssc":
         note = f"<i>Full = real SSC CGL Tier-1 pattern ({_full_info(paper)}).</i>"
+    elif engine.exam_of_paper(paper) == "bank":
+        note = f"<i>Full = Banking pattern ({_full_info(paper)}).</i>"
     else:
         note = f"<i>Full paper = real NDA pattern ({_full_info(paper)}).</i>"
     text = (
@@ -326,11 +401,11 @@ async def cb_count(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
     text = (
         f"<b>{_plabel(paper)}</b> · {label}\n\n"
         "Negative marking chahiye?\n"
-        + (
-            "<i>ON: har galat answer pe −0.50 marks kat-te hain (SSC pattern).</i>"
-            if engine.is_ssc_paper(paper)
-            else "<i>ON: galat answer pe marks kat-te hain (Maths −0.83, GAT −1.33).</i>"
-        )
+        + {
+            "ssc": "<i>ON: har galat answer pe −0.50 marks kat-te hain (SSC pattern).</i>",
+            "bank": "<i>ON: har galat answer pe −0.25 marks kat-te hain (Banking pattern).</i>",
+            "nda": "<i>ON: galat answer pe marks kat-te hain (Maths −0.83, GAT −1.33).</i>",
+        }[engine.exam_of_paper(paper)]
     )
     await _edit(cb, text, _neg_kb(paper, count))
     await cb.answer()

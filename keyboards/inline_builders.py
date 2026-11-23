@@ -33,6 +33,12 @@ def build_main_menu_kb(is_admin: bool = False) -> InlineKeyboardMarkup:
             callback_data=NdaCB(a="ssc").pack(),
         )
     )
+    builder.row(
+        InlineKeyboardButton(
+            text="🏦 Banking Exam Practice",
+            callback_data=NdaCB(a="bnk").pack(),
+        )
+    )
     return builder.as_markup()
 
 

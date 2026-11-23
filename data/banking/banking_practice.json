@@ -1,0 +1,6977 @@
+[
+ {
+  "id": "BANK-QNT-001",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is 60% of 360?",
+  "options": [
+   "324",
+   "216",
+   "270",
+   "243"
+  ],
+  "answer": "B",
+  "explanation": "60/100 × 360 = 216."
+ },
+ {
+  "id": "BANK-QNT-002",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is 30% of 500?",
+  "options": [
+   "96",
+   "204",
+   "150",
+   "186"
+  ],
+  "answer": "C",
+  "explanation": "30/100 × 500 = 150."
+ },
+ {
+  "id": "BANK-QNT-003",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is 75% of 800?",
+  "options": [
+   "525",
+   "750",
+   "600",
+   "825"
+  ],
+  "answer": "C",
+  "explanation": "75/100 × 800 = 600."
+ },
+ {
+  "id": "BANK-QNT-004",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is 25% of 1200?",
+  "options": [
+   "300",
+   "226",
+   "374",
+   "411"
+  ],
+  "answer": "A",
+  "explanation": "25/100 × 1200 = 300."
+ },
+ {
+  "id": "BANK-QNT-005",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is 24% of 800?",
+  "options": [
+   "120",
+   "288",
+   "216",
+   "192"
+  ],
+  "answer": "D",
+  "explanation": "24/100 × 800 = 192."
+ },
+ {
+  "id": "BANK-QNT-006",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is 15% of 500?",
+  "options": [
+   "102",
+   "75",
+   "66",
+   "93"
+  ],
+  "answer": "B",
+  "explanation": "15/100 × 500 = 75."
+ },
+ {
+  "id": "BANK-QNT-007",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is 25% of 300?",
+  "options": [
+   "57",
+   "75",
+   "48",
+   "66"
+  ],
+  "answer": "B",
+  "explanation": "25/100 × 300 = 75."
+ },
+ {
+  "id": "BANK-QNT-008",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is 20% of 150?",
+  "options": [
+   "27",
+   "21",
+   "39",
+   "30"
+  ],
+  "answer": "D",
+  "explanation": "20/100 × 150 = 30."
+ },
+ {
+  "id": "BANK-QNT-009",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "45 is what percent of 150?",
+  "options": [
+   "25%",
+   "40%",
+   "30%",
+   "50%"
+  ],
+  "answer": "C",
+  "explanation": "45/150 × 100 = 30%."
+ },
+ {
+  "id": "BANK-QNT-010",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "60 is what percent of 240?",
+  "options": [
+   "10%",
+   "40%",
+   "35%",
+   "25%"
+  ],
+  "answer": "D",
+  "explanation": "60/240 × 100 = 25%."
+ },
+ {
+  "id": "BANK-QNT-011",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "15 is what percent of 60?",
+  "options": [
+   "35%",
+   "25%",
+   "30%",
+   "10%"
+  ],
+  "answer": "B",
+  "explanation": "15/60 × 100 = 25%."
+ },
+ {
+  "id": "BANK-QNT-012",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "30 is what percent of 300?",
+  "options": [
+   "5%",
+   "10%",
+   "30%",
+   "20%"
+  ],
+  "answer": "B",
+  "explanation": "30/300 × 100 = 10%."
+ },
+ {
+  "id": "BANK-QNT-013",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "45 is what percent of 60?",
+  "options": [
+   "75%",
+   "60%",
+   "70%",
+   "65%"
+  ],
+  "answer": "A",
+  "explanation": "45/60 × 100 = 75%."
+ },
+ {
+  "id": "BANK-QNT-014",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "20 is what percent of 80?",
+  "options": [
+   "25%",
+   "35%",
+   "15%",
+   "10%"
+  ],
+  "answer": "A",
+  "explanation": "20/80 × 100 = 25%."
+ },
+ {
+  "id": "BANK-QNT-015",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "60 is what percent of 300?",
+  "options": [
+   "5%",
+   "15%",
+   "20%",
+   "25%"
+  ],
+  "answer": "C",
+  "explanation": "60/300 × 100 = 20%."
+ },
+ {
+  "id": "BANK-QNT-016",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A number is first increased by 20% and then decreased by 20%. The net change is",
+  "options": [
+   "6% decrease",
+   "4% decrease",
+   "No change",
+   "9% decrease"
+  ],
+  "answer": "B",
+  "explanation": "Net = 20 − 20 − (20×20)/100 = -4%."
+ },
+ {
+  "id": "BANK-QNT-017",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A number is first increased by 10% and then decreased by 20%. The net change is",
+  "options": [
+   "14% decrease",
+   "17% decrease",
+   "10% increase",
+   "12% decrease"
+  ],
+  "answer": "D",
+  "explanation": "Net = 10 − 20 − (10×20)/100 = -12%."
+ },
+ {
+  "id": "BANK-QNT-018",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A number is first increased by 25% and then decreased by 20%. The net change is",
+  "options": [
+   "2% decrease",
+   "0% decrease",
+   "5% increase",
+   "5% decrease"
+  ],
+  "answer": "B",
+  "explanation": "Net = 25 − 20 − (25×20)/100 = 0%."
+ },
+ {
+  "id": "BANK-QNT-019",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A number is first increased by 20% and then decreased by 10%. The net change is",
+  "options": [
+   "13% increase",
+   "10% decrease",
+   "10% increase",
+   "8% increase"
+  ],
+  "answer": "D",
+  "explanation": "Net = 20 − 10 − (20×10)/100 = 8%."
+ },
+ {
+  "id": "BANK-QNT-020",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A number is first increased by 30% and then decreased by 10%. The net change is",
+  "options": [
+   "19% increase",
+   "22% increase",
+   "20% decrease",
+   "17% increase"
+  ],
+  "answer": "D",
+  "explanation": "Net = 30 − 10 − (30×10)/100 = 17%."
+ },
+ {
+  "id": "BANK-QNT-021",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A number is first increased by 50% and then decreased by 20%. The net change is",
+  "options": [
+   "20% increase",
+   "25% increase",
+   "30% decrease",
+   "22% increase"
+  ],
+  "answer": "A",
+  "explanation": "Net = 50 − 20 − (50×20)/100 = 20%."
+ },
+ {
+  "id": "BANK-QNT-022",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A number is first increased by 40% and then decreased by 25%. The net change is",
+  "options": [
+   "15% decrease",
+   "7% increase",
+   "5% increase",
+   "10% increase"
+  ],
+  "answer": "C",
+  "explanation": "Net = 40 − 25 − (40×25)/100 = 5%."
+ },
+ {
+  "id": "BANK-QNT-023",
+  "subject": "bank_quant",
+  "section": "Percentage",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A number is first increased by 10% and then decreased by 30%. The net change is",
+  "options": [
+   "28% decrease",
+   "23% decrease",
+   "25% decrease",
+   "20% increase"
+  ],
+  "answer": "B",
+  "explanation": "Net = 10 − 30 − (10×30)/100 = -23%."
+ },
+ {
+  "id": "BANK-QNT-024",
+  "subject": "bank_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "An article bought for ₹250 is sold at a profit of 12%. The selling price is",
+  "options": [
+   "₹304",
+   "₹244",
+   "₹280",
+   "₹328"
+  ],
+  "answer": "C",
+  "explanation": "SP = 250 × 112/100 = 280."
+ },
+ {
+  "id": "BANK-QNT-025",
+  "subject": "bank_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "An article bought for ₹500 is sold at a profit of 5%. The selling price is",
+  "options": [
+   "₹525",
+   "₹450",
+   "₹500",
+   "₹625"
+  ],
+  "answer": "A",
+  "explanation": "SP = 500 × 105/100 = 525."
+ },
+ {
+  "id": "BANK-QNT-026",
+  "subject": "bank_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "An article bought for ₹200 is sold at a profit of 12%. The selling price is",
+  "options": [
+   "₹194",
+   "₹204",
+   "₹224",
+   "₹234"
+  ],
+  "answer": "C",
+  "explanation": "SP = 200 × 112/100 = 224."
+ },
+ {
+  "id": "BANK-QNT-027",
+  "subject": "bank_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "An article bought for ₹400 is sold at a profit of 40%. The selling price is",
+  "options": [
+   "₹640",
+   "₹560",
+   "₹520",
+   "₹580"
+  ],
+  "answer": "B",
+  "explanation": "SP = 400 × 140/100 = 560."
+ },
+ {
+  "id": "BANK-QNT-028",
+  "subject": "bank_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "An article is sold for ₹150 at a loss of 25%. Its cost price is",
+  "options": [
+   "₹200",
+   "₹230",
+   "₹190",
+   "₹180"
+  ],
+  "answer": "A",
+  "explanation": "CP = 150 × 100/75 = 200."
+ },
+ {
+  "id": "BANK-QNT-029",
+  "subject": "bank_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "An article is sold for ₹1520 at a loss of 5%. Its cost price is",
+  "options": [
+   "₹1840",
+   "₹1600",
+   "₹1440",
+   "₹1680"
+  ],
+  "answer": "B",
+  "explanation": "CP = 1520 × 100/95 = 1600."
+ },
+ {
+  "id": "BANK-QNT-030",
+  "subject": "bank_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "An article is sold for ₹1280 at a loss of 20%. Its cost price is",
+  "options": [
+   "₹1440",
+   "₹1600",
+   "₹1920",
+   "₹1840"
+  ],
+  "answer": "B",
+  "explanation": "CP = 1280 × 100/80 = 1600."
+ },
+ {
+  "id": "BANK-QNT-031",
+  "subject": "bank_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "An article is sold for ₹190 at a loss of 5%. Its cost price is",
+  "options": [
+   "₹180",
+   "₹200",
+   "₹230",
+   "₹190"
+  ],
+  "answer": "B",
+  "explanation": "CP = 190 × 100/95 = 200."
+ },
+ {
+  "id": "BANK-QNT-032",
+  "subject": "bank_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The marked price of an item is ₹500. A discount of 10% is given. The selling price is",
+  "options": [
+   "₹430",
+   "₹490",
+   "₹470",
+   "₹450"
+  ],
+  "answer": "D",
+  "explanation": "SP = 500 − 10% of 500 = 450."
+ },
+ {
+  "id": "BANK-QNT-033",
+  "subject": "bank_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The marked price of an item is ₹800. A discount of 25% is given. The selling price is",
+  "options": [
+   "₹600",
+   "₹664",
+   "₹568",
+   "₹536"
+  ],
+  "answer": "A",
+  "explanation": "SP = 800 − 25% of 800 = 600."
+ },
+ {
+  "id": "BANK-QNT-034",
+  "subject": "bank_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The marked price of an item is ₹1200. A discount of 20% is given. The selling price is",
+  "options": [
+   "₹1104",
+   "₹1056",
+   "₹960",
+   "₹1152"
+  ],
+  "answer": "C",
+  "explanation": "SP = 1200 − 20% of 1200 = 960."
+ },
+ {
+  "id": "BANK-QNT-035",
+  "subject": "bank_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The marked price of an item is ₹2000. A discount of 15% is given. The selling price is",
+  "options": [
+   "₹1540",
+   "₹1460",
+   "₹1620",
+   "₹1700"
+  ],
+  "answer": "D",
+  "explanation": "SP = 2000 − 15% of 2000 = 1700."
+ },
+ {
+  "id": "BANK-QNT-036",
+  "subject": "bank_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The marked price of an item is ₹600. A discount of 5% is given. The selling price is",
+  "options": [
+   "₹498",
+   "₹570",
+   "₹594",
+   "₹666"
+  ],
+  "answer": "B",
+  "explanation": "SP = 600 − 5% of 600 = 570."
+ },
+ {
+  "id": "BANK-QNT-037",
+  "subject": "bank_quant",
+  "section": "Profit & Loss",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The marked price of an item is ₹1500. A discount of 40% is given. The selling price is",
+  "options": [
+   "₹1080",
+   "₹720",
+   "₹960",
+   "₹900"
+  ],
+  "answer": "D",
+  "explanation": "SP = 1500 − 40% of 1500 = 900."
+ },
+ {
+  "id": "BANK-QNT-038",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the simple interest on ₹1000 at 5% per annum for 3 years.",
+  "options": [
+   "₹195",
+   "₹150",
+   "₹180",
+   "₹165"
+  ],
+  "answer": "B",
+  "explanation": "SI = PRT/100 = 1000×5×3/100 = 150."
+ },
+ {
+  "id": "BANK-QNT-039",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the simple interest on ₹2000 at 8% per annum for 2 years.",
+  "options": [
+   "₹352",
+   "₹416",
+   "₹384",
+   "₹320"
+  ],
+  "answer": "D",
+  "explanation": "SI = PRT/100 = 2000×8×2/100 = 320."
+ },
+ {
+  "id": "BANK-QNT-040",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the simple interest on ₹5000 at 6% per annum for 4 years.",
+  "options": [
+   "₹960",
+   "₹1680",
+   "₹1560",
+   "₹1200"
+  ],
+  "answer": "D",
+  "explanation": "SI = PRT/100 = 5000×6×4/100 = 1200."
+ },
+ {
+  "id": "BANK-QNT-041",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the simple interest on ₹1500 at 10% per annum for 2 years.",
+  "options": [
+   "₹390",
+   "₹210",
+   "₹300",
+   "₹330"
+  ],
+  "answer": "C",
+  "explanation": "SI = PRT/100 = 1500×10×2/100 = 300."
+ },
+ {
+  "id": "BANK-QNT-042",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the simple interest on ₹2400 at 5% per annum for 5 years.",
+  "options": [
+   "₹840",
+   "₹540",
+   "₹660",
+   "₹600"
+  ],
+  "answer": "D",
+  "explanation": "SI = PRT/100 = 2400×5×5/100 = 600."
+ },
+ {
+  "id": "BANK-QNT-043",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the simple interest on ₹800 at 12% per annum for 3 years.",
+  "options": [
+   "₹288",
+   "₹372",
+   "₹232",
+   "₹260"
+  ],
+  "answer": "A",
+  "explanation": "SI = PRT/100 = 800×12×3/100 = 288."
+ },
+ {
+  "id": "BANK-QNT-044",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the simple interest on ₹3000 at 4% per annum for 5 years.",
+  "options": [
+   "₹600",
+   "₹840",
+   "₹480",
+   "₹540"
+  ],
+  "answer": "A",
+  "explanation": "SI = PRT/100 = 3000×4×5/100 = 600."
+ },
+ {
+  "id": "BANK-QNT-045",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the simple interest on ₹1200 at 10% per annum for 4 years.",
+  "options": [
+   "₹576",
+   "₹624",
+   "₹480",
+   "₹336"
+  ],
+  "answer": "C",
+  "explanation": "SI = PRT/100 = 1200×10×4/100 = 480."
+ },
+ {
+  "id": "BANK-QNT-046",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the compound interest on ₹1000 at 10% per annum for 2 years (compounded annually).",
+  "options": [
+   "₹176",
+   "₹159",
+   "₹244",
+   "₹210"
+  ],
+  "answer": "D",
+  "explanation": "A = 1000×(1+10/100)² = 1210, CI = 210."
+ },
+ {
+  "id": "BANK-QNT-047",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the compound interest on ₹2000 at 10% per annum for 2 years (compounded annually).",
+  "options": [
+   "₹420",
+   "₹385",
+   "₹560",
+   "₹350"
+  ],
+  "answer": "A",
+  "explanation": "A = 2000×(1+10/100)² = 2420, CI = 420."
+ },
+ {
+  "id": "BANK-QNT-048",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the compound interest on ₹5000 at 20% per annum for 2 years (compounded annually).",
+  "options": [
+   "₹2749",
+   "₹1651",
+   "₹2383",
+   "₹2200"
+  ],
+  "answer": "D",
+  "explanation": "A = 5000×(1+20/100)² = 7200, CI = 2200."
+ },
+ {
+  "id": "BANK-QNT-049",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the compound interest on ₹2500 at 20% per annum for 2 years (compounded annually).",
+  "options": [
+   "₹1100",
+   "₹1009",
+   "₹1282",
+   "₹827"
+  ],
+  "answer": "A",
+  "explanation": "A = 2500×(1+20/100)² = 3600, CI = 1100."
+ },
+ {
+  "id": "BANK-QNT-050",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the compound interest on ₹4000 at 5% per annum for 2 years (compounded annually).",
+  "options": [
+   "₹444",
+   "₹410",
+   "₹342",
+   "₹308"
+  ],
+  "answer": "B",
+  "explanation": "A = 4000×(1+5/100)² = 4410, CI = 410."
+ },
+ {
+  "id": "BANK-QNT-051",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the compound interest on ₹8000 at 5% per annum for 2 years (compounded annually).",
+  "options": [
+   "₹1092",
+   "₹1024",
+   "₹956",
+   "₹820"
+  ],
+  "answer": "D",
+  "explanation": "A = 8000×(1+5/100)² = 8820, CI = 820."
+ },
+ {
+  "id": "BANK-QNT-052",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the compound interest on ₹1600 at 25% per annum for 2 years (compounded annually).",
+  "options": [
+   "₹1200",
+   "₹1125",
+   "₹1050",
+   "₹900"
+  ],
+  "answer": "D",
+  "explanation": "A = 1600×(1+25/100)² = 2500, CI = 900."
+ },
+ {
+  "id": "BANK-QNT-053",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "At 10% simple interest per annum, in how many years will a sum double itself?",
+  "options": [
+   "4 years",
+   "18 years",
+   "10 years",
+   "16 years"
+  ],
+  "answer": "C",
+  "explanation": "SI = P → P×10×t/100 = P → t = 10."
+ },
+ {
+  "id": "BANK-QNT-054",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "At 20% simple interest per annum, in how many years will a sum double itself?",
+  "options": [
+   "11 years",
+   "7 years",
+   "9 years",
+   "5 years"
+  ],
+  "answer": "D",
+  "explanation": "SI = P → P×20×t/100 = P → t = 5."
+ },
+ {
+  "id": "BANK-QNT-055",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "At 25% simple interest per annum, in how many years will a sum double itself?",
+  "options": [
+   "10 years",
+   "4 years",
+   "2 years",
+   "6 years"
+  ],
+  "answer": "B",
+  "explanation": "SI = P → P×25×t/100 = P → t = 4."
+ },
+ {
+  "id": "BANK-QNT-056",
+  "subject": "bank_quant",
+  "section": "Simple & Compound Interest",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "At 5% simple interest per annum, in how many years will a sum double itself?",
+  "options": [
+   "18 years",
+   "28 years",
+   "20 years",
+   "16 years"
+  ],
+  "answer": "C",
+  "explanation": "SI = P → P×5×t/100 = P → t = 20."
+ },
+ {
+  "id": "BANK-QNT-057",
+  "subject": "bank_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "₹1200 is divided among A, B and C in the ratio 2 : 3 : 1. The largest share is",
+  "options": [
+   "₹1000",
+   "₹600",
+   "₹700",
+   "₹500"
+  ],
+  "answer": "B",
+  "explanation": "Total parts 6; largest = 1200/6 × 3 = 600."
+ },
+ {
+  "id": "BANK-QNT-058",
+  "subject": "bank_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "₹900 is divided among A, B and C in the ratio 1 : 2 : 3. The largest share is",
+  "options": [
+   "₹675",
+   "₹600",
+   "₹375",
+   "₹450"
+  ],
+  "answer": "D",
+  "explanation": "Total parts 6; largest = 900/6 × 3 = 450."
+ },
+ {
+  "id": "BANK-QNT-059",
+  "subject": "bank_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "₹1500 is divided among A, B and C in the ratio 2 : 3 : 5. The largest share is",
+  "options": [
+   "₹975",
+   "₹825",
+   "₹750",
+   "₹900"
+  ],
+  "answer": "C",
+  "explanation": "Total parts 10; largest = 1500/10 × 5 = 750."
+ },
+ {
+  "id": "BANK-QNT-060",
+  "subject": "bank_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "₹840 is divided among A, B and C in the ratio 3 : 4 : 5. The largest share is",
+  "options": [
+   "₹350",
+   "₹420",
+   "₹245",
+   "₹490"
+  ],
+  "answer": "A",
+  "explanation": "Total parts 12; largest = 840/12 × 5 = 350."
+ },
+ {
+  "id": "BANK-QNT-061",
+  "subject": "bank_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "₹1000 is divided among A, B and C in the ratio 1 : 4 : 5. The largest share is",
+  "options": [
+   "₹550",
+   "₹500",
+   "₹600",
+   "₹400"
+  ],
+  "answer": "B",
+  "explanation": "Total parts 10; largest = 1000/10 × 5 = 500."
+ },
+ {
+  "id": "BANK-QNT-062",
+  "subject": "bank_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "₹720 is divided among A, B and C in the ratio 2 : 3 : 4. The largest share is",
+  "options": [
+   "₹360",
+   "₹480",
+   "₹440",
+   "₹320"
+  ],
+  "answer": "D",
+  "explanation": "Total parts 9; largest = 720/9 × 4 = 320."
+ },
+ {
+  "id": "BANK-QNT-063",
+  "subject": "bank_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If 3 : 5 = 9 : x, then x is",
+  "options": [
+   "15",
+   "17",
+   "9",
+   "13"
+  ],
+  "answer": "A",
+  "explanation": "x = 5×9/3 = 15."
+ },
+ {
+  "id": "BANK-QNT-064",
+  "subject": "bank_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If 2 : 7 = 4 : x, then x is",
+  "options": [
+   "12",
+   "10",
+   "14",
+   "18"
+  ],
+  "answer": "C",
+  "explanation": "x = 7×4/2 = 14."
+ },
+ {
+  "id": "BANK-QNT-065",
+  "subject": "bank_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If 4 : 9 = 8 : x, then x is",
+  "options": [
+   "18",
+   "15",
+   "24",
+   "9"
+  ],
+  "answer": "A",
+  "explanation": "x = 9×8/4 = 18."
+ },
+ {
+  "id": "BANK-QNT-066",
+  "subject": "bank_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If 5 : 6 = 10 : x, then x is",
+  "options": [
+   "16",
+   "20",
+   "12",
+   "18"
+  ],
+  "answer": "C",
+  "explanation": "x = 6×10/5 = 12."
+ },
+ {
+  "id": "BANK-QNT-067",
+  "subject": "bank_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If 7 : 8 = 14 : x, then x is",
+  "options": [
+   "22",
+   "18",
+   "16",
+   "10"
+  ],
+  "answer": "C",
+  "explanation": "x = 8×14/7 = 16."
+ },
+ {
+  "id": "BANK-QNT-068",
+  "subject": "bank_quant",
+  "section": "Ratio & Proportion",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If 3 : 4 = 12 : x, then x is",
+  "options": [
+   "10",
+   "18",
+   "24",
+   "16"
+  ],
+  "answer": "D",
+  "explanation": "x = 4×12/3 = 16."
+ },
+ {
+  "id": "BANK-QNT-069",
+  "subject": "bank_quant",
+  "section": "Average",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the average of 12, 18, 24, 30.",
+  "options": [
+   "15",
+   "21",
+   "27",
+   "25"
+  ],
+  "answer": "B",
+  "explanation": "Sum 84 / 4 = 21."
+ },
+ {
+  "id": "BANK-QNT-070",
+  "subject": "bank_quant",
+  "section": "Average",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the average of 45, 55, 65.",
+  "options": [
+   "55",
+   "61",
+   "51",
+   "59"
+  ],
+  "answer": "A",
+  "explanation": "Sum 165 / 3 = 55."
+ },
+ {
+  "id": "BANK-QNT-071",
+  "subject": "bank_quant",
+  "section": "Average",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the average of 20, 30, 40, 50, 60.",
+  "options": [
+   "36",
+   "40",
+   "48",
+   "38"
+  ],
+  "answer": "B",
+  "explanation": "Sum 200 / 5 = 40."
+ },
+ {
+  "id": "BANK-QNT-072",
+  "subject": "bank_quant",
+  "section": "Average",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the average of 8, 12, 16, 20, 24.",
+  "options": [
+   "16",
+   "20",
+   "10",
+   "24"
+  ],
+  "answer": "A",
+  "explanation": "Sum 80 / 5 = 16."
+ },
+ {
+  "id": "BANK-QNT-073",
+  "subject": "bank_quant",
+  "section": "Average",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the average of 100, 120, 140.",
+  "options": [
+   "118",
+   "116",
+   "122",
+   "120"
+  ],
+  "answer": "D",
+  "explanation": "Sum 360 / 3 = 120."
+ },
+ {
+  "id": "BANK-QNT-074",
+  "subject": "bank_quant",
+  "section": "Average",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the average of 7, 9, 11, 13, 15, 17.",
+  "options": [
+   "16",
+   "20",
+   "10",
+   "12"
+  ],
+  "answer": "D",
+  "explanation": "Sum 72 / 6 = 12."
+ },
+ {
+  "id": "BANK-QNT-075",
+  "subject": "bank_quant",
+  "section": "Average",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The average of 4 numbers is 15. If one more number 25 is included, the new average is",
+  "options": [
+   "19",
+   "15",
+   "17",
+   "18"
+  ],
+  "answer": "C",
+  "explanation": "(4×15 + 25)/5 = 17."
+ },
+ {
+  "id": "BANK-QNT-076",
+  "subject": "bank_quant",
+  "section": "Average",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The average of 9 numbers is 10. If one more number 20 is included, the new average is",
+  "options": [
+   "13",
+   "12",
+   "11",
+   "9"
+  ],
+  "answer": "C",
+  "explanation": "(9×10 + 20)/10 = 11."
+ },
+ {
+  "id": "BANK-QNT-077",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A can finish a work in 10 days and B in 15 days. Working together they will finish it in",
+  "options": [
+   "8 days",
+   "6 days",
+   "4 days",
+   "7 days"
+  ],
+  "answer": "B",
+  "explanation": "1/10 + 1/15 = 1/6 per day."
+ },
+ {
+  "id": "BANK-QNT-078",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A can finish a work in 12 days and B in 24 days. Working together they will finish it in",
+  "options": [
+   "9 days",
+   "6 days",
+   "12 days",
+   "8 days"
+  ],
+  "answer": "D",
+  "explanation": "1/12 + 1/24 = 1/8 per day."
+ },
+ {
+  "id": "BANK-QNT-079",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A can finish a work in 20 days and B in 30 days. Working together they will finish it in",
+  "options": [
+   "15 days",
+   "10 days",
+   "14 days",
+   "12 days"
+  ],
+  "answer": "D",
+  "explanation": "1/20 + 1/30 = 1/12 per day."
+ },
+ {
+  "id": "BANK-QNT-080",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A can finish a work in 15 days and B in 30 days. Working together they will finish it in",
+  "options": [
+   "10 days",
+   "14 days",
+   "9 days",
+   "13 days"
+  ],
+  "answer": "A",
+  "explanation": "1/15 + 1/30 = 1/10 per day."
+ },
+ {
+  "id": "BANK-QNT-081",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A can finish a work in 12 days and B in 36 days. Working together they will finish it in",
+  "options": [
+   "9 days",
+   "6 days",
+   "10 days",
+   "11 days"
+  ],
+  "answer": "A",
+  "explanation": "1/12 + 1/36 = 1/9 per day."
+ },
+ {
+  "id": "BANK-QNT-082",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A can finish a work in 18 days and B in 9 days. Working together they will finish it in",
+  "options": [
+   "4 days",
+   "8 days",
+   "5 days",
+   "6 days"
+  ],
+  "answer": "D",
+  "explanation": "1/18 + 1/9 = 1/6 per day."
+ },
+ {
+  "id": "BANK-QNT-083",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A can finish a work in 30 days and B in 60 days. Working together they will finish it in",
+  "options": [
+   "18 days",
+   "20 days",
+   "23 days",
+   "19 days"
+  ],
+  "answer": "B",
+  "explanation": "1/30 + 1/60 = 1/20 per day."
+ },
+ {
+  "id": "BANK-QNT-084",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A can finish a work in 20 days and B in 5 days. Working together they will finish it in",
+  "options": [
+   "3 days",
+   "6 days",
+   "4 days",
+   "7 days"
+  ],
+  "answer": "C",
+  "explanation": "1/20 + 1/5 = 1/4 per day."
+ },
+ {
+  "id": "BANK-QNT-085",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A can finish a work in 40 days and B in 60 days. Working together they will finish it in",
+  "options": [
+   "24 days",
+   "26 days",
+   "23 days",
+   "25 days"
+  ],
+  "answer": "A",
+  "explanation": "1/40 + 1/60 = 1/24 per day."
+ },
+ {
+  "id": "BANK-QNT-086",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A can finish a work in 45 days and B in 90 days. Working together they will finish it in",
+  "options": [
+   "30 days",
+   "32 days",
+   "27 days",
+   "28 days"
+  ],
+  "answer": "A",
+  "explanation": "1/45 + 1/90 = 1/30 per day."
+ },
+ {
+  "id": "BANK-QNT-087",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A can finish a work in 36 days and B in 18 days. Working together they will finish it in",
+  "options": [
+   "10 days",
+   "11 days",
+   "12 days",
+   "14 days"
+  ],
+  "answer": "C",
+  "explanation": "1/36 + 1/18 = 1/12 per day."
+ },
+ {
+  "id": "BANK-QNT-088",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A can finish a work in 24 days and B in 8 days. Working together they will finish it in",
+  "options": [
+   "5 days",
+   "6 days",
+   "3 days",
+   "9 days"
+  ],
+  "answer": "B",
+  "explanation": "1/24 + 1/8 = 1/6 per day."
+ },
+ {
+  "id": "BANK-QNT-089",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "6 men can complete a job in 12 days. In how many days can 12 men complete it?",
+  "options": [
+   "14 days",
+   "8 days",
+   "4 days",
+   "6 days"
+  ],
+  "answer": "D",
+  "explanation": "Man-days = 72; 72/12 = 6."
+ },
+ {
+  "id": "BANK-QNT-090",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "8 men can complete a job in 15 days. In how many days can 10 men complete it?",
+  "options": [
+   "18 days",
+   "12 days",
+   "8 days",
+   "16 days"
+  ],
+  "answer": "B",
+  "explanation": "Man-days = 120; 120/10 = 12."
+ },
+ {
+  "id": "BANK-QNT-091",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "10 men can complete a job in 18 days. In how many days can 15 men complete it?",
+  "options": [
+   "10 days",
+   "14 days",
+   "12 days",
+   "18 days"
+  ],
+  "answer": "C",
+  "explanation": "Man-days = 180; 180/15 = 12."
+ },
+ {
+  "id": "BANK-QNT-092",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "12 men can complete a job in 20 days. In how many days can 16 men complete it?",
+  "options": [
+   "11 days",
+   "13 days",
+   "9 days",
+   "15 days"
+  ],
+  "answer": "D",
+  "explanation": "Man-days = 240; 240/16 = 15."
+ },
+ {
+  "id": "BANK-QNT-093",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "15 men can complete a job in 24 days. In how many days can 20 men complete it?",
+  "options": [
+   "12 days",
+   "18 days",
+   "14 days",
+   "20 days"
+  ],
+  "answer": "B",
+  "explanation": "Man-days = 360; 360/20 = 18."
+ },
+ {
+  "id": "BANK-QNT-094",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "9 men can complete a job in 16 days. In how many days can 12 men complete it?",
+  "options": [
+   "18 days",
+   "12 days",
+   "20 days",
+   "16 days"
+  ],
+  "answer": "B",
+  "explanation": "Man-days = 144; 144/12 = 12."
+ },
+ {
+  "id": "BANK-QNT-095",
+  "subject": "bank_quant",
+  "section": "Time & Work",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "5 men can complete a job in 30 days. In how many days can 10 men complete it?",
+  "options": [
+   "23 days",
+   "17 days",
+   "13 days",
+   "15 days"
+  ],
+  "answer": "D",
+  "explanation": "Man-days = 150; 150/10 = 15."
+ },
+ {
+  "id": "BANK-QNT-096",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A vehicle moves at 60 km/h for 2.5 hours. The distance covered is",
+  "options": [
+   "150 km",
+   "180 km",
+   "195 km",
+   "120 km"
+  ],
+  "answer": "A",
+  "explanation": "Distance = 60 × 2.5 = 150 km."
+ },
+ {
+  "id": "BANK-QNT-097",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A vehicle moves at 45 km/h for 4 hours. The distance covered is",
+  "options": [
+   "180 km",
+   "234 km",
+   "252 km",
+   "162 km"
+  ],
+  "answer": "A",
+  "explanation": "Distance = 45 × 4 = 180 km."
+ },
+ {
+  "id": "BANK-QNT-098",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A vehicle moves at 72 km/h for 3.5 hours. The distance covered is",
+  "options": [
+   "252 km",
+   "202 km",
+   "277 km",
+   "352 km"
+  ],
+  "answer": "A",
+  "explanation": "Distance = 72 × 3.5 = 252 km."
+ },
+ {
+  "id": "BANK-QNT-099",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A vehicle moves at 80 km/h for 1.5 hours. The distance covered is",
+  "options": [
+   "96 km",
+   "84 km",
+   "120 km",
+   "144 km"
+  ],
+  "answer": "C",
+  "explanation": "Distance = 80 × 1.5 = 120 km."
+ },
+ {
+  "id": "BANK-QNT-100",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A vehicle moves at 54 km/h for 2 hours. The distance covered is",
+  "options": [
+   "108 km",
+   "148 km",
+   "138 km",
+   "128 km"
+  ],
+  "answer": "A",
+  "explanation": "Distance = 54 × 2 = 108 km."
+ },
+ {
+  "id": "BANK-QNT-101",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A vehicle moves at 90 km/h for 2.5 hours. The distance covered is",
+  "options": [
+   "225 km",
+   "181 km",
+   "269 km",
+   "159 km"
+  ],
+  "answer": "A",
+  "explanation": "Distance = 90 × 2.5 = 225 km."
+ },
+ {
+  "id": "BANK-QNT-102",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A vehicle moves at 36 km/h for 5 hours. The distance covered is",
+  "options": [
+   "126 km",
+   "216 km",
+   "180 km",
+   "252 km"
+  ],
+  "answer": "C",
+  "explanation": "Distance = 36 × 5 = 180 km."
+ },
+ {
+  "id": "BANK-QNT-103",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man goes from A to B at 40 km/h and returns at 60 km/h. His average speed for the whole journey is",
+  "options": [
+   "42 km/h",
+   "46 km/h",
+   "44 km/h",
+   "48 km/h"
+  ],
+  "answer": "D",
+  "explanation": "Average speed = 2ab/(a+b) = 2×40×60/100 = 48 km/h."
+ },
+ {
+  "id": "BANK-QNT-104",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man goes from A to B at 30 km/h and returns at 60 km/h. His average speed for the whole journey is",
+  "options": [
+   "40 km/h",
+   "42 km/h",
+   "38 km/h",
+   "44 km/h"
+  ],
+  "answer": "A",
+  "explanation": "Average speed = 2ab/(a+b) = 2×30×60/90 = 40 km/h."
+ },
+ {
+  "id": "BANK-QNT-105",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man goes from A to B at 20 km/h and returns at 30 km/h. His average speed for the whole journey is",
+  "options": [
+   "24 km/h",
+   "22 km/h",
+   "32 km/h",
+   "28 km/h"
+  ],
+  "answer": "A",
+  "explanation": "Average speed = 2ab/(a+b) = 2×20×30/50 = 24 km/h."
+ },
+ {
+  "id": "BANK-QNT-106",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man goes from A to B at 60 km/h and returns at 90 km/h. His average speed for the whole journey is",
+  "options": [
+   "78 km/h",
+   "76 km/h",
+   "74 km/h",
+   "72 km/h"
+  ],
+  "answer": "D",
+  "explanation": "Average speed = 2ab/(a+b) = 2×60×90/150 = 72 km/h."
+ },
+ {
+  "id": "BANK-QNT-107",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man goes from A to B at 40 km/h and returns at 24 km/h. His average speed for the whole journey is",
+  "options": [
+   "32 km/h",
+   "28 km/h",
+   "36 km/h",
+   "30 km/h"
+  ],
+  "answer": "D",
+  "explanation": "Average speed = 2ab/(a+b) = 2×40×24/64 = 30 km/h."
+ },
+ {
+  "id": "BANK-QNT-108",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man goes from A to B at 50 km/h and returns at 75 km/h. His average speed for the whole journey is",
+  "options": [
+   "56 km/h",
+   "60 km/h",
+   "58 km/h",
+   "62 km/h"
+  ],
+  "answer": "B",
+  "explanation": "Average speed = 2ab/(a+b) = 2×50×75/125 = 60 km/h."
+ },
+ {
+  "id": "BANK-QNT-109",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man goes from A to B at 60 km/h and returns at 40 km/h. His average speed for the whole journey is",
+  "options": [
+   "46 km/h",
+   "56 km/h",
+   "48 km/h",
+   "44 km/h"
+  ],
+  "answer": "C",
+  "explanation": "Average speed = 2ab/(a+b) = 2×60×40/100 = 48 km/h."
+ },
+ {
+  "id": "BANK-QNT-110",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man goes from A to B at 30 km/h and returns at 20 km/h. His average speed for the whole journey is",
+  "options": [
+   "28 km/h",
+   "32 km/h",
+   "24 km/h",
+   "18 km/h"
+  ],
+  "answer": "C",
+  "explanation": "Average speed = 2ab/(a+b) = 2×30×20/50 = 24 km/h."
+ },
+ {
+  "id": "BANK-QNT-111",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A 150 m long train crosses a pole in 10 seconds. Its speed in km/h is",
+  "options": [
+   "54 km/h",
+   "48 km/h",
+   "72 km/h",
+   "36 km/h"
+  ],
+  "answer": "A",
+  "explanation": "Speed = 150/10 = 15 m/s = 54 km/h."
+ },
+ {
+  "id": "BANK-QNT-112",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A 200 m long train crosses a pole in 20 seconds. Its speed in km/h is",
+  "options": [
+   "60 km/h",
+   "18 km/h",
+   "36 km/h",
+   "48 km/h"
+  ],
+  "answer": "C",
+  "explanation": "Speed = 200/20 = 10 m/s = 36 km/h."
+ },
+ {
+  "id": "BANK-QNT-113",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A 120 m long train crosses a pole in 8 seconds. Its speed in km/h is",
+  "options": [
+   "66 km/h",
+   "36 km/h",
+   "54 km/h",
+   "48 km/h"
+  ],
+  "answer": "C",
+  "explanation": "Speed = 120/8 = 15 m/s = 54 km/h."
+ },
+ {
+  "id": "BANK-QNT-114",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A 300 m long train crosses a pole in 15 seconds. Its speed in km/h is",
+  "options": [
+   "66 km/h",
+   "60 km/h",
+   "84 km/h",
+   "72 km/h"
+  ],
+  "answer": "D",
+  "explanation": "Speed = 300/15 = 20 m/s = 72 km/h."
+ },
+ {
+  "id": "BANK-QNT-115",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A 180 m long train crosses a pole in 12 seconds. Its speed in km/h is",
+  "options": [
+   "54 km/h",
+   "72 km/h",
+   "78 km/h",
+   "66 km/h"
+  ],
+  "answer": "A",
+  "explanation": "Speed = 180/12 = 15 m/s = 54 km/h."
+ },
+ {
+  "id": "BANK-QNT-116",
+  "subject": "bank_quant",
+  "section": "Time, Speed & Distance",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A 240 m long train crosses a pole in 16 seconds. Its speed in km/h is",
+  "options": [
+   "72 km/h",
+   "36 km/h",
+   "54 km/h",
+   "78 km/h"
+  ],
+  "answer": "C",
+  "explanation": "Speed = 240/16 = 15 m/s = 54 km/h."
+ },
+ {
+  "id": "BANK-QNT-117",
+  "subject": "bank_quant",
+  "section": "Boats & Streams",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A boat goes downstream at 15 km/h and upstream at 9 km/h. Its speed in still water is",
+  "options": [
+   "9 km/h",
+   "12 km/h",
+   "11 km/h",
+   "13 km/h"
+  ],
+  "answer": "B",
+  "explanation": "Still water speed = (15 + 9)/2 = 12 km/h."
+ },
+ {
+  "id": "BANK-QNT-118",
+  "subject": "bank_quant",
+  "section": "Boats & Streams",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A boat goes downstream at 20 km/h and upstream at 10 km/h. Its speed in still water is",
+  "options": [
+   "13 km/h",
+   "16 km/h",
+   "15 km/h",
+   "19 km/h"
+  ],
+  "answer": "C",
+  "explanation": "Still water speed = (20 + 10)/2 = 15 km/h."
+ },
+ {
+  "id": "BANK-QNT-119",
+  "subject": "bank_quant",
+  "section": "Boats & Streams",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A boat goes downstream at 18 km/h and upstream at 12 km/h. Its speed in still water is",
+  "options": [
+   "14 km/h",
+   "13 km/h",
+   "16 km/h",
+   "15 km/h"
+  ],
+  "answer": "D",
+  "explanation": "Still water speed = (18 + 12)/2 = 15 km/h."
+ },
+ {
+  "id": "BANK-QNT-120",
+  "subject": "bank_quant",
+  "section": "Boats & Streams",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A boat goes downstream at 14 km/h and upstream at 6 km/h. Its speed in still water is",
+  "options": [
+   "10 km/h",
+   "12 km/h",
+   "11 km/h",
+   "8 km/h"
+  ],
+  "answer": "A",
+  "explanation": "Still water speed = (14 + 6)/2 = 10 km/h."
+ },
+ {
+  "id": "BANK-QNT-121",
+  "subject": "bank_quant",
+  "section": "Boats & Streams",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A boat goes downstream at 16 km/h and upstream at 8 km/h. Its speed in still water is",
+  "options": [
+   "13 km/h",
+   "10 km/h",
+   "12 km/h",
+   "14 km/h"
+  ],
+  "answer": "C",
+  "explanation": "Still water speed = (16 + 8)/2 = 12 km/h."
+ },
+ {
+  "id": "BANK-QNT-122",
+  "subject": "bank_quant",
+  "section": "Boats & Streams",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A boat goes downstream at 25 km/h and upstream at 15 km/h. Its speed in still water is",
+  "options": [
+   "19 km/h",
+   "22 km/h",
+   "18 km/h",
+   "20 km/h"
+  ],
+  "answer": "D",
+  "explanation": "Still water speed = (25 + 15)/2 = 20 km/h."
+ },
+ {
+  "id": "BANK-QNT-123",
+  "subject": "bank_quant",
+  "section": "Boats & Streams",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A boat goes downstream at 15 km/h and upstream at 9 km/h. The speed of the stream is",
+  "options": [
+   "7 km/h",
+   "3 km/h",
+   "5 km/h",
+   "2 km/h"
+  ],
+  "answer": "B",
+  "explanation": "Stream speed = (15 − 9)/2 = 3 km/h."
+ },
+ {
+  "id": "BANK-QNT-124",
+  "subject": "bank_quant",
+  "section": "Boats & Streams",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A boat goes downstream at 20 km/h and upstream at 10 km/h. The speed of the stream is",
+  "options": [
+   "5 km/h",
+   "3 km/h",
+   "2 km/h",
+   "4 km/h"
+  ],
+  "answer": "A",
+  "explanation": "Stream speed = (20 − 10)/2 = 5 km/h."
+ },
+ {
+  "id": "BANK-QNT-125",
+  "subject": "bank_quant",
+  "section": "Boats & Streams",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A boat goes downstream at 18 km/h and upstream at 12 km/h. The speed of the stream is",
+  "options": [
+   "1 km/h",
+   "7 km/h",
+   "3 km/h",
+   "4 km/h"
+  ],
+  "answer": "C",
+  "explanation": "Stream speed = (18 − 12)/2 = 3 km/h."
+ },
+ {
+  "id": "BANK-QNT-126",
+  "subject": "bank_quant",
+  "section": "Boats & Streams",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A boat goes downstream at 14 km/h and upstream at 6 km/h. The speed of the stream is",
+  "options": [
+   "2 km/h",
+   "4 km/h",
+   "1 km/h",
+   "5 km/h"
+  ],
+  "answer": "B",
+  "explanation": "Stream speed = (14 − 6)/2 = 4 km/h."
+ },
+ {
+  "id": "BANK-QNT-127",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 5, 12, 19, 26, 33, ?",
+  "options": [
+   "46",
+   "49",
+   "40",
+   "37"
+  ],
+  "answer": "C",
+  "explanation": "Common difference 7; next = 40."
+ },
+ {
+  "id": "BANK-QNT-128",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 12, 21, 30, 39, 48, ?",
+  "options": [
+   "57",
+   "53",
+   "61",
+   "69"
+  ],
+  "answer": "A",
+  "explanation": "Common difference 9; next = 57."
+ },
+ {
+  "id": "BANK-QNT-129",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 3, 14, 25, 36, 47, ?",
+  "options": [
+   "58",
+   "63",
+   "78",
+   "48"
+  ],
+  "answer": "A",
+  "explanation": "Common difference 11; next = 58."
+ },
+ {
+  "id": "BANK-QNT-130",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 20, 26, 32, 38, 44, ?",
+  "options": [
+   "47",
+   "59",
+   "50",
+   "62"
+  ],
+  "answer": "C",
+  "explanation": "Common difference 6; next = 50."
+ },
+ {
+  "id": "BANK-QNT-131",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 8, 21, 34, 47, 60, ?",
+  "options": [
+   "67",
+   "55",
+   "85",
+   "73"
+  ],
+  "answer": "D",
+  "explanation": "Common difference 13; next = 73."
+ },
+ {
+  "id": "BANK-QNT-132",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 100, 115, 130, 145, 160, ?",
+  "options": [
+   "196",
+   "175",
+   "168",
+   "182"
+  ],
+  "answer": "B",
+  "explanation": "Common difference 15; next = 175."
+ },
+ {
+  "id": "BANK-QNT-133",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 2, 6, 18, 54, 162, ?",
+  "options": [
+   "726",
+   "366",
+   "486",
+   "306"
+  ],
+  "answer": "C",
+  "explanation": "Each term is ×3; next = 486."
+ },
+ {
+  "id": "BANK-QNT-134",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 3, 6, 12, 24, 48, 96, ?",
+  "options": [
+   "216",
+   "168",
+   "192",
+   "288"
+  ],
+  "answer": "C",
+  "explanation": "Each term is ×2; next = 192."
+ },
+ {
+  "id": "BANK-QNT-135",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 5, 10, 20, 40, 80, ?",
+  "options": [
+   "160",
+   "120",
+   "140",
+   "180"
+  ],
+  "answer": "A",
+  "explanation": "Each term is ×2; next = 160."
+ },
+ {
+  "id": "BANK-QNT-136",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 1, 4, 16, 64, 256, ?",
+  "options": [
+   "1536",
+   "896",
+   "1152",
+   "1024"
+  ],
+  "answer": "D",
+  "explanation": "Each term is ×4; next = 1024."
+ },
+ {
+  "id": "BANK-QNT-137",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 4, 12, 36, 108, ?",
+  "options": [
+   "204",
+   "324",
+   "444",
+   "364"
+  ],
+  "answer": "B",
+  "explanation": "Each term is ×3; next = 324."
+ },
+ {
+  "id": "BANK-QNT-138",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 3, 4, 7, 12, 19, 28, ?",
+  "options": [
+   "35",
+   "45",
+   "37",
+   "39"
+  ],
+  "answer": "D",
+  "explanation": "Differences increase by 2; next = 39."
+ },
+ {
+  "id": "BANK-QNT-139",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 5, 7, 11, 17, 25, 35, ?",
+  "options": [
+   "41",
+   "49",
+   "55",
+   "47"
+  ],
+  "answer": "D",
+  "explanation": "Differences increase by 2; next = 47."
+ },
+ {
+  "id": "BANK-QNT-140",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 7, 8, 11, 16, 23, 32, ?",
+  "options": [
+   "43",
+   "45",
+   "39",
+   "47"
+  ],
+  "answer": "A",
+  "explanation": "Differences increase by 2; next = 43."
+ },
+ {
+  "id": "BANK-QNT-141",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 1, 4, 9, 16, ?",
+  "options": [
+   "25",
+   "16",
+   "22",
+   "34"
+  ],
+  "answer": "A",
+  "explanation": "Squares of consecutive numbers; next = 5² = 25."
+ },
+ {
+  "id": "BANK-QNT-142",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 4, 9, 16, 25, ?",
+  "options": [
+   "39",
+   "30",
+   "27",
+   "36"
+  ],
+  "answer": "D",
+  "explanation": "Squares of consecutive numbers; next = 6² = 36."
+ },
+ {
+  "id": "BANK-QNT-143",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 9, 16, 25, 36, ?",
+  "options": [
+   "49",
+   "61",
+   "46",
+   "43"
+  ],
+  "answer": "A",
+  "explanation": "Squares of consecutive numbers; next = 7² = 49."
+ },
+ {
+  "id": "BANK-QNT-144",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 16, 25, 36, 49, ?",
+  "options": [
+   "64",
+   "58",
+   "61",
+   "73"
+  ],
+  "answer": "A",
+  "explanation": "Squares of consecutive numbers; next = 8² = 64."
+ },
+ {
+  "id": "BANK-QNT-145",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 25, 36, 49, 64, ?",
+  "options": [
+   "87",
+   "90",
+   "81",
+   "75"
+  ],
+  "answer": "C",
+  "explanation": "Squares of consecutive numbers; next = 9² = 81."
+ },
+ {
+  "id": "BANK-QNT-146",
+  "subject": "bank_quant",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next number: 36, 49, 64, 81, ?",
+  "options": [
+   "106",
+   "103",
+   "100",
+   "109"
+  ],
+  "answer": "C",
+  "explanation": "Squares of consecutive numbers; next = 10² = 100."
+ },
+ {
+  "id": "BANK-QNT-147",
+  "subject": "bank_quant",
+  "section": "Ages",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The father's age is 3 times his son's age. The sum of their ages is 48 years. The son's age is",
+  "options": [
+   "14 years",
+   "18 years",
+   "12 years",
+   "10 years"
+  ],
+  "answer": "C",
+  "explanation": "Son = 48/4 = 12."
+ },
+ {
+  "id": "BANK-QNT-148",
+  "subject": "bank_quant",
+  "section": "Ages",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The father's age is 4 times his son's age. The sum of their ages is 60 years. The son's age is",
+  "options": [
+   "14 years",
+   "16 years",
+   "20 years",
+   "12 years"
+  ],
+  "answer": "D",
+  "explanation": "Son = 60/5 = 12."
+ },
+ {
+  "id": "BANK-QNT-149",
+  "subject": "bank_quant",
+  "section": "Ages",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The father's age is 2 times his son's age. The sum of their ages is 45 years. The son's age is",
+  "options": [
+   "15 years",
+   "13 years",
+   "19 years",
+   "23 years"
+  ],
+  "answer": "A",
+  "explanation": "Son = 45/3 = 15."
+ },
+ {
+  "id": "BANK-QNT-150",
+  "subject": "bank_quant",
+  "section": "Ages",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The father's age is 5 times his son's age. The sum of their ages is 72 years. The son's age is",
+  "options": [
+   "18 years",
+   "10 years",
+   "16 years",
+   "12 years"
+  ],
+  "answer": "D",
+  "explanation": "Son = 72/6 = 12."
+ },
+ {
+  "id": "BANK-QNT-151",
+  "subject": "bank_quant",
+  "section": "Ages",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The father's age is 3 times his son's age. The sum of their ages is 64 years. The son's age is",
+  "options": [
+   "12 years",
+   "14 years",
+   "10 years",
+   "16 years"
+  ],
+  "answer": "D",
+  "explanation": "Son = 64/4 = 16."
+ },
+ {
+  "id": "BANK-QNT-152",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the value: 12 + 8 × 5 − 3",
+  "options": [
+   "58",
+   "49",
+   "55",
+   "52"
+  ],
+  "answer": "B",
+  "explanation": "BODMAS: 8×5 = 40; 12 + 40 − 3 = 49."
+ },
+ {
+  "id": "BANK-QNT-153",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the value: 25 + 4 × 6 − 2",
+  "options": [
+   "59",
+   "38",
+   "50",
+   "47"
+  ],
+  "answer": "D",
+  "explanation": "BODMAS: 4×6 = 24; 25 + 24 − 2 = 47."
+ },
+ {
+  "id": "BANK-QNT-154",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the value: 40 + 5 × 3 − 7",
+  "options": [
+   "39",
+   "48",
+   "45",
+   "57"
+  ],
+  "answer": "B",
+  "explanation": "BODMAS: 5×3 = 15; 40 + 15 − 7 = 48."
+ },
+ {
+  "id": "BANK-QNT-155",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the value: 36 + 6 × 4 − 9",
+  "options": [
+   "63",
+   "51",
+   "54",
+   "45"
+  ],
+  "answer": "B",
+  "explanation": "BODMAS: 6×4 = 24; 36 + 24 − 9 = 51."
+ },
+ {
+  "id": "BANK-QNT-156",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the value: 48 + 8 × 2 − 5",
+  "options": [
+   "56",
+   "59",
+   "65",
+   "50"
+  ],
+  "answer": "B",
+  "explanation": "BODMAS: 8×2 = 16; 48 + 16 − 5 = 59."
+ },
+ {
+  "id": "BANK-QNT-157",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The square root of 144 is",
+  "options": [
+   "12",
+   "13",
+   "15",
+   "10"
+  ],
+  "answer": "A",
+  "explanation": "12 × 12 = 144."
+ },
+ {
+  "id": "BANK-QNT-158",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The square root of 169 is",
+  "options": [
+   "13",
+   "15",
+   "14",
+   "17"
+  ],
+  "answer": "A",
+  "explanation": "13 × 13 = 169."
+ },
+ {
+  "id": "BANK-QNT-159",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The square root of 196 is",
+  "options": [
+   "15",
+   "11",
+   "17",
+   "14"
+  ],
+  "answer": "D",
+  "explanation": "14 × 14 = 196."
+ },
+ {
+  "id": "BANK-QNT-160",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The square root of 225 is",
+  "options": [
+   "16",
+   "14",
+   "12",
+   "15"
+  ],
+  "answer": "D",
+  "explanation": "15 × 15 = 225."
+ },
+ {
+  "id": "BANK-QNT-161",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The square root of 289 is",
+  "options": [
+   "14",
+   "17",
+   "20",
+   "19"
+  ],
+  "answer": "B",
+  "explanation": "17 × 17 = 289."
+ },
+ {
+  "id": "BANK-QNT-162",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The square root of 324 is",
+  "options": [
+   "15",
+   "18",
+   "17",
+   "19"
+  ],
+  "answer": "B",
+  "explanation": "18 × 18 = 324."
+ },
+ {
+  "id": "BANK-QNT-163",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The square root of 441 is",
+  "options": [
+   "21",
+   "24",
+   "25",
+   "20"
+  ],
+  "answer": "A",
+  "explanation": "21 × 21 = 441."
+ },
+ {
+  "id": "BANK-QNT-164",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The square root of 529 is",
+  "options": [
+   "25",
+   "23",
+   "24",
+   "27"
+  ],
+  "answer": "B",
+  "explanation": "23 × 23 = 529."
+ },
+ {
+  "id": "BANK-QNT-165",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The square root of 625 is",
+  "options": [
+   "23",
+   "22",
+   "25",
+   "26"
+  ],
+  "answer": "C",
+  "explanation": "25 × 25 = 625."
+ },
+ {
+  "id": "BANK-QNT-166",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The square root of 784 is",
+  "options": [
+   "26",
+   "30",
+   "25",
+   "28"
+  ],
+  "answer": "D",
+  "explanation": "28 × 28 = 784."
+ },
+ {
+  "id": "BANK-QNT-167",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Evaluate 15² − 12²",
+  "options": [
+   "61",
+   "111",
+   "81",
+   "51"
+  ],
+  "answer": "C",
+  "explanation": "(15+12)(15−12) = 27×3 = 81."
+ },
+ {
+  "id": "BANK-QNT-168",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Evaluate 25² − 15²",
+  "options": [
+   "400",
+   "420",
+   "430",
+   "390"
+  ],
+  "answer": "A",
+  "explanation": "(25+15)(25−15) = 40×10 = 400."
+ },
+ {
+  "id": "BANK-QNT-169",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Evaluate 18² − 7²",
+  "options": [
+   "295",
+   "305",
+   "315",
+   "275"
+  ],
+  "answer": "D",
+  "explanation": "(18+7)(18−7) = 25×11 = 275."
+ },
+ {
+  "id": "BANK-QNT-170",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Evaluate 32² − 8²",
+  "options": [
+   "930",
+   "960",
+   "980",
+   "990"
+  ],
+  "answer": "B",
+  "explanation": "(32+8)(32−8) = 40×24 = 960."
+ },
+ {
+  "id": "BANK-QNT-171",
+  "subject": "bank_quant",
+  "section": "Simplification",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Evaluate 45² − 5²",
+  "options": [
+   "2000",
+   "2010",
+   "1970",
+   "2040"
+  ],
+  "answer": "A",
+  "explanation": "(45+5)(45−5) = 50×40 = 2000."
+ },
+ {
+  "id": "BANK-QNT-172",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The HCF of 36 and 48 is",
+  "options": [
+   "6",
+   "24",
+   "12",
+   "36"
+  ],
+  "answer": "C",
+  "explanation": "HCF(36, 48) = 12."
+ },
+ {
+  "id": "BANK-QNT-173",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The LCM of 36 and 48 is",
+  "options": [
+   "186",
+   "144",
+   "200",
+   "130"
+  ],
+  "answer": "B",
+  "explanation": "LCM(36, 48) = 144."
+ },
+ {
+  "id": "BANK-QNT-174",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The HCF of 24 and 60 is",
+  "options": [
+   "12",
+   "6",
+   "24",
+   "36"
+  ],
+  "answer": "A",
+  "explanation": "HCF(24, 60) = 12."
+ },
+ {
+  "id": "BANK-QNT-175",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The LCM of 24 and 60 is",
+  "options": [
+   "144",
+   "156",
+   "108",
+   "120"
+  ],
+  "answer": "D",
+  "explanation": "LCM(24, 60) = 120."
+ },
+ {
+  "id": "BANK-QNT-176",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The HCF of 18 and 45 is",
+  "options": [
+   "9",
+   "1",
+   "25",
+   "21"
+  ],
+  "answer": "A",
+  "explanation": "HCF(18, 45) = 9."
+ },
+ {
+  "id": "BANK-QNT-177",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The LCM of 18 and 45 is",
+  "options": [
+   "90",
+   "72",
+   "99",
+   "108"
+  ],
+  "answer": "A",
+  "explanation": "LCM(18, 45) = 90."
+ },
+ {
+  "id": "BANK-QNT-178",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The HCF of 42 and 56 is",
+  "options": [
+   "35",
+   "14",
+   "7",
+   "21"
+  ],
+  "answer": "B",
+  "explanation": "HCF(42, 56) = 14."
+ },
+ {
+  "id": "BANK-QNT-179",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The LCM of 42 and 56 is",
+  "options": [
+   "136",
+   "168",
+   "232",
+   "152"
+  ],
+  "answer": "B",
+  "explanation": "LCM(42, 56) = 168."
+ },
+ {
+  "id": "BANK-QNT-180",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The HCF of 30 and 75 is",
+  "options": [
+   "43",
+   "8",
+   "15",
+   "36"
+  ],
+  "answer": "C",
+  "explanation": "HCF(30, 75) = 15."
+ },
+ {
+  "id": "BANK-QNT-181",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The LCM of 30 and 75 is",
+  "options": [
+   "150",
+   "135",
+   "165",
+   "210"
+  ],
+  "answer": "A",
+  "explanation": "LCM(30, 75) = 150."
+ },
+ {
+  "id": "BANK-QNT-182",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The HCF of 54 and 72 is",
+  "options": [
+   "36",
+   "54",
+   "18",
+   "45"
+  ],
+  "answer": "C",
+  "explanation": "HCF(54, 72) = 18."
+ },
+ {
+  "id": "BANK-QNT-183",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The LCM of 54 and 72 is",
+  "options": [
+   "216",
+   "174",
+   "237",
+   "258"
+  ],
+  "answer": "A",
+  "explanation": "LCM(54, 72) = 216."
+ },
+ {
+  "id": "BANK-QNT-184",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the remainder when 67 is divided by 7?",
+  "options": [
+   "1",
+   "3",
+   "4",
+   "6"
+  ],
+  "answer": "C",
+  "explanation": "67 = 7×9 + 4, remainder 4."
+ },
+ {
+  "id": "BANK-QNT-185",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the remainder when 121 is divided by 13?",
+  "options": [
+   "6",
+   "7",
+   "4",
+   "1"
+  ],
+  "answer": "C",
+  "explanation": "121 = 13×9 + 4, remainder 4."
+ },
+ {
+  "id": "BANK-QNT-186",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the remainder when 211 is divided by 23?",
+  "options": [
+   "4",
+   "5",
+   "8",
+   "1"
+  ],
+  "answer": "A",
+  "explanation": "211 = 23×9 + 4, remainder 4."
+ },
+ {
+  "id": "BANK-QNT-187",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the remainder when 265 is divided by 29?",
+  "options": [
+   "1",
+   "6",
+   "4",
+   "5"
+  ],
+  "answer": "C",
+  "explanation": "265 = 29×9 + 4, remainder 4."
+ },
+ {
+  "id": "BANK-QNT-188",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the remainder when 283 is divided by 31?",
+  "options": [
+   "3",
+   "8",
+   "1",
+   "4"
+  ],
+  "answer": "D",
+  "explanation": "283 = 31×9 + 4, remainder 4."
+ },
+ {
+  "id": "BANK-QNT-189",
+  "subject": "bank_quant",
+  "section": "Number System",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the remainder when 337 is divided by 37?",
+  "options": [
+   "4",
+   "7",
+   "5",
+   "2"
+  ],
+  "answer": "A",
+  "explanation": "337 = 37×9 + 4, remainder 4."
+ },
+ {
+  "id": "BANK-QNT-190",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The area of a circle of radius 7 cm is (π = 22/7)",
+  "options": [
+   "154 cm²",
+   "184 cm²",
+   "214 cm²",
+   "109 cm²"
+  ],
+  "answer": "A",
+  "explanation": "πr² = 22/7 × 7² = 154."
+ },
+ {
+  "id": "BANK-QNT-191",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The circumference of a circle of radius 7 cm is (π = 22/7)",
+  "options": [
+   "44 cm",
+   "32 cm",
+   "36 cm",
+   "56 cm"
+  ],
+  "answer": "A",
+  "explanation": "2πr = 2 × 22/7 × 7 = 44."
+ },
+ {
+  "id": "BANK-QNT-192",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The area of a circle of radius 14 cm is (π = 22/7)",
+  "options": [
+   "616 cm²",
+   "494 cm²",
+   "677 cm²",
+   "860 cm²"
+  ],
+  "answer": "A",
+  "explanation": "πr² = 22/7 × 14² = 616."
+ },
+ {
+  "id": "BANK-QNT-193",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The circumference of a circle of radius 14 cm is (π = 22/7)",
+  "options": [
+   "72 cm",
+   "120 cm",
+   "104 cm",
+   "88 cm"
+  ],
+  "answer": "D",
+  "explanation": "2πr = 2 × 22/7 × 14 = 88."
+ },
+ {
+  "id": "BANK-QNT-194",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The area of a circle of radius 21 cm is (π = 22/7)",
+  "options": [
+   "972 cm²",
+   "1110 cm²",
+   "1662 cm²",
+   "1386 cm²"
+  ],
+  "answer": "D",
+  "explanation": "πr² = 22/7 × 21² = 1386."
+ },
+ {
+  "id": "BANK-QNT-195",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The circumference of a circle of radius 21 cm is (π = 22/7)",
+  "options": [
+   "106 cm",
+   "132 cm",
+   "119 cm",
+   "171 cm"
+  ],
+  "answer": "B",
+  "explanation": "2πr = 2 × 22/7 × 21 = 132."
+ },
+ {
+  "id": "BANK-QNT-196",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The area of a circle of radius 35 cm is (π = 22/7)",
+  "options": [
+   "4620 cm²",
+   "3850 cm²",
+   "2695 cm²",
+   "5005 cm²"
+  ],
+  "answer": "B",
+  "explanation": "πr² = 22/7 × 35² = 3850."
+ },
+ {
+  "id": "BANK-QNT-197",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The circumference of a circle of radius 35 cm is (π = 22/7)",
+  "options": [
+   "176 cm",
+   "242 cm",
+   "220 cm",
+   "308 cm"
+  ],
+  "answer": "C",
+  "explanation": "2πr = 2 × 22/7 × 35 = 220."
+ },
+ {
+  "id": "BANK-QNT-198",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The perimeter of a rectangle of length 12 m and breadth 8 m is",
+  "options": [
+   "28 m",
+   "32 m",
+   "36 m",
+   "40 m"
+  ],
+  "answer": "D",
+  "explanation": "2(l + b) = 2(12 + 8) = 40."
+ },
+ {
+  "id": "BANK-QNT-199",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The perimeter of a rectangle of length 15 m and breadth 10 m is",
+  "options": [
+   "50 m",
+   "62 m",
+   "58 m",
+   "42 m"
+  ],
+  "answer": "A",
+  "explanation": "2(l + b) = 2(15 + 10) = 50."
+ },
+ {
+  "id": "BANK-QNT-200",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The perimeter of a rectangle of length 20 m and breadth 9 m is",
+  "options": [
+   "74 m",
+   "62 m",
+   "58 m",
+   "70 m"
+  ],
+  "answer": "C",
+  "explanation": "2(l + b) = 2(20 + 9) = 58."
+ },
+ {
+  "id": "BANK-QNT-201",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The perimeter of a rectangle of length 25 m and breadth 12 m is",
+  "options": [
+   "62 m",
+   "66 m",
+   "74 m",
+   "82 m"
+  ],
+  "answer": "C",
+  "explanation": "2(l + b) = 2(25 + 12) = 74."
+ },
+ {
+  "id": "BANK-QNT-202",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The perimeter of a rectangle of length 18 m and breadth 14 m is",
+  "options": [
+   "72 m",
+   "64 m",
+   "76 m",
+   "52 m"
+  ],
+  "answer": "B",
+  "explanation": "2(l + b) = 2(18 + 14) = 64."
+ },
+ {
+  "id": "BANK-QNT-203",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The volume of a cube of side 3 cm is",
+  "options": [
+   "9 cm³",
+   "54 cm³",
+   "27 cm³",
+   "36 cm³"
+  ],
+  "answer": "C",
+  "explanation": "3³ = 27."
+ },
+ {
+  "id": "BANK-QNT-204",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The volume of a cube of side 5 cm is",
+  "options": [
+   "100 cm³",
+   "125 cm³",
+   "75 cm³",
+   "50 cm³"
+  ],
+  "answer": "B",
+  "explanation": "5³ = 125."
+ },
+ {
+  "id": "BANK-QNT-205",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The volume of a cube of side 6 cm is",
+  "options": [
+   "216 cm³",
+   "288 cm³",
+   "108 cm³",
+   "180 cm³"
+  ],
+  "answer": "A",
+  "explanation": "6³ = 216."
+ },
+ {
+  "id": "BANK-QNT-206",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The volume of a cube of side 7 cm is",
+  "options": [
+   "343 cm³",
+   "392 cm³",
+   "294 cm³",
+   "441 cm³"
+  ],
+  "answer": "A",
+  "explanation": "7³ = 343."
+ },
+ {
+  "id": "BANK-QNT-207",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The volume of a cube of side 9 cm is",
+  "options": [
+   "648 cm³",
+   "810 cm³",
+   "891 cm³",
+   "729 cm³"
+  ],
+  "answer": "D",
+  "explanation": "9³ = 729."
+ },
+ {
+  "id": "BANK-QNT-208",
+  "subject": "bank_quant",
+  "section": "Mensuration",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The volume of a cube of side 10 cm is",
+  "options": [
+   "700 cm³",
+   "900 cm³",
+   "1000 cm³",
+   "1100 cm³"
+  ],
+  "answer": "C",
+  "explanation": "10³ = 1000."
+ },
+ {
+  "id": "BANK-QNT-209",
+  "subject": "bank_quant",
+  "section": "Partnership",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A and B invest ₹2000 and ₹3000 for the same period. Out of a profit of ₹1000, A's share is",
+  "options": [
+   "₹350",
+   "₹400",
+   "₹250",
+   "₹550"
+  ],
+  "answer": "B",
+  "explanation": "Profit is shared in the ratio 2000:3000; A gets 2000/5000 of 1000 = 400."
+ },
+ {
+  "id": "BANK-QNT-210",
+  "subject": "bank_quant",
+  "section": "Partnership",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A and B invest ₹4000 and ₹6000 for the same period. Out of a profit of ₹5000, A's share is",
+  "options": [
+   "₹3000",
+   "₹1750",
+   "₹1500",
+   "₹2000"
+  ],
+  "answer": "D",
+  "explanation": "Profit is shared in the ratio 4000:6000; A gets 4000/10000 of 5000 = 2000."
+ },
+ {
+  "id": "BANK-QNT-211",
+  "subject": "bank_quant",
+  "section": "Partnership",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A and B invest ₹1500 and ₹2500 for the same period. Out of a profit of ₹2000, A's share is",
+  "options": [
+   "₹950",
+   "₹750",
+   "₹1050",
+   "₹850"
+  ],
+  "answer": "B",
+  "explanation": "Profit is shared in the ratio 1500:2500; A gets 1500/4000 of 2000 = 750."
+ },
+ {
+  "id": "BANK-QNT-212",
+  "subject": "bank_quant",
+  "section": "Partnership",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A and B invest ₹3000 and ₹5000 for the same period. Out of a profit of ₹4000, A's share is",
+  "options": [
+   "₹1900",
+   "₹1100",
+   "₹1500",
+   "₹2300"
+  ],
+  "answer": "C",
+  "explanation": "Profit is shared in the ratio 3000:5000; A gets 3000/8000 of 4000 = 1500."
+ },
+ {
+  "id": "BANK-RSN-001",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a certain code, each letter is moved 1 step forward in the alphabet. How is BAT written in that code?",
+  "options": [
+   "CBU",
+   "EDW",
+   "BAT",
+   "DCV"
+  ],
+  "answer": "A",
+  "explanation": "Move each letter 1 step(s) ahead."
+ },
+ {
+  "id": "BANK-RSN-002",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a certain code, each letter is moved 2 steps forward in the alphabet. How is DOG written in that code?",
+  "options": [
+   "EPH",
+   "GRJ",
+   "FQI",
+   "HSK"
+  ],
+  "answer": "C",
+  "explanation": "Move each letter 2 step(s) ahead."
+ },
+ {
+  "id": "BANK-RSN-003",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a certain code, each letter is moved 3 steps forward in the alphabet. How is CAR written in that code?",
+  "options": [
+   "GEV",
+   "ECT",
+   "HFW",
+   "FDU"
+  ],
+  "answer": "D",
+  "explanation": "Move each letter 3 step(s) ahead."
+ },
+ {
+  "id": "BANK-RSN-004",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a certain code, each letter is moved 2 steps forward in the alphabet. How is PEN written in that code?",
+  "options": [
+   "QFO",
+   "SHQ",
+   "RGP",
+   "TIR"
+  ],
+  "answer": "C",
+  "explanation": "Move each letter 2 step(s) ahead."
+ },
+ {
+  "id": "BANK-RSN-005",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a certain code, each letter is moved 1 step forward in the alphabet. How is SUN written in that code?",
+  "options": [
+   "UWP",
+   "VXQ",
+   "TVO",
+   "SUN"
+  ],
+  "answer": "C",
+  "explanation": "Move each letter 1 step(s) ahead."
+ },
+ {
+  "id": "BANK-RSN-006",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a certain code, each letter is moved 3 steps forward in the alphabet. How is MAP written in that code?",
+  "options": [
+   "PDS",
+   "RFU",
+   "QET",
+   "OCR"
+  ],
+  "answer": "A",
+  "explanation": "Move each letter 3 step(s) ahead."
+ },
+ {
+  "id": "BANK-RSN-007",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a certain code, each letter is moved 2 steps forward in the alphabet. How is RAIN written in that code?",
+  "options": [
+   "UDLQ",
+   "TCKP",
+   "VEMR",
+   "SBJO"
+  ],
+  "answer": "B",
+  "explanation": "Move each letter 2 step(s) ahead."
+ },
+ {
+  "id": "BANK-RSN-008",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a certain code, each letter is moved 1 step forward in the alphabet. How is BOOK written in that code?",
+  "options": [
+   "ERRN",
+   "DQQM",
+   "CPPL",
+   "BOOK"
+  ],
+  "answer": "C",
+  "explanation": "Move each letter 1 step(s) ahead."
+ },
+ {
+  "id": "BANK-RSN-009",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a certain code, each letter is moved 2 steps forward in the alphabet. How is FISH written in that code?",
+  "options": [
+   "JMWL",
+   "ILVK",
+   "GJTI",
+   "HKUJ"
+  ],
+  "answer": "D",
+  "explanation": "Move each letter 2 step(s) ahead."
+ },
+ {
+  "id": "BANK-RSN-010",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a certain code, each letter is moved 3 steps forward in the alphabet. How is LAMP written in that code?",
+  "options": [
+   "QFRU",
+   "NCOR",
+   "PEQT",
+   "ODPS"
+  ],
+  "answer": "D",
+  "explanation": "Move each letter 3 step(s) ahead."
+ },
+ {
+  "id": "BANK-RSN-011",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a certain code, each letter is moved 1 step forward in the alphabet. How is TREE written in that code?",
+  "options": [
+   "USFF",
+   "TREE",
+   "VTGG",
+   "WUHH"
+  ],
+  "answer": "A",
+  "explanation": "Move each letter 1 step(s) ahead."
+ },
+ {
+  "id": "BANK-RSN-012",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a certain code, each letter is moved 2 steps forward in the alphabet. How is MILK written in that code?",
+  "options": [
+   "QMPO",
+   "PLON",
+   "OKNM",
+   "NJML"
+  ],
+  "answer": "C",
+  "explanation": "Move each letter 2 step(s) ahead."
+ },
+ {
+  "id": "BANK-RSN-013",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If A = 1, B = 2, C = 3 and so on, the sum of the letter values of the word CAB is",
+  "options": [
+   "9",
+   "10",
+   "6",
+   "7"
+  ],
+  "answer": "C",
+  "explanation": "Add the positions of C, A, B."
+ },
+ {
+  "id": "BANK-RSN-014",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If A = 1, B = 2, C = 3 and so on, the sum of the letter values of the word BED is",
+  "options": [
+   "13",
+   "12",
+   "8",
+   "11"
+  ],
+  "answer": "D",
+  "explanation": "Add the positions of B, E, D."
+ },
+ {
+  "id": "BANK-RSN-015",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If A = 1, B = 2, C = 3 and so on, the sum of the letter values of the word FACE is",
+  "options": [
+   "15",
+   "13",
+   "18",
+   "14"
+  ],
+  "answer": "A",
+  "explanation": "Add the positions of F, A, C, E."
+ },
+ {
+  "id": "BANK-RSN-016",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If A = 1, B = 2, C = 3 and so on, the sum of the letter values of the word DEAF is",
+  "options": [
+   "16",
+   "20",
+   "14",
+   "18"
+  ],
+  "answer": "A",
+  "explanation": "Add the positions of D, E, A, F."
+ },
+ {
+  "id": "BANK-RSN-017",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If A = 1, B = 2, C = 3 and so on, the sum of the letter values of the word BAG is",
+  "options": [
+   "12",
+   "10",
+   "9",
+   "11"
+  ],
+  "answer": "B",
+  "explanation": "Add the positions of B, A, G."
+ },
+ {
+  "id": "BANK-RSN-018",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If A = 1, B = 2, C = 3 and so on, the sum of the letter values of the word HEAD is",
+  "options": [
+   "15",
+   "17",
+   "18",
+   "22"
+  ],
+  "answer": "C",
+  "explanation": "Add the positions of H, E, A, D."
+ },
+ {
+  "id": "BANK-RSN-019",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If the word RAT is written in reverse order, we get",
+  "options": [
+   "RAT",
+   "ATR",
+   "TAR",
+   "TRA"
+  ],
+  "answer": "C",
+  "explanation": "Reverse the letters."
+ },
+ {
+  "id": "BANK-RSN-020",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If the word BAT is written in reverse order, we get",
+  "options": [
+   "TAB",
+   "ATB",
+   "BAT",
+   "TBA"
+  ],
+  "answer": "A",
+  "explanation": "Reverse the letters."
+ },
+ {
+  "id": "BANK-RSN-021",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If the word MAN is written in reverse order, we get",
+  "options": [
+   "MAN",
+   "NMA",
+   "NAM",
+   "ANM"
+  ],
+  "answer": "C",
+  "explanation": "Reverse the letters."
+ },
+ {
+  "id": "BANK-RSN-022",
+  "subject": "bank_reasoning",
+  "section": "Coding-Decoding",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If the word TOP is written in reverse order, we get",
+  "options": [
+   "OPT",
+   "POT",
+   "TOP",
+   "PTO"
+  ],
+  "answer": "B",
+  "explanation": "Reverse the letters."
+ },
+ {
+  "id": "BANK-RSN-023",
+  "subject": "bank_reasoning",
+  "section": "Alphabet Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which letter is the 4th to the left of J in the English alphabet?",
+  "options": [
+   "H",
+   "G",
+   "E",
+   "F"
+  ],
+  "answer": "D",
+  "explanation": "Count 4 places to the left of J."
+ },
+ {
+  "id": "BANK-RSN-024",
+  "subject": "bank_reasoning",
+  "section": "Alphabet Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which letter is the 3th to the right of M in the English alphabet?",
+  "options": [
+   "P",
+   "R",
+   "Q",
+   "O"
+  ],
+  "answer": "A",
+  "explanation": "Count 3 places to the right of M."
+ },
+ {
+  "id": "BANK-RSN-025",
+  "subject": "bank_reasoning",
+  "section": "Alphabet Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which letter is the 5th to the left of T in the English alphabet?",
+  "options": [
+   "P",
+   "Q",
+   "N",
+   "O"
+  ],
+  "answer": "D",
+  "explanation": "Count 5 places to the left of T."
+ },
+ {
+  "id": "BANK-RSN-026",
+  "subject": "bank_reasoning",
+  "section": "Alphabet Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which letter is the 6th to the right of D in the English alphabet?",
+  "options": [
+   "J",
+   "K",
+   "I",
+   "L"
+  ],
+  "answer": "A",
+  "explanation": "Count 6 places to the right of D."
+ },
+ {
+  "id": "BANK-RSN-027",
+  "subject": "bank_reasoning",
+  "section": "Alphabet Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which letter is the 7th to the left of P in the English alphabet?",
+  "options": [
+   "H",
+   "I",
+   "K",
+   "J"
+  ],
+  "answer": "B",
+  "explanation": "Count 7 places to the left of P."
+ },
+ {
+  "id": "BANK-RSN-028",
+  "subject": "bank_reasoning",
+  "section": "Alphabet Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which letter is the 8th to the right of G in the English alphabet?",
+  "options": [
+   "N",
+   "P",
+   "Q",
+   "O"
+  ],
+  "answer": "D",
+  "explanation": "Count 8 places to the right of G."
+ },
+ {
+  "id": "BANK-RSN-029",
+  "subject": "bank_reasoning",
+  "section": "Alphabet Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next letter: A, C, E, G, ?",
+  "options": [
+   "K",
+   "I",
+   "J",
+   "H"
+  ],
+  "answer": "B",
+  "explanation": "Letters change by +2 each time."
+ },
+ {
+  "id": "BANK-RSN-030",
+  "subject": "bank_reasoning",
+  "section": "Alphabet Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next letter: B, D, F, H, ?",
+  "options": [
+   "L",
+   "J",
+   "K",
+   "I"
+  ],
+  "answer": "B",
+  "explanation": "Letters change by +2 each time."
+ },
+ {
+  "id": "BANK-RSN-031",
+  "subject": "bank_reasoning",
+  "section": "Alphabet Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next letter: Z, X, V, T, ?",
+  "options": [
+   "T",
+   "Q",
+   "R",
+   "S"
+  ],
+  "answer": "C",
+  "explanation": "Letters change by -2 each time."
+ },
+ {
+  "id": "BANK-RSN-032",
+  "subject": "bank_reasoning",
+  "section": "Alphabet Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next letter: M, K, I, G, ?",
+  "options": [
+   "D",
+   "F",
+   "G",
+   "E"
+  ],
+  "answer": "D",
+  "explanation": "Letters change by -2 each time."
+ },
+ {
+  "id": "BANK-RSN-033",
+  "subject": "bank_reasoning",
+  "section": "Alphabet Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next letter: P, R, T, V, ?",
+  "options": [
+   "W",
+   "Z",
+   "X",
+   "Y"
+  ],
+  "answer": "C",
+  "explanation": "Letters change by +2 each time."
+ },
+ {
+  "id": "BANK-RSN-034",
+  "subject": "bank_reasoning",
+  "section": "Alphabet Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Find the next letter: D, G, J, M, ?",
+  "options": [
+   "Q",
+   "P",
+   "R",
+   "O"
+  ],
+  "answer": "B",
+  "explanation": "Letters change by +3 each time."
+ },
+ {
+  "id": "BANK-RSN-035",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 6, 10, 14, 18, 22, ?",
+  "options": [
+   "24",
+   "30",
+   "26",
+   "22"
+  ],
+  "answer": "C",
+  "explanation": "Add 4 each time."
+ },
+ {
+  "id": "BANK-RSN-036",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 11, 16, 21, 26, 31, ?",
+  "options": [
+   "38",
+   "34",
+   "36",
+   "44"
+  ],
+  "answer": "C",
+  "explanation": "Add 5 each time."
+ },
+ {
+  "id": "BANK-RSN-037",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 9, 17, 25, 33, 41, ?",
+  "options": [
+   "57",
+   "49",
+   "65",
+   "61"
+  ],
+  "answer": "B",
+  "explanation": "Add 8 each time."
+ },
+ {
+  "id": "BANK-RSN-038",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 30, 37, 44, 51, 58, ?",
+  "options": [
+   "65",
+   "59",
+   "74",
+   "71"
+  ],
+  "answer": "A",
+  "explanation": "Add 7 each time."
+ },
+ {
+  "id": "BANK-RSN-039",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 2, 15, 28, 41, 54, ?",
+  "options": [
+   "67",
+   "49",
+   "91",
+   "73"
+  ],
+  "answer": "A",
+  "explanation": "Add 13 each time."
+ },
+ {
+  "id": "BANK-RSN-040",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 50, 59, 68, 77, 86, ?",
+  "options": [
+   "95",
+   "83",
+   "91",
+   "99"
+  ],
+  "answer": "A",
+  "explanation": "Add 9 each time."
+ },
+ {
+  "id": "BANK-RSN-041",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 3, 6, 12, 24, 48, ?",
+  "options": [
+   "60",
+   "84",
+   "96",
+   "144"
+  ],
+  "answer": "C",
+  "explanation": "Multiply by 2 each time."
+ },
+ {
+  "id": "BANK-RSN-042",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 2, 10, 50, 250, ?",
+  "options": [
+   "1250",
+   "782",
+   "1562",
+   "1718"
+  ],
+  "answer": "A",
+  "explanation": "Multiply by 5 each time."
+ },
+ {
+  "id": "BANK-RSN-043",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 6, 12, 24, 48, 96, ?",
+  "options": [
+   "240",
+   "120",
+   "192",
+   "144"
+  ],
+  "answer": "C",
+  "explanation": "Multiply by 2 each time."
+ },
+ {
+  "id": "BANK-RSN-044",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 1, 3, 9, 27, 81, 243, ?",
+  "options": [
+   "729",
+   "820",
+   "638",
+   "547"
+  ],
+  "answer": "A",
+  "explanation": "Multiply by 3 each time."
+ },
+ {
+  "id": "BANK-RSN-045",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 5, 15, 45, 135, ?",
+  "options": [
+   "505",
+   "305",
+   "405",
+   "555"
+  ],
+  "answer": "C",
+  "explanation": "Multiply by 3 each time."
+ },
+ {
+  "id": "BANK-RSN-046",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 1, 8, 27, ?",
+  "options": [
+   "64",
+   "46",
+   "100",
+   "91"
+  ],
+  "answer": "A",
+  "explanation": "Cubes of consecutive numbers: 4³ = 64."
+ },
+ {
+  "id": "BANK-RSN-047",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 8, 27, 64, ?",
+  "options": [
+   "113",
+   "173",
+   "125",
+   "101"
+  ],
+  "answer": "C",
+  "explanation": "Cubes of consecutive numbers: 5³ = 125."
+ },
+ {
+  "id": "BANK-RSN-048",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 27, 64, 125, ?",
+  "options": [
+   "246",
+   "186",
+   "231",
+   "216"
+  ],
+  "answer": "D",
+  "explanation": "Cubes of consecutive numbers: 6³ = 216."
+ },
+ {
+  "id": "BANK-RSN-049",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 64, 125, 216, ?",
+  "options": [
+   "325",
+   "397",
+   "379",
+   "343"
+  ],
+  "answer": "D",
+  "explanation": "Cubes of consecutive numbers: 7³ = 343."
+ },
+ {
+  "id": "BANK-RSN-050",
+  "subject": "bank_reasoning",
+  "section": "Number Series",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What comes next: 125, 216, 343, ?",
+  "options": [
+   "491",
+   "470",
+   "575",
+   "512"
+  ],
+  "answer": "D",
+  "explanation": "Cubes of consecutive numbers: 8³ = 512."
+ },
+ {
+  "id": "BANK-RSN-051",
+  "subject": "bank_reasoning",
+  "section": "Direction Sense",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man walks 6 km north and then 8 km east. How far is he from the starting point?",
+  "options": [
+   "4 km",
+   "18 km",
+   "10 km",
+   "16 km"
+  ],
+  "answer": "C",
+  "explanation": "√(6² + 8²) = 10 km."
+ },
+ {
+  "id": "BANK-RSN-052",
+  "subject": "bank_reasoning",
+  "section": "Direction Sense",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man walks 5 km north and then 12 km east. How far is he from the starting point?",
+  "options": [
+   "17 km",
+   "19 km",
+   "13 km",
+   "21 km"
+  ],
+  "answer": "C",
+  "explanation": "√(5² + 12²) = 13 km."
+ },
+ {
+  "id": "BANK-RSN-053",
+  "subject": "bank_reasoning",
+  "section": "Direction Sense",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man walks 8 km north and then 15 km east. How far is he from the starting point?",
+  "options": [
+   "25 km",
+   "21 km",
+   "15 km",
+   "17 km"
+  ],
+  "answer": "D",
+  "explanation": "√(8² + 15²) = 17 km."
+ },
+ {
+  "id": "BANK-RSN-054",
+  "subject": "bank_reasoning",
+  "section": "Direction Sense",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man walks 9 km north and then 12 km east. How far is he from the starting point?",
+  "options": [
+   "21 km",
+   "9 km",
+   "15 km",
+   "17 km"
+  ],
+  "answer": "C",
+  "explanation": "√(9² + 12²) = 15 km."
+ },
+ {
+  "id": "BANK-RSN-055",
+  "subject": "bank_reasoning",
+  "section": "Direction Sense",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man walks 3 km north and then 4 km east. How far is he from the starting point?",
+  "options": [
+   "11 km",
+   "7 km",
+   "5 km",
+   "1 km"
+  ],
+  "answer": "C",
+  "explanation": "√(3² + 4²) = 5 km."
+ },
+ {
+  "id": "BANK-RSN-056",
+  "subject": "bank_reasoning",
+  "section": "Direction Sense",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man walks 12 km north and then 16 km east. How far is he from the starting point?",
+  "options": [
+   "26 km",
+   "28 km",
+   "20 km",
+   "24 km"
+  ],
+  "answer": "C",
+  "explanation": "√(12² + 16²) = 20 km."
+ },
+ {
+  "id": "BANK-RSN-057",
+  "subject": "bank_reasoning",
+  "section": "Direction Sense",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A man walks 7 km north and then 24 km east. How far is he from the starting point?",
+  "options": [
+   "29 km",
+   "27 km",
+   "25 km",
+   "33 km"
+  ],
+  "answer": "C",
+  "explanation": "√(7² + 24²) = 25 km."
+ },
+ {
+  "id": "BANK-RSN-058",
+  "subject": "bank_reasoning",
+  "section": "Direction Sense",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A person is facing North. He turns right. Which direction is he facing now?",
+  "options": [
+   "South",
+   "West",
+   "East",
+   "North"
+  ],
+  "answer": "C",
+  "explanation": "A 90° right turn from North gives East."
+ },
+ {
+  "id": "BANK-RSN-059",
+  "subject": "bank_reasoning",
+  "section": "Direction Sense",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A person is facing East. He turns right. Which direction is he facing now?",
+  "options": [
+   "North",
+   "South",
+   "West",
+   "East"
+  ],
+  "answer": "B",
+  "explanation": "A 90° right turn from East gives South."
+ },
+ {
+  "id": "BANK-RSN-060",
+  "subject": "bank_reasoning",
+  "section": "Direction Sense",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A person is facing South. He turns left. Which direction is he facing now?",
+  "options": [
+   "West",
+   "North",
+   "South",
+   "East"
+  ],
+  "answer": "D",
+  "explanation": "A 90° left turn from South gives East."
+ },
+ {
+  "id": "BANK-RSN-061",
+  "subject": "bank_reasoning",
+  "section": "Direction Sense",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A person is facing West. He turns left. Which direction is he facing now?",
+  "options": [
+   "West",
+   "North",
+   "South",
+   "East"
+  ],
+  "answer": "C",
+  "explanation": "A 90° left turn from West gives South."
+ },
+ {
+  "id": "BANK-RSN-062",
+  "subject": "bank_reasoning",
+  "section": "Direction Sense",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A person is facing North. He turns left. Which direction is he facing now?",
+  "options": [
+   "West",
+   "East",
+   "North",
+   "South"
+  ],
+  "answer": "A",
+  "explanation": "A 90° left turn from North gives West."
+ },
+ {
+  "id": "BANK-RSN-063",
+  "subject": "bank_reasoning",
+  "section": "Direction Sense",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A person is facing East. He turns left. Which direction is he facing now?",
+  "options": [
+   "West",
+   "East",
+   "South",
+   "North"
+  ],
+  "answer": "D",
+  "explanation": "A 90° left turn from East gives North."
+ },
+ {
+  "id": "BANK-RSN-064",
+  "subject": "bank_reasoning",
+  "section": "Ranking & Order",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a row of 40 students, Rohan is 12th from the left. What is his position from the right?",
+  "options": [
+   "27th",
+   "30th",
+   "31st",
+   "29th"
+  ],
+  "answer": "D",
+  "explanation": "40 − 12 + 1 = 29."
+ },
+ {
+  "id": "BANK-RSN-065",
+  "subject": "bank_reasoning",
+  "section": "Ranking & Order",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a row of 35 students, Rohan is 8th from the left. What is his position from the right?",
+  "options": [
+   "30th",
+   "31st",
+   "28th",
+   "25th"
+  ],
+  "answer": "C",
+  "explanation": "35 − 8 + 1 = 28."
+ },
+ {
+  "id": "BANK-RSN-066",
+  "subject": "bank_reasoning",
+  "section": "Ranking & Order",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a row of 50 students, Rohan is 20th from the left. What is his position from the right?",
+  "options": [
+   "34th",
+   "28th",
+   "29th",
+   "31st"
+  ],
+  "answer": "D",
+  "explanation": "50 − 20 + 1 = 31."
+ },
+ {
+  "id": "BANK-RSN-067",
+  "subject": "bank_reasoning",
+  "section": "Ranking & Order",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a row of 30 students, Rohan is 7th from the left. What is his position from the right?",
+  "options": [
+   "24th",
+   "21st",
+   "26th",
+   "25th"
+  ],
+  "answer": "A",
+  "explanation": "30 − 7 + 1 = 24."
+ },
+ {
+  "id": "BANK-RSN-068",
+  "subject": "bank_reasoning",
+  "section": "Ranking & Order",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a row of 45 students, Rohan is 15th from the left. What is his position from the right?",
+  "options": [
+   "28th",
+   "33rd",
+   "31st",
+   "34th"
+  ],
+  "answer": "C",
+  "explanation": "45 − 15 + 1 = 31."
+ },
+ {
+  "id": "BANK-RSN-069",
+  "subject": "bank_reasoning",
+  "section": "Ranking & Order",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "In a row of 60 students, Rohan is 25th from the left. What is his position from the right?",
+  "options": [
+   "38th",
+   "33rd",
+   "36th",
+   "35th"
+  ],
+  "answer": "C",
+  "explanation": "60 − 25 + 1 = 36."
+ },
+ {
+  "id": "BANK-RSN-070",
+  "subject": "bank_reasoning",
+  "section": "Ranking & Order",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Amit is 8th from the left and 13th from the right in a row. How many persons are there in the row?",
+  "options": [
+   "20",
+   "18",
+   "21",
+   "22"
+  ],
+  "answer": "A",
+  "explanation": "8 + 13 − 1 = 20."
+ },
+ {
+  "id": "BANK-RSN-071",
+  "subject": "bank_reasoning",
+  "section": "Ranking & Order",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Amit is 10th from the left and 15th from the right in a row. How many persons are there in the row?",
+  "options": [
+   "24",
+   "26",
+   "27",
+   "28"
+  ],
+  "answer": "A",
+  "explanation": "10 + 15 − 1 = 24."
+ },
+ {
+  "id": "BANK-RSN-072",
+  "subject": "bank_reasoning",
+  "section": "Ranking & Order",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Amit is 12th from the left and 9th from the right in a row. How many persons are there in the row?",
+  "options": [
+   "24",
+   "20",
+   "21",
+   "19"
+  ],
+  "answer": "B",
+  "explanation": "12 + 9 − 1 = 20."
+ },
+ {
+  "id": "BANK-RSN-073",
+  "subject": "bank_reasoning",
+  "section": "Ranking & Order",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Amit is 7th from the left and 18th from the right in a row. How many persons are there in the row?",
+  "options": [
+   "23",
+   "21",
+   "24",
+   "22"
+  ],
+  "answer": "C",
+  "explanation": "7 + 18 − 1 = 24."
+ },
+ {
+  "id": "BANK-RSN-074",
+  "subject": "bank_reasoning",
+  "section": "Ranking & Order",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Amit is 15th from the left and 20th from the right in a row. How many persons are there in the row?",
+  "options": [
+   "35",
+   "34",
+   "32",
+   "38"
+  ],
+  "answer": "B",
+  "explanation": "15 + 20 − 1 = 34."
+ },
+ {
+  "id": "BANK-RSN-075",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the angle between the hands of a clock at 3:00?",
+  "options": [
+   "135°",
+   "90°",
+   "150°",
+   "60°"
+  ],
+  "answer": "B",
+  "explanation": "|30×3 − 5.5×0| = 90°."
+ },
+ {
+  "id": "BANK-RSN-076",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the angle between the hands of a clock at 6:00?",
+  "options": [
+   "180°",
+   "225°",
+   "165°",
+   "210°"
+  ],
+  "answer": "A",
+  "explanation": "|30×6 − 5.5×0| = 180°."
+ },
+ {
+  "id": "BANK-RSN-077",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the angle between the hands of a clock at 9:00?",
+  "options": [
+   "105°",
+   "75°",
+   "90°",
+   "120°"
+  ],
+  "answer": "C",
+  "explanation": "|30×9 − 5.5×0| = 90°."
+ },
+ {
+  "id": "BANK-RSN-078",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the angle between the hands of a clock at 2:00?",
+  "options": [
+   "60°",
+   "105°",
+   "120°",
+   "90°"
+  ],
+  "answer": "A",
+  "explanation": "|30×2 − 5.5×0| = 60°."
+ },
+ {
+  "id": "BANK-RSN-079",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the angle between the hands of a clock at 4:00?",
+  "options": [
+   "165°",
+   "75°",
+   "180°",
+   "120°"
+  ],
+  "answer": "D",
+  "explanation": "|30×4 − 5.5×0| = 120°."
+ },
+ {
+  "id": "BANK-RSN-080",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the angle between the hands of a clock at 12:30?",
+  "options": [
+   "180°",
+   "120°",
+   "165°",
+   "195°"
+  ],
+  "answer": "C",
+  "explanation": "|30×12 − 5.5×30| = 165°."
+ },
+ {
+  "id": "BANK-RSN-081",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the angle between the hands of a clock at 3:30?",
+  "options": [
+   "75°",
+   "135°",
+   "45°",
+   "105°"
+  ],
+  "answer": "A",
+  "explanation": "|30×3 − 5.5×30| = 75°."
+ },
+ {
+  "id": "BANK-RSN-082",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the angle between the hands of a clock at 6:30?",
+  "options": [
+   "0°",
+   "75°",
+   "15°",
+   "30°"
+  ],
+  "answer": "C",
+  "explanation": "|30×6 − 5.5×30| = 15°."
+ },
+ {
+  "id": "BANK-RSN-083",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the angle between the hands of a clock at 9:30?",
+  "options": [
+   "90°",
+   "60°",
+   "120°",
+   "105°"
+  ],
+  "answer": "D",
+  "explanation": "|30×9 − 5.5×30| = 105°."
+ },
+ {
+  "id": "BANK-RSN-084",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the angle between the hands of a clock at 2:30?",
+  "options": [
+   "105°",
+   "120°",
+   "90°",
+   "150°"
+  ],
+  "answer": "A",
+  "explanation": "|30×2 − 5.5×30| = 105°."
+ },
+ {
+  "id": "BANK-RSN-085",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If today is Monday, what day will it be after 10 days?",
+  "options": [
+   "Thursday",
+   "Tuesday",
+   "Monday",
+   "Wednesday"
+  ],
+  "answer": "A",
+  "explanation": "10 mod 7 = 3; Monday + 3 = Thursday."
+ },
+ {
+  "id": "BANK-RSN-086",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If today is Wednesday, what day will it be after 15 days?",
+  "options": [
+   "Monday",
+   "Tuesday",
+   "Thursday",
+   "Wednesday"
+  ],
+  "answer": "C",
+  "explanation": "15 mod 7 = 1; Wednesday + 1 = Thursday."
+ },
+ {
+  "id": "BANK-RSN-087",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If today is Friday, what day will it be after 20 days?",
+  "options": [
+   "Wednesday",
+   "Monday",
+   "Thursday",
+   "Tuesday"
+  ],
+  "answer": "C",
+  "explanation": "20 mod 7 = 6; Friday + 6 = Thursday."
+ },
+ {
+  "id": "BANK-RSN-088",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If today is Sunday, what day will it be after 9 days?",
+  "options": [
+   "Tuesday",
+   "Monday",
+   "Wednesday",
+   "Thursday"
+  ],
+  "answer": "A",
+  "explanation": "9 mod 7 = 2; Sunday + 2 = Tuesday."
+ },
+ {
+  "id": "BANK-RSN-089",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If today is Tuesday, what day will it be after 30 days?",
+  "options": [
+   "Tuesday",
+   "Wednesday",
+   "Thursday",
+   "Monday"
+  ],
+  "answer": "C",
+  "explanation": "30 mod 7 = 2; Tuesday + 2 = Thursday."
+ },
+ {
+  "id": "BANK-RSN-090",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If today is Saturday, what day will it be after 45 days?",
+  "options": [
+   "Wednesday",
+   "Tuesday",
+   "Monday",
+   "Thursday"
+  ],
+  "answer": "B",
+  "explanation": "45 mod 7 = 3; Saturday + 3 = Tuesday."
+ },
+ {
+  "id": "BANK-RSN-091",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If today is Thursday, what day will it be after 100 days?",
+  "options": [
+   "Tuesday",
+   "Monday",
+   "Wednesday",
+   "Saturday"
+  ],
+  "answer": "D",
+  "explanation": "100 mod 7 = 2; Thursday + 2 = Saturday."
+ },
+ {
+  "id": "BANK-RSN-092",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Is the year 2020 a leap year?",
+  "options": [
+   "Yes",
+   "Only if divisible by 3",
+   "Cannot be said",
+   "No"
+  ],
+  "answer": "A",
+  "explanation": "A leap year is divisible by 4 (century years need divisibility by 400)."
+ },
+ {
+  "id": "BANK-RSN-093",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Is the year 2023 a leap year?",
+  "options": [
+   "Only if divisible by 3",
+   "No",
+   "Yes",
+   "Cannot be said"
+  ],
+  "answer": "B",
+  "explanation": "A leap year is divisible by 4 (century years need divisibility by 400)."
+ },
+ {
+  "id": "BANK-RSN-094",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Is the year 2024 a leap year?",
+  "options": [
+   "Only if divisible by 3",
+   "Yes",
+   "Cannot be said",
+   "No"
+  ],
+  "answer": "B",
+  "explanation": "A leap year is divisible by 4 (century years need divisibility by 400)."
+ },
+ {
+  "id": "BANK-RSN-095",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Is the year 2000 a leap year?",
+  "options": [
+   "Cannot be said",
+   "Yes",
+   "No",
+   "Only if divisible by 3"
+  ],
+  "answer": "B",
+  "explanation": "A leap year is divisible by 4 (century years need divisibility by 400)."
+ },
+ {
+  "id": "BANK-RSN-096",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Is the year 1900 a leap year?",
+  "options": [
+   "Cannot be said",
+   "Yes",
+   "No",
+   "Only if divisible by 3"
+  ],
+  "answer": "C",
+  "explanation": "A leap year is divisible by 4 (century years need divisibility by 400)."
+ },
+ {
+  "id": "BANK-RSN-097",
+  "subject": "bank_reasoning",
+  "section": "Clock & Calendar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Is the year 2100 a leap year?",
+  "options": [
+   "Only if divisible by 3",
+   "Yes",
+   "Cannot be said",
+   "No"
+  ],
+  "answer": "D",
+  "explanation": "A leap year is divisible by 4 (century years need divisibility by 400)."
+ },
+ {
+  "id": "BANK-RSN-098",
+  "subject": "bank_reasoning",
+  "section": "Inequality",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Statement: P > Q ≥ R = S. Which of the following is definitely true?",
+  "options": [
+   "S > P",
+   "R > P",
+   "P > S",
+   "Q = S"
+  ],
+  "answer": "C",
+  "explanation": "Combine the relations step by step; strict inequality carries through the chain."
+ },
+ {
+  "id": "BANK-RSN-099",
+  "subject": "bank_reasoning",
+  "section": "Inequality",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Statement: M ≤ N < O ≤ P. Which of the following is definitely true?",
+  "options": [
+   "M < P",
+   "O < M",
+   "N > P",
+   "M > P"
+  ],
+  "answer": "A",
+  "explanation": "Combine the relations step by step; strict inequality carries through the chain."
+ },
+ {
+  "id": "BANK-RSN-100",
+  "subject": "bank_reasoning",
+  "section": "Inequality",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Statement: A = B ≥ C > D. Which of the following is definitely true?",
+  "options": [
+   "D > A",
+   "A > D",
+   "C > A",
+   "B < D"
+  ],
+  "answer": "B",
+  "explanation": "Combine the relations step by step; strict inequality carries through the chain."
+ },
+ {
+  "id": "BANK-RSN-101",
+  "subject": "bank_reasoning",
+  "section": "Inequality",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Statement: X < Y ≤ Z = W. Which of the following is definitely true?",
+  "options": [
+   "Y > W",
+   "X < W",
+   "Z < X",
+   "X > W"
+  ],
+  "answer": "B",
+  "explanation": "Combine the relations step by step; strict inequality carries through the chain."
+ },
+ {
+  "id": "BANK-RSN-102",
+  "subject": "bank_reasoning",
+  "section": "Inequality",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Statement: K ≥ L > M = N. Which of the following is definitely true?",
+  "options": [
+   "K > N",
+   "N > K",
+   "L < N",
+   "M > K"
+  ],
+  "answer": "A",
+  "explanation": "Combine the relations step by step; strict inequality carries through the chain."
+ },
+ {
+  "id": "BANK-RSN-103",
+  "subject": "bank_reasoning",
+  "section": "Inequality",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Statement: T < U = V ≤ W. Which of the following is definitely true?",
+  "options": [
+   "U > W",
+   "T > W",
+   "T < W",
+   "V < T"
+  ],
+  "answer": "C",
+  "explanation": "Combine the relations step by step; strict inequality carries through the chain."
+ },
+ {
+  "id": "BANK-RSN-104",
+  "subject": "bank_reasoning",
+  "section": "Syllogism",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Statements: All pens are books. All books are tables. Conclusion: All pens are tables.",
+  "options": [
+   "Does not follow",
+   "Cannot be said",
+   "Follows",
+   "Only partly follows"
+  ],
+  "answer": "C",
+  "explanation": "Pens ⊂ books ⊂ tables."
+ },
+ {
+  "id": "BANK-RSN-105",
+  "subject": "bank_reasoning",
+  "section": "Syllogism",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Statements: Some doctors are teachers. All teachers are writers. Conclusion: Some doctors are writers.",
+  "options": [
+   "Cannot be said",
+   "Follows",
+   "Only partly follows",
+   "Does not follow"
+  ],
+  "answer": "B",
+  "explanation": "The doctors who are teachers are also writers."
+ },
+ {
+  "id": "BANK-RSN-106",
+  "subject": "bank_reasoning",
+  "section": "Syllogism",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Statements: All roses are flowers. Some flowers are red. Conclusion: Some roses are red.",
+  "options": [
+   "No rose is red",
+   "Does not follow",
+   "All roses are red",
+   "Follows"
+  ],
+  "answer": "B",
+  "explanation": "The red flowers may not include any rose."
+ },
+ {
+  "id": "BANK-RSN-107",
+  "subject": "bank_reasoning",
+  "section": "Syllogism",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Statements: No cat is a dog. All dogs are animals. Conclusion: No cat is an animal.",
+  "options": [
+   "All cats are animals",
+   "Some dogs are cats",
+   "Does not follow",
+   "Follows"
+  ],
+  "answer": "C",
+  "explanation": "Cats can still be animals through another route; nothing forbids it."
+ },
+ {
+  "id": "BANK-RSN-108",
+  "subject": "bank_reasoning",
+  "section": "Blood Relations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Pointing to a man, a woman said, 'He is the son of my mother's only brother.' How is the man related to the woman?",
+  "options": [
+   "Uncle",
+   "Cousin",
+   "Brother",
+   "Nephew"
+  ],
+  "answer": "B",
+  "explanation": "Her mother's brother is her maternal uncle; his son is her cousin."
+ },
+ {
+  "id": "BANK-RSN-109",
+  "subject": "bank_reasoning",
+  "section": "Blood Relations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A is B's sister. C is B's mother. D is C's father. E is D's mother. How is A related to D?",
+  "options": [
+   "Sister",
+   "Granddaughter",
+   "Daughter",
+   "Niece"
+  ],
+  "answer": "B",
+  "explanation": "A is C's daughter, and C is D's daughter, so A is D's granddaughter."
+ },
+ {
+  "id": "BANK-RSN-110",
+  "subject": "bank_reasoning",
+  "section": "Blood Relations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If P is the brother of Q, and Q is the sister of R, how is R related to P?",
+  "options": [
+   "Cousin",
+   "Brother or sister",
+   "Uncle",
+   "Father"
+  ],
+  "answer": "B",
+  "explanation": "P, Q and R are siblings (R's gender is not given)."
+ },
+ {
+  "id": "BANK-RSN-111",
+  "subject": "bank_reasoning",
+  "section": "Blood Relations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Introducing a girl, Raju said, 'Her mother is the only daughter of my mother.' How is the girl related to Raju?",
+  "options": [
+   "Sister",
+   "Niece",
+   "Aunt",
+   "Cousin"
+  ],
+  "answer": "B",
+  "explanation": "Raju's mother's only daughter is Raju's sister; her daughter is Raju's niece."
+ },
+ {
+  "id": "BANK-RSN-112",
+  "subject": "bank_reasoning",
+  "section": "Analogy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Doctor : Patient :: Teacher : ?",
+  "options": [
+   "School",
+   "Class",
+   "Book",
+   "Student"
+  ],
+  "answer": "D",
+  "explanation": "Find the relation in the first pair and apply it to the second."
+ },
+ {
+  "id": "BANK-RSN-113",
+  "subject": "bank_reasoning",
+  "section": "Analogy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Eye : See :: Ear : ?",
+  "options": [
+   "Sound",
+   "Listen",
+   "Speak",
+   "Hear"
+  ],
+  "answer": "D",
+  "explanation": "Find the relation in the first pair and apply it to the second."
+ },
+ {
+  "id": "BANK-RSN-114",
+  "subject": "bank_reasoning",
+  "section": "Analogy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Day : Night :: Hot : ?",
+  "options": [
+   "Summer",
+   "Cold",
+   "Sun",
+   "Warm"
+  ],
+  "answer": "B",
+  "explanation": "Find the relation in the first pair and apply it to the second."
+ },
+ {
+  "id": "BANK-RSN-115",
+  "subject": "bank_reasoning",
+  "section": "Analogy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Book : Library :: Painting : ?",
+  "options": [
+   "Gallery",
+   "Colour",
+   "Artist",
+   "Canvas"
+  ],
+  "answer": "A",
+  "explanation": "Find the relation in the first pair and apply it to the second."
+ },
+ {
+  "id": "BANK-RSN-116",
+  "subject": "bank_reasoning",
+  "section": "Analogy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Hand : Wrist :: Leg : ?",
+  "options": [
+   "Knee",
+   "Ankle",
+   "Foot",
+   "Thigh"
+  ],
+  "answer": "B",
+  "explanation": "Find the relation in the first pair and apply it to the second."
+ },
+ {
+  "id": "BANK-RSN-117",
+  "subject": "bank_reasoning",
+  "section": "Analogy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Bee : Hive :: Horse : ?",
+  "options": [
+   "Stable",
+   "Race",
+   "Field",
+   "Saddle"
+  ],
+  "answer": "A",
+  "explanation": "Find the relation in the first pair and apply it to the second."
+ },
+ {
+  "id": "BANK-RSN-118",
+  "subject": "bank_reasoning",
+  "section": "Odd One Out",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the odd one out: Apple, Banana, Carrot, Mango",
+  "options": [
+   "Mango",
+   "Banana",
+   "Apple",
+   "Carrot"
+  ],
+  "answer": "D",
+  "explanation": "Three of the four share a property; one does not."
+ },
+ {
+  "id": "BANK-RSN-119",
+  "subject": "bank_reasoning",
+  "section": "Odd One Out",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the odd one out: 16, 25, 36, 50",
+  "options": [
+   "50",
+   "36",
+   "16",
+   "25"
+  ],
+  "answer": "A",
+  "explanation": "Three of the four share a property; one does not."
+ },
+ {
+  "id": "BANK-RSN-120",
+  "subject": "bank_reasoning",
+  "section": "Odd One Out",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the odd one out: Tiger, Lion, Cheetah, Buffalo",
+  "options": [
+   "Tiger",
+   "Cheetah",
+   "Buffalo",
+   "Lion"
+  ],
+  "answer": "C",
+  "explanation": "Three of the four share a property; one does not."
+ },
+ {
+  "id": "BANK-RSN-121",
+  "subject": "bank_reasoning",
+  "section": "Odd One Out",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the odd one out: Mumbai, Chennai, Kolkata, Lahore",
+  "options": [
+   "Mumbai",
+   "Lahore",
+   "Chennai",
+   "Kolkata"
+  ],
+  "answer": "B",
+  "explanation": "Three of the four share a property; one does not."
+ },
+ {
+  "id": "BANK-RSN-122",
+  "subject": "bank_reasoning",
+  "section": "Odd One Out",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the odd one out: Pen, Pencil, Eraser, Chalk",
+  "options": [
+   "Chalk",
+   "Pen",
+   "Eraser",
+   "Pencil"
+  ],
+  "answer": "C",
+  "explanation": "Three of the four share a property; one does not."
+ },
+ {
+  "id": "BANK-RSN-123",
+  "subject": "bank_reasoning",
+  "section": "Odd One Out",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the odd one out: 3, 5, 7, 9",
+  "options": [
+   "7",
+   "9",
+   "3",
+   "5"
+  ],
+  "answer": "B",
+  "explanation": "Three of the four share a property; one does not."
+ },
+ {
+  "id": "BANK-ENG-001",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'ABANDON'.",
+  "options": [
+   "Adopt",
+   "Keep",
+   "Desert",
+   "Protect"
+  ],
+  "answer": "C",
+  "explanation": "Abandon is closest in meaning to desert."
+ },
+ {
+  "id": "BANK-ENG-002",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'CANDID'.",
+  "options": [
+   "Rude",
+   "Secretive",
+   "Shy",
+   "Frank"
+  ],
+  "answer": "D",
+  "explanation": "Candid is closest in meaning to frank."
+ },
+ {
+  "id": "BANK-ENG-003",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'METICULOUS'.",
+  "options": [
+   "Lazy",
+   "Careless",
+   "Careful",
+   "Quick"
+  ],
+  "answer": "C",
+  "explanation": "Meticulous is closest in meaning to careful."
+ },
+ {
+  "id": "BANK-ENG-004",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'OBSOLETE'.",
+  "options": [
+   "Valuable",
+   "Useful",
+   "Modern",
+   "Outdated"
+  ],
+  "answer": "D",
+  "explanation": "Obsolete is closest in meaning to outdated."
+ },
+ {
+  "id": "BANK-ENG-005",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'ARTIFICIAL'.",
+  "options": [
+   "Natural",
+   "False",
+   "Fake",
+   "Man-made"
+  ],
+  "answer": "A",
+  "explanation": "The opposite of artificial is natural."
+ },
+ {
+  "id": "BANK-ENG-006",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'SCARCE'.",
+  "options": [
+   "Limited",
+   "Little",
+   "Rare",
+   "Plentiful"
+  ],
+  "answer": "D",
+  "explanation": "The opposite of scarce is plentiful."
+ },
+ {
+  "id": "BANK-ENG-007",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'ENCOURAGE'.",
+  "options": [
+   "Support",
+   "Discourage",
+   "Motivate",
+   "Inspire"
+  ],
+  "answer": "B",
+  "explanation": "The opposite of encourage is discourage."
+ },
+ {
+  "id": "BANK-ENG-008",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'VICE'.",
+  "options": [
+   "Evil",
+   "Fault",
+   "Virtue",
+   "Sin"
+  ],
+  "answer": "C",
+  "explanation": "The opposite of vice is virtue."
+ },
+ {
+  "id": "BANK-ENG-009",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "He has been working here ___ five years.",
+  "options": [
+   "since",
+   "from",
+   "at",
+   "for"
+  ],
+  "answer": "D",
+  "explanation": "'For' is used with a period of time; 'since' with a point in time."
+ },
+ {
+  "id": "BANK-ENG-010",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Each of the students ___ a laptop.",
+  "options": [
+   "were",
+   "have",
+   "are",
+   "has"
+  ],
+  "answer": "D",
+  "explanation": "'Each of' takes a singular verb."
+ },
+ {
+  "id": "BANK-ENG-011",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "If I ___ you, I would accept the offer.",
+  "options": [
+   "be",
+   "was",
+   "were",
+   "am"
+  ],
+  "answer": "C",
+  "explanation": "Unreal condition uses 'were'."
+ },
+ {
+  "id": "BANK-ENG-012",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "She is the ___ of the two sisters.",
+  "options": [
+   "more tall",
+   "tall",
+   "tallest",
+   "taller"
+  ],
+  "answer": "D",
+  "explanation": "Comparison between two uses the comparative degree."
+ },
+ {
+  "id": "BANK-ENG-013",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "I look forward ___ meeting you.",
+  "options": [
+   "for",
+   "at",
+   "in",
+   "to"
+  ],
+  "answer": "D",
+  "explanation": "'Look forward to' is followed by the -ing form."
+ },
+ {
+  "id": "BANK-ENG-014",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "He prevented me ___ going there.",
+  "options": [
+   "to",
+   "at",
+   "of",
+   "from"
+  ],
+  "answer": "D",
+  "explanation": "Prevent someone from doing something."
+ },
+ {
+  "id": "BANK-ENG-015",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The news ___ true.",
+  "options": [
+   "have been",
+   "is",
+   "were",
+   "are"
+  ],
+  "answer": "B",
+  "explanation": "'News' is an uncountable noun and takes a singular verb."
+ },
+ {
+  "id": "BANK-ENG-016",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "She said that she ___ the book.",
+  "options": [
+   "has read",
+   "had read",
+   "will read",
+   "reads"
+  ],
+  "answer": "B",
+  "explanation": "In reported speech the past perfect is used."
+ },
+ {
+  "id": "BANK-ENG-017",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Hardly had he reached the station ___ the train left.",
+  "options": [
+   "than",
+   "while",
+   "then",
+   "when"
+  ],
+  "answer": "D",
+  "explanation": "'Hardly ... when' is the correct pair."
+ },
+ {
+  "id": "BANK-ENG-018",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "No sooner had he come ___ it started raining.",
+  "options": [
+   "than",
+   "then",
+   "that",
+   "when"
+  ],
+  "answer": "A",
+  "explanation": "'No sooner ... than' is the correct pair."
+ },
+ {
+  "id": "BANK-ENG-019",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The plural of 'analysis' is",
+  "options": [
+   "Analyses",
+   "Analysises",
+   "Analysees",
+   "Analysis"
+  ],
+  "answer": "A",
+  "explanation": "Analysis → analyses."
+ },
+ {
+  "id": "BANK-ENG-020",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the correctly spelt word (hint: G...).",
+  "options": [
+   "Govermant",
+   "Governmant",
+   "Goverment",
+   "Government"
+  ],
+  "answer": "D",
+  "explanation": "The correct spelling is Government."
+ },
+ {
+  "id": "BANK-ENG-021",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the correctly spelt word (hint: A...).",
+  "options": [
+   "Acommodation",
+   "Accomadation",
+   "Accommodation",
+   "Accomodation"
+  ],
+  "answer": "C",
+  "explanation": "The correct spelling is Accommodation."
+ },
+ {
+  "id": "BANK-ENG-022",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the correctly spelt word (hint: S...).",
+  "options": [
+   "Seperate",
+   "Separate",
+   "Separete",
+   "Seprate"
+  ],
+  "answer": "B",
+  "explanation": "The correct spelling is Separate."
+ },
+ {
+  "id": "BANK-ENG-023",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the correctly spelt word (hint: E...).",
+  "options": [
+   "Enviornment",
+   "Enviroment",
+   "Environment",
+   "Envirnment"
+  ],
+  "answer": "C",
+  "explanation": "The correct spelling is Environment."
+ },
+ {
+  "id": "BANK-ENG-024",
+  "subject": "bank_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A person who walks in sleep is called a",
+  "options": [
+   "Insomniac",
+   "Narcoleptic",
+   "Pedestrian",
+   "Somnambulist"
+  ],
+  "answer": "D",
+  "explanation": "The word is Somnambulist."
+ },
+ {
+  "id": "BANK-ENG-025",
+  "subject": "bank_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A person who can speak two languages is called",
+  "options": [
+   "Linguist",
+   "Bilateral",
+   "Polyglot",
+   "Bilingual"
+  ],
+  "answer": "D",
+  "explanation": "The word is Bilingual."
+ },
+ {
+  "id": "BANK-ENG-026",
+  "subject": "bank_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A speech delivered without preparation is called",
+  "options": [
+   "Oration",
+   "Rehearsed",
+   "Extempore",
+   "Monologue"
+  ],
+  "answer": "C",
+  "explanation": "The word is Extempore."
+ },
+ {
+  "id": "BANK-ENG-027",
+  "subject": "bank_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A place where birds are kept is called an",
+  "options": [
+   "Apiary",
+   "Aquarium",
+   "Orchard",
+   "Aviary"
+  ],
+  "answer": "D",
+  "explanation": "The word is Aviary."
+ },
+ {
+  "id": "BANK-ENG-028",
+  "subject": "bank_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The study of ancient things and ruins is called",
+  "options": [
+   "Archaeology",
+   "Anthropology",
+   "Geology",
+   "Astrology"
+  ],
+  "answer": "A",
+  "explanation": "The word is Archaeology."
+ },
+ {
+  "id": "BANK-ENG-029",
+  "subject": "bank_english",
+  "section": "Idioms & Phrases",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The idiom 'to burn the midnight oil' means",
+  "options": [
+   "To work late into the night",
+   "To waste oil",
+   "To sleep early",
+   "To start a fire"
+  ],
+  "answer": "A",
+  "explanation": "Common idiom."
+ },
+ {
+  "id": "BANK-ENG-030",
+  "subject": "bank_english",
+  "section": "Idioms & Phrases",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The idiom 'to bite the bullet' means",
+  "options": [
+   "To avoid a problem",
+   "To fight with someone",
+   "To eat quickly",
+   "To face a difficult situation bravely"
+  ],
+  "answer": "D",
+  "explanation": "Common idiom."
+ },
+ {
+  "id": "BANK-ENG-031",
+  "subject": "bank_english",
+  "section": "Idioms & Phrases",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The idiom 'a blessing in disguise' means",
+  "options": [
+   "Something good that seemed bad at first",
+   "A secret gift",
+   "A religious act",
+   "A hidden curse"
+  ],
+  "answer": "A",
+  "explanation": "Common idiom."
+ },
+ {
+  "id": "BANK-ENG-032",
+  "subject": "bank_english",
+  "section": "Idioms & Phrases",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The idiom 'under the weather' means",
+  "options": [
+   "Standing in rain",
+   "Feeling slightly ill",
+   "Very happy",
+   "Travelling abroad"
+  ],
+  "answer": "B",
+  "explanation": "Common idiom."
+ },
+ {
+  "id": "BANK-ENG-033",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'ABUNDANT'.",
+  "options": [
+   "Scarce",
+   "Tiny",
+   "Plentiful",
+   "Costly"
+  ],
+  "answer": "C",
+  "explanation": "Abundant means existing in large quantities."
+ },
+ {
+  "id": "BANK-ENG-034",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'ANCIENT'.",
+  "options": [
+   "Modern",
+   "Historic",
+   "Antique",
+   "Old"
+  ],
+  "answer": "A",
+  "explanation": "Ancient means very old; the opposite is modern."
+ },
+ {
+  "id": "BANK-ENG-035",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'BRAVE'.",
+  "options": [
+   "Courageous",
+   "Timid",
+   "Careless",
+   "Lazy"
+  ],
+  "answer": "A",
+  "explanation": "Brave and courageous both mean showing no fear."
+ },
+ {
+  "id": "BANK-ENG-036",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'VICTORY'.",
+  "options": [
+   "Defeat",
+   "Triumph",
+   "Success",
+   "Win"
+  ],
+  "answer": "A",
+  "explanation": "The opposite of victory is defeat."
+ },
+ {
+  "id": "BANK-ENG-037",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the correctly spelt word.",
+  "options": [
+   "Nesessary",
+   "Necessary",
+   "Neccessary",
+   "Necesary"
+  ],
+  "answer": "B",
+  "explanation": "Necessary: one C and double S."
+ },
+ {
+  "id": "BANK-ENG-038",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Fill in the blank: She ____ to school every day.",
+  "options": [
+   "goes",
+   "go",
+   "gone",
+   "going"
+  ],
+  "answer": "A",
+  "explanation": "Third person singular present tense takes 'goes'."
+ },
+ {
+  "id": "BANK-ENG-039",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Fill in the blank: He has been living here ____ 2015.",
+  "options": [
+   "at",
+   "from",
+   "for",
+   "since"
+  ],
+  "answer": "D",
+  "explanation": "'Since' is used with a point in time."
+ },
+ {
+  "id": "BANK-ENG-040",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "What is the plural of 'child'?",
+  "options": [
+   "Childs",
+   "Childrens",
+   "Children",
+   "Childes"
+  ],
+  "answer": "C",
+  "explanation": "Child has an irregular plural."
+ },
+ {
+  "id": "BANK-ENG-041",
+  "subject": "bank_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Fear of heights is called",
+  "options": [
+   "Acrophobia",
+   "Xenophobia",
+   "Claustrophobia",
+   "Hydrophobia"
+  ],
+  "answer": "A",
+  "explanation": "Acrophobia = fear of heights."
+ },
+ {
+  "id": "BANK-ENG-042",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the passive form of 'They built a bridge.'",
+  "options": [
+   "A bridge built them.",
+   "A bridge was built by them.",
+   "They were built by a bridge.",
+   "A bridge is built by them."
+  ],
+  "answer": "B",
+  "explanation": "Simple past active → was/were + past participle."
+ },
+ {
+  "id": "BANK-ENG-043",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'RAPID'.",
+  "options": [
+   "Quick",
+   "Late",
+   "Slow",
+   "Gentle"
+  ],
+  "answer": "A",
+  "explanation": "Rapid means very fast."
+ },
+ {
+  "id": "BANK-ENG-044",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'DILIGENT'.",
+  "options": [
+   "Hardworking",
+   "Rude",
+   "Careless",
+   "Lazy"
+  ],
+  "answer": "A",
+  "explanation": "Diligent means showing careful and persistent effort."
+ },
+ {
+  "id": "BANK-ENG-045",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'GENEROUS'.",
+  "options": [
+   "Kind",
+   "Helpful",
+   "Stingy",
+   "Liberal"
+  ],
+  "answer": "C",
+  "explanation": "Generous means giving freely; the opposite is stingy."
+ },
+ {
+  "id": "BANK-ENG-046",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'EXPAND'.",
+  "options": [
+   "Grow",
+   "Extend",
+   "Spread",
+   "Contract"
+  ],
+  "answer": "D",
+  "explanation": "Expand means to become larger."
+ },
+ {
+  "id": "BANK-ENG-047",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the antonym of 'TRANSPARENT'.",
+  "options": [
+   "Bright",
+   "Opaque",
+   "Clear",
+   "Thin"
+  ],
+  "answer": "B",
+  "explanation": "Opaque does not let light through."
+ },
+ {
+  "id": "BANK-ENG-048",
+  "subject": "bank_english",
+  "section": "Synonyms & Antonyms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Choose the synonym of 'HUGE'.",
+  "options": [
+   "Enormous",
+   "Tiny",
+   "Weak",
+   "Narrow"
+  ],
+  "answer": "A",
+  "explanation": "Huge and enormous both mean very large."
+ },
+ {
+  "id": "BANK-ENG-049",
+  "subject": "bank_english",
+  "section": "Idioms & Phrases",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The idiom 'a piece of cake' means",
+  "options": [
+   "Something sweet",
+   "A small portion",
+   "A gift",
+   "Something very easy"
+  ],
+  "answer": "D",
+  "explanation": "It describes a task that is very easy."
+ },
+ {
+  "id": "BANK-ENG-050",
+  "subject": "bank_english",
+  "section": "Idioms & Phrases",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The idiom 'to break the ice' means",
+  "options": [
+   "To end a friendship",
+   "To break something",
+   "To feel cold",
+   "To start a conversation in an awkward situation"
+  ],
+  "answer": "D",
+  "explanation": "It means making people comfortable at the start."
+ },
+ {
+  "id": "BANK-ENG-051",
+  "subject": "bank_english",
+  "section": "Idioms & Phrases",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The idiom 'once in a blue moon' means",
+  "options": [
+   "At midnight",
+   "Very often",
+   "Every night",
+   "Very rarely"
+  ],
+  "answer": "D",
+  "explanation": "It describes something that happens very rarely."
+ },
+ {
+  "id": "BANK-ENG-052",
+  "subject": "bank_english",
+  "section": "Idioms & Phrases",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The idiom 'to spill the beans' means",
+  "options": [
+   "To waste food",
+   "To reveal a secret",
+   "To make a mess",
+   "To cook a meal"
+  ],
+  "answer": "B",
+  "explanation": "It means telling something that was meant to be secret."
+ },
+ {
+  "id": "BANK-ENG-053",
+  "subject": "bank_english",
+  "section": "Idioms & Phrases",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The idiom 'to hit the nail on the head' means",
+  "options": [
+   "To say exactly the right thing",
+   "To build a house",
+   "To hurt oneself",
+   "To work hard"
+  ],
+  "answer": "A",
+  "explanation": "It means to be exactly right."
+ },
+ {
+  "id": "BANK-ENG-054",
+  "subject": "bank_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "One who knows everything is called",
+  "options": [
+   "Optimist",
+   "Omniscient",
+   "Orator",
+   "Omnipotent"
+  ],
+  "answer": "B",
+  "explanation": "Omniscient = all-knowing."
+ },
+ {
+  "id": "BANK-ENG-055",
+  "subject": "bank_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A person who loves books is called a",
+  "options": [
+   "Bibliographer",
+   "Philosopher",
+   "Bibliophile",
+   "Librarian"
+  ],
+  "answer": "C",
+  "explanation": "Biblio = book, phile = lover."
+ },
+ {
+  "id": "BANK-ENG-056",
+  "subject": "bank_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Government by the people is called",
+  "options": [
+   "Democracy",
+   "Aristocracy",
+   "Monarchy",
+   "Autocracy"
+  ],
+  "answer": "A",
+  "explanation": "Democracy = rule by the people."
+ },
+ {
+  "id": "BANK-ENG-057",
+  "subject": "bank_english",
+  "section": "One Word Substitution",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The study of stars and planets is called",
+  "options": [
+   "Astrology",
+   "Zoology",
+   "Astronomy",
+   "Geology"
+  ],
+  "answer": "C",
+  "explanation": "Astronomy is the scientific study of celestial bodies."
+ },
+ {
+  "id": "BANK-ENG-058",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "He is good ___ mathematics.",
+  "options": [
+   "at",
+   "in",
+   "on",
+   "with"
+  ],
+  "answer": "A",
+  "explanation": "We say 'good at' a subject."
+ },
+ {
+  "id": "BANK-ENG-059",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "She is senior ___ me.",
+  "options": [
+   "from",
+   "to",
+   "over",
+   "than"
+  ],
+  "answer": "B",
+  "explanation": "Senior, junior, superior, inferior take 'to'."
+ },
+ {
+  "id": "BANK-ENG-060",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "He is ___ honest man.",
+  "options": [
+   "a",
+   "the",
+   "an",
+   "no article"
+  ],
+  "answer": "C",
+  "explanation": "Honest begins with a vowel sound, so 'an'."
+ },
+ {
+  "id": "BANK-ENG-061",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Neither of the boys ___ present.",
+  "options": [
+   "was",
+   "were",
+   "have been",
+   "are"
+  ],
+  "answer": "A",
+  "explanation": "'Neither of' takes a singular verb."
+ },
+ {
+  "id": "BANK-ENG-062",
+  "subject": "bank_english",
+  "section": "Grammar",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "They ___ playing football since morning.",
+  "options": [
+   "have been",
+   "were",
+   "has been",
+   "are"
+  ],
+  "answer": "A",
+  "explanation": "Present perfect continuous with 'since'."
+ },
+ {
+  "id": "BANK-GA-001",
+  "subject": "bank_ga",
+  "section": "RBI & Monetary Policy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Reserve Bank of India was established in the year",
+  "options": [
+   "1947",
+   "1949",
+   "1935",
+   "1969"
+  ],
+  "answer": "C",
+  "explanation": "RBI began operations on 1 April 1935."
+ },
+ {
+  "id": "BANK-GA-002",
+  "subject": "bank_ga",
+  "section": "RBI & Monetary Policy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of the Reserve Bank of India is in",
+  "options": [
+   "Mumbai",
+   "Chennai",
+   "New Delhi",
+   "Kolkata"
+  ],
+  "answer": "A",
+  "explanation": "RBI's central office is in Mumbai."
+ },
+ {
+  "id": "BANK-GA-003",
+  "subject": "bank_ga",
+  "section": "RBI & Monetary Policy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Reserve Bank of India was nationalised in",
+  "options": [
+   "1947",
+   "1949",
+   "1955",
+   "1935"
+  ],
+  "answer": "B",
+  "explanation": "Nationalised on 1 January 1949."
+ },
+ {
+  "id": "BANK-GA-004",
+  "subject": "bank_ga",
+  "section": "RBI & Monetary Policy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Who was the first Governor of the Reserve Bank of India?",
+  "options": [
+   "C. D. Deshmukh",
+   "Sir James Taylor",
+   "Benegal Rama Rau",
+   "Sir Osborne Smith"
+  ],
+  "answer": "D",
+  "explanation": "Sir Osborne Smith was the first Governor (1935)."
+ },
+ {
+  "id": "BANK-GA-005",
+  "subject": "bank_ga",
+  "section": "RBI & Monetary Policy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Who was the first Indian Governor of the Reserve Bank of India?",
+  "options": [
+   "Manmohan Singh",
+   "I. G. Patel",
+   "C. D. Deshmukh",
+   "Sir Osborne Smith"
+  ],
+  "answer": "C",
+  "explanation": "C. D. Deshmukh took charge in 1943."
+ },
+ {
+  "id": "BANK-GA-006",
+  "subject": "bank_ga",
+  "section": "RBI & Monetary Policy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Cash Reserve Ratio (CRR) is the percentage of deposits that banks must keep with",
+  "options": [
+   "SEBI",
+   "The Government",
+   "Their own vaults only",
+   "The Reserve Bank of India"
+  ],
+  "answer": "D",
+  "explanation": "CRR is held with the RBI."
+ },
+ {
+  "id": "BANK-GA-007",
+  "subject": "bank_ga",
+  "section": "RBI & Monetary Policy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Statutory Liquidity Ratio (SLR) has to be maintained by banks in the form of",
+  "options": [
+   "Shares of companies",
+   "Deposits with the RBI",
+   "Liquid assets such as cash, gold and government securities",
+   "Loans to the public"
+  ],
+  "answer": "C",
+  "explanation": "SLR is kept with the bank itself in liquid assets."
+ },
+ {
+  "id": "BANK-GA-008",
+  "subject": "bank_ga",
+  "section": "RBI & Monetary Policy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The repo rate is the rate at which",
+  "options": [
+   "Banks lend to the public",
+   "The RBI lends short-term money to commercial banks",
+   "The RBI borrows from banks",
+   "Banks lend to each other"
+  ],
+  "answer": "B",
+  "explanation": "Repo = repurchase agreement with the RBI."
+ },
+ {
+  "id": "BANK-GA-009",
+  "subject": "bank_ga",
+  "section": "RBI & Monetary Policy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The reverse repo rate is the rate at which",
+  "options": [
+   "Banks lend to the public",
+   "The RBI borrows money from commercial banks",
+   "The RBI lends to banks",
+   "Banks borrow from the government"
+  ],
+  "answer": "B",
+  "explanation": "Reverse repo absorbs liquidity from the system."
+ },
+ {
+  "id": "BANK-GA-010",
+  "subject": "bank_ga",
+  "section": "RBI & Monetary Policy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "How many members are there in the Monetary Policy Committee (MPC) of India?",
+  "options": [
+   "4",
+   "7",
+   "5",
+   "6"
+  ],
+  "answer": "D",
+  "explanation": "Three RBI officials and three external members."
+ },
+ {
+  "id": "BANK-GA-011",
+  "subject": "bank_ga",
+  "section": "RBI & Monetary Policy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Inflation targeting in India is mainly done with reference to the",
+  "options": [
+   "Wholesale Price Index",
+   "Consumer Price Index (CPI)",
+   "Sensex",
+   "GDP deflator"
+  ],
+  "answer": "B",
+  "explanation": "The RBI targets CPI inflation."
+ },
+ {
+  "id": "BANK-GA-012",
+  "subject": "bank_ga",
+  "section": "RBI & Monetary Policy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "One-rupee notes in India are issued by the",
+  "options": [
+   "RBI",
+   "Ministry of Finance, Government of India",
+   "NABARD",
+   "SBI"
+  ],
+  "answer": "B",
+  "explanation": "Other notes are issued by the RBI."
+ },
+ {
+  "id": "BANK-GA-013",
+  "subject": "bank_ga",
+  "section": "RBI & Monetary Policy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The RBI is known as the",
+  "options": [
+   "Merchant bank",
+   "Bank of the world",
+   "People's bank",
+   "Banker's bank"
+  ],
+  "answer": "D",
+  "explanation": "It is the banker to banks and to the government."
+ },
+ {
+  "id": "BANK-GA-014",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of the State Bank of India is in",
+  "options": [
+   "Mumbai",
+   "Chennai",
+   "Kolkata",
+   "New Delhi"
+  ],
+  "answer": "A",
+  "explanation": "SBI's central office is in Mumbai."
+ },
+ {
+  "id": "BANK-GA-015",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The State Bank of India came into existence in the year",
+  "options": [
+   "1935",
+   "1969",
+   "1949",
+   "1955"
+  ],
+  "answer": "D",
+  "explanation": "SBI was formed in 1955 from the Imperial Bank of India."
+ },
+ {
+  "id": "BANK-GA-016",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "How many banks were nationalised in India in 1969?",
+  "options": [
+   "10",
+   "14",
+   "6",
+   "20"
+  ],
+  "answer": "B",
+  "explanation": "Fourteen major commercial banks were nationalised on 19 July 1969."
+ },
+ {
+  "id": "BANK-GA-017",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "NABARD was established in the year",
+  "options": [
+   "1982",
+   "1969",
+   "1975",
+   "1991"
+  ],
+  "answer": "A",
+  "explanation": "NABARD was set up on 12 July 1982."
+ },
+ {
+  "id": "BANK-GA-018",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of NABARD is in",
+  "options": [
+   "New Delhi",
+   "Lucknow",
+   "Mumbai",
+   "Hyderabad"
+  ],
+  "answer": "C",
+  "explanation": "NABARD is headquartered in Mumbai."
+ },
+ {
+  "id": "BANK-GA-019",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of SIDBI is in",
+  "options": [
+   "Lucknow",
+   "Kolkata",
+   "Pune",
+   "Mumbai"
+  ],
+  "answer": "A",
+  "explanation": "SIDBI is headquartered in Lucknow."
+ },
+ {
+  "id": "BANK-GA-020",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of Punjab National Bank is in",
+  "options": [
+   "Mumbai",
+   "New Delhi",
+   "Ludhiana",
+   "Chandigarh"
+  ],
+  "answer": "B",
+  "explanation": "PNB's head office is in New Delhi."
+ },
+ {
+  "id": "BANK-GA-021",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of Bank of Baroda is in",
+  "options": [
+   "Mumbai",
+   "Surat",
+   "Ahmedabad",
+   "Vadodara"
+  ],
+  "answer": "D",
+  "explanation": "Bank of Baroda is headquartered in Vadodara."
+ },
+ {
+  "id": "BANK-GA-022",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of Canara Bank is in",
+  "options": [
+   "Hyderabad",
+   "Chennai",
+   "Bengaluru",
+   "Mangaluru"
+  ],
+  "answer": "C",
+  "explanation": "Canara Bank is headquartered in Bengaluru."
+ },
+ {
+  "id": "BANK-GA-023",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of Union Bank of India is in",
+  "options": [
+   "Mumbai",
+   "Pune",
+   "Kolkata",
+   "New Delhi"
+  ],
+  "answer": "A",
+  "explanation": "Union Bank of India is headquartered in Mumbai."
+ },
+ {
+  "id": "BANK-GA-024",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of Indian Bank is in",
+  "options": [
+   "Mumbai",
+   "Chennai",
+   "Bengaluru",
+   "Kochi"
+  ],
+  "answer": "B",
+  "explanation": "Indian Bank is headquartered in Chennai."
+ },
+ {
+  "id": "BANK-GA-025",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of UCO Bank is in",
+  "options": [
+   "Kolkata",
+   "Patna",
+   "New Delhi",
+   "Mumbai"
+  ],
+  "answer": "A",
+  "explanation": "UCO Bank is headquartered in Kolkata."
+ },
+ {
+  "id": "BANK-GA-026",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of Bank of Maharashtra is in",
+  "options": [
+   "Pune",
+   "Mumbai",
+   "Nagpur",
+   "Nashik"
+  ],
+  "answer": "A",
+  "explanation": "Bank of Maharashtra is headquartered in Pune."
+ },
+ {
+  "id": "BANK-GA-027",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of IDBI Bank is in",
+  "options": [
+   "Mumbai",
+   "New Delhi",
+   "Kolkata",
+   "Chennai"
+  ],
+  "answer": "A",
+  "explanation": "IDBI Bank is headquartered in Mumbai."
+ },
+ {
+  "id": "BANK-GA-028",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "SEBI regulates the",
+  "options": [
+   "Insurance sector",
+   "Foreign trade",
+   "Securities market",
+   "Commercial banks"
+  ],
+  "answer": "C",
+  "explanation": "SEBI regulates stock markets and securities."
+ },
+ {
+  "id": "BANK-GA-029",
+  "subject": "bank_ga",
+  "section": "Banks & Institutions",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "IRDAI regulates the",
+  "options": [
+   "Pension funds",
+   "Commercial banks",
+   "Stock market",
+   "Insurance sector"
+  ],
+  "answer": "D",
+  "explanation": "IRDAI regulates insurance companies."
+ },
+ {
+  "id": "BANK-GA-030",
+  "subject": "bank_ga",
+  "section": "Banking Terms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "An IFSC code has how many characters?",
+  "options": [
+   "12",
+   "11",
+   "10",
+   "9"
+  ],
+  "answer": "B",
+  "explanation": "The first 4 are letters (bank), the 5th is 0, the last 6 are branch code."
+ },
+ {
+  "id": "BANK-GA-031",
+  "subject": "bank_ga",
+  "section": "Banking Terms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A MICR code printed on a cheque has how many digits?",
+  "options": [
+   "12",
+   "11",
+   "9",
+   "6"
+  ],
+  "answer": "C",
+  "explanation": "MICR code is a 9-digit number."
+ },
+ {
+  "id": "BANK-GA-032",
+  "subject": "bank_ga",
+  "section": "Banking Terms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The normal validity period of a cheque in India is",
+  "options": [
+   "6 months",
+   "3 months",
+   "1 year",
+   "1 month"
+  ],
+  "answer": "B",
+  "explanation": "A cheque is valid for 3 months from its date."
+ },
+ {
+  "id": "BANK-GA-033",
+  "subject": "bank_ga",
+  "section": "Banking Terms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A loan is classified as a Non-Performing Asset (NPA) when interest or principal is overdue for more than",
+  "options": [
+   "90 days",
+   "30 days",
+   "180 days",
+   "60 days"
+  ],
+  "answer": "A",
+  "explanation": "The RBI norm is 90 days."
+ },
+ {
+  "id": "BANK-GA-034",
+  "subject": "bank_ga",
+  "section": "Banking Terms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The full form of KYC is",
+  "options": [
+   "Know Your Customer",
+   "Key Your Code",
+   "Know Your Credit",
+   "Keep Your Cash"
+  ],
+  "answer": "A",
+  "explanation": "KYC verifies customer identity."
+ },
+ {
+  "id": "BANK-GA-035",
+  "subject": "bank_ga",
+  "section": "Banking Terms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The full form of ATM is",
+  "options": [
+   "Automatic Transfer Machine",
+   "Any Time Money",
+   "Advanced Teller Mode",
+   "Automated Teller Machine"
+  ],
+  "answer": "D",
+  "explanation": "ATM = Automated Teller Machine."
+ },
+ {
+  "id": "BANK-GA-036",
+  "subject": "bank_ga",
+  "section": "Banking Terms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The person who writes (draws) a cheque is called the",
+  "options": [
+   "Endorser",
+   "Payee",
+   "Drawee",
+   "Drawer"
+  ],
+  "answer": "D",
+  "explanation": "The drawer signs the cheque."
+ },
+ {
+  "id": "BANK-GA-037",
+  "subject": "bank_ga",
+  "section": "Banking Terms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The bank on which a cheque is drawn is called the",
+  "options": [
+   "Endorser",
+   "Payee",
+   "Drawee",
+   "Drawer"
+  ],
+  "answer": "C",
+  "explanation": "The drawee bank pays the amount."
+ },
+ {
+  "id": "BANK-GA-038",
+  "subject": "bank_ga",
+  "section": "Banking Terms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Dishonour of a cheque for insufficient funds is dealt with under Section 138 of the",
+  "options": [
+   "RBI Act",
+   "Banking Regulation Act",
+   "Negotiable Instruments Act",
+   "Companies Act"
+  ],
+  "answer": "C",
+  "explanation": "Section 138 of the Negotiable Instruments Act, 1881."
+ },
+ {
+  "id": "BANK-GA-039",
+  "subject": "bank_ga",
+  "section": "Banking Terms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Banks in India are mainly governed by the",
+  "options": [
+   "RBI Act, 1934 only",
+   "Companies Act, 2013",
+   "Indian Contract Act",
+   "Banking Regulation Act, 1949"
+  ],
+  "answer": "D",
+  "explanation": "The Banking Regulation Act, 1949 regulates banking companies."
+ },
+ {
+  "id": "BANK-GA-040",
+  "subject": "bank_ga",
+  "section": "Banking Terms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "An overdraft facility allows a customer to",
+  "options": [
+   "Open a locker",
+   "Withdraw more than the balance up to an agreed limit",
+   "Get a free chequebook",
+   "Deposit without limit"
+  ],
+  "answer": "B",
+  "explanation": "The extra amount carries interest."
+ },
+ {
+  "id": "BANK-GA-041",
+  "subject": "bank_ga",
+  "section": "Banking Terms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Basel norms on banking are issued by the Basel Committee on Banking Supervision, which is housed at the",
+  "options": [
+   "IMF",
+   "WTO",
+   "Bank for International Settlements",
+   "World Bank"
+  ],
+  "answer": "C",
+  "explanation": "The BIS in Basel hosts the committee."
+ },
+ {
+  "id": "BANK-GA-042",
+  "subject": "bank_ga",
+  "section": "Banking Terms",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A savings account in which no minimum balance is required, under the Jan Dhan scheme, is called a",
+  "options": [
+   "Current account",
+   "Recurring deposit",
+   "Fixed deposit",
+   "Basic savings bank deposit account"
+  ],
+  "answer": "D",
+  "explanation": "BSBD accounts can be opened with zero balance."
+ },
+ {
+  "id": "BANK-GA-043",
+  "subject": "bank_ga",
+  "section": "Government Schemes",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Pradhan Mantri Jan Dhan Yojana (PMJDY) was launched in",
+  "options": [
+   "March 2012",
+   "April 2016",
+   "August 2014",
+   "January 2010"
+  ],
+  "answer": "C",
+  "explanation": "It was launched on 28 August 2014."
+ },
+ {
+  "id": "BANK-GA-044",
+  "subject": "bank_ga",
+  "section": "Government Schemes",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Atal Pension Yojana mainly targets workers of the",
+  "options": [
+   "Corporate sector",
+   "Armed forces",
+   "Government sector",
+   "Unorganised sector"
+  ],
+  "answer": "D",
+  "explanation": "It is a pension scheme for unorganised-sector workers."
+ },
+ {
+  "id": "BANK-GA-045",
+  "subject": "bank_ga",
+  "section": "Government Schemes",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Loans under the Pradhan Mantri MUDRA Yojana are given to",
+  "options": [
+   "Large corporations",
+   "Micro and small businesses",
+   "Government departments",
+   "Foreign companies"
+  ],
+  "answer": "B",
+  "explanation": "MUDRA supports non-corporate small businesses."
+ },
+ {
+  "id": "BANK-GA-046",
+  "subject": "bank_ga",
+  "section": "Government Schemes",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The Sukanya Samriddhi Yojana is a savings scheme for the",
+  "options": [
+   "Girl child",
+   "Farmers",
+   "Students",
+   "Senior citizens"
+  ],
+  "answer": "A",
+  "explanation": "It is a small-savings scheme for a girl child."
+ },
+ {
+  "id": "BANK-GA-047",
+  "subject": "bank_ga",
+  "section": "Government Schemes",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Stand-Up India scheme supports loans for",
+  "options": [
+   "Government employees",
+   "Foreign investors",
+   "Farmers only",
+   "SC/ST and women entrepreneurs"
+  ],
+  "answer": "D",
+  "explanation": "It promotes entrepreneurship among these groups."
+ },
+ {
+  "id": "BANK-GA-048",
+  "subject": "bank_ga",
+  "section": "Government Schemes",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Notes of ₹500 and ₹1000 were demonetised in India on",
+  "options": [
+   "26 January 2016",
+   "15 August 2015",
+   "1 July 2017",
+   "8 November 2016"
+  ],
+  "answer": "D",
+  "explanation": "The announcement was made on 8 November 2016."
+ },
+ {
+  "id": "BANK-GA-049",
+  "subject": "bank_ga",
+  "section": "Payments & Markets",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "UPI (Unified Payments Interface) was developed by",
+  "options": [
+   "NPCI",
+   "SBI",
+   "RBI",
+   "SEBI"
+  ],
+  "answer": "A",
+  "explanation": "The National Payments Corporation of India built UPI."
+ },
+ {
+  "id": "BANK-GA-050",
+  "subject": "bank_ga",
+  "section": "Payments & Markets",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "NPCI was set up in the year",
+  "options": [
+   "1998",
+   "2014",
+   "2008",
+   "2003"
+  ],
+  "answer": "C",
+  "explanation": "NPCI was incorporated in 2008."
+ },
+ {
+  "id": "BANK-GA-051",
+  "subject": "bank_ga",
+  "section": "Payments & Markets",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "UPI was launched in the year",
+  "options": [
+   "2016",
+   "2012",
+   "2019",
+   "2014"
+  ],
+  "answer": "A",
+  "explanation": "UPI was launched in April 2016."
+ },
+ {
+  "id": "BANK-GA-052",
+  "subject": "bank_ga",
+  "section": "Payments & Markets",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The minimum amount for an RTGS transaction is",
+  "options": [
+   "₹1 lakh",
+   "₹5 lakh",
+   "₹2 lakh",
+   "₹50,000"
+  ],
+  "answer": "C",
+  "explanation": "RTGS is meant for large-value transfers."
+ },
+ {
+  "id": "BANK-GA-053",
+  "subject": "bank_ga",
+  "section": "Payments & Markets",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Sensex is the stock index of the",
+  "options": [
+   "MCX",
+   "NCDEX",
+   "NSE",
+   "BSE"
+  ],
+  "answer": "D",
+  "explanation": "Sensex tracks 30 companies of the BSE."
+ },
+ {
+  "id": "BANK-GA-054",
+  "subject": "bank_ga",
+  "section": "Payments & Markets",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Nifty 50 is the stock index of the",
+  "options": [
+   "SEBI",
+   "NSE",
+   "MCX",
+   "BSE"
+  ],
+  "answer": "B",
+  "explanation": "Nifty 50 belongs to the National Stock Exchange."
+ },
+ {
+  "id": "BANK-GA-055",
+  "subject": "bank_ga",
+  "section": "Payments & Markets",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A 'bull market' means a market in which prices are",
+  "options": [
+   "Rising",
+   "Stable",
+   "Falling",
+   "Closed"
+  ],
+  "answer": "A",
+  "explanation": "Bullish = prices going up."
+ },
+ {
+  "id": "BANK-GA-056",
+  "subject": "bank_ga",
+  "section": "Payments & Markets",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "A 'bear market' means a market in which prices are",
+  "options": [
+   "Falling",
+   "Stable",
+   "Rising",
+   "Fluctuating daily"
+  ],
+  "answer": "A",
+  "explanation": "Bearish = prices going down."
+ },
+ {
+  "id": "BANK-GA-057",
+  "subject": "bank_ga",
+  "section": "International Organisations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of the International Monetary Fund (IMF) is in",
+  "options": [
+   "London",
+   "Geneva",
+   "New York",
+   "Washington, D.C."
+  ],
+  "answer": "D",
+  "explanation": "IMF headquarters: Washington, D.C."
+ },
+ {
+  "id": "BANK-GA-058",
+  "subject": "bank_ga",
+  "section": "International Organisations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of the World Bank is in",
+  "options": [
+   "Washington, D.C.",
+   "Paris",
+   "Tokyo",
+   "Geneva"
+  ],
+  "answer": "A",
+  "explanation": "World Bank headquarters: Washington, D.C."
+ },
+ {
+  "id": "BANK-GA-059",
+  "subject": "bank_ga",
+  "section": "International Organisations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of the Asian Infrastructure Investment Bank (AIIB) is in",
+  "options": [
+   "Manila",
+   "Singapore",
+   "Shanghai",
+   "Beijing"
+  ],
+  "answer": "D",
+  "explanation": "AIIB is headquartered in Beijing."
+ },
+ {
+  "id": "BANK-GA-060",
+  "subject": "bank_ga",
+  "section": "International Organisations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The New Development Bank (BRICS Bank) is headquartered in",
+  "options": [
+   "Moscow",
+   "Mumbai",
+   "Beijing",
+   "Shanghai"
+  ],
+  "answer": "D",
+  "explanation": "NDB is headquartered in Shanghai."
+ },
+ {
+  "id": "BANK-GA-061",
+  "subject": "bank_ga",
+  "section": "International Organisations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of the Asian Development Bank (ADB) is in",
+  "options": [
+   "Manila",
+   "Beijing",
+   "Tokyo",
+   "Jakarta"
+  ],
+  "answer": "A",
+  "explanation": "ADB is headquartered in Manila, Philippines."
+ },
+ {
+  "id": "BANK-GA-062",
+  "subject": "bank_ga",
+  "section": "International Organisations",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The headquarters of the World Trade Organization (WTO) is in",
+  "options": [
+   "Paris",
+   "Vienna",
+   "Geneva",
+   "New York"
+  ],
+  "answer": "C",
+  "explanation": "WTO is headquartered in Geneva."
+ },
+ {
+  "id": "BANK-GA-063",
+  "subject": "bank_ga",
+  "section": "Basics of Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "GDP stands for",
+  "options": [
+   "Gross Domestic Product",
+   "General Domestic Price",
+   "Gross Daily Product",
+   "Gross Development Plan"
+  ],
+  "answer": "A",
+  "explanation": "Total value of goods and services produced within a country."
+ },
+ {
+  "id": "BANK-GA-064",
+  "subject": "bank_ga",
+  "section": "Basics of Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Fiscal deficit is the difference between the government's total expenditure and its total receipts excluding",
+  "options": [
+   "Borrowings",
+   "Taxes",
+   "Interest",
+   "Subsidies"
+  ],
+  "answer": "A",
+  "explanation": "Fiscal deficit shows the borrowing need."
+ },
+ {
+  "id": "BANK-GA-065",
+  "subject": "bank_ga",
+  "section": "Basics of Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "The financial year in India runs from",
+  "options": [
+   "1 April to 31 March",
+   "1 July to 30 June",
+   "1 January to 31 December",
+   "1 October to 30 September"
+  ],
+  "answer": "A",
+  "explanation": "The Indian financial year starts on 1 April."
+ },
+ {
+  "id": "BANK-GA-066",
+  "subject": "bank_ga",
+  "section": "Basics of Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which of the following is an indirect tax?",
+  "options": [
+   "Corporate tax",
+   "Income tax",
+   "GST",
+   "Wealth tax"
+  ],
+  "answer": "C",
+  "explanation": "GST is levied on goods and services."
+ },
+ {
+  "id": "BANK-GA-067",
+  "subject": "bank_ga",
+  "section": "Basics of Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "Which of the following is a direct tax?",
+  "options": [
+   "Income tax",
+   "Customs duty",
+   "Excise duty",
+   "GST"
+  ],
+  "answer": "A",
+  "explanation": "Income tax is paid directly by the taxpayer."
+ },
+ {
+  "id": "BANK-GA-068",
+  "subject": "bank_ga",
+  "section": "Basics of Economy",
+  "source": "Practice question (original, not an actual PYQ)",
+  "question": "GST came into force in India on",
+  "options": [
+   "1 January 2018",
+   "1 July 2017",
+   "15 August 2017",
+   "1 April 2016"
+  ],
+  "answer": "B",
+  "explanation": "GST was rolled out on 1 July 2017."
+ }
+]
