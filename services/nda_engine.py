@@ -83,9 +83,52 @@ PAPER_LABEL.update(
         "bankga": "Banking & General Awareness",
     }
 )
-SINGLE_PAPER_SUBJECT = {**SSC_PAPER_SUBJECT, **BANK_PAPER_SUBJECT}
-EXAM_SUBJECTS = {"nda": ("maths", "gat"), "ssc": SSC_ORDER, "bank": BANK_SUBJECTS}
-SECTION_PREFIXES = {"nda": "s_", "ssc": "t_", "bank": "b_"}
+# ---- Rajasthan CET, SENIOR SECONDARY (12th) level: 120 Q, 240 marks (2 each), 150 min, 1/3 negative ----
+# The board does not fix section-wise quotas; the split below follows the *indicative* weightage published
+# by coaching sources (Rajasthan GK ~55%, Science+Current affairs ~17%, Maths+Reasoning ~16%,
+# Hindi+English ~14%, Computer ~5%) scaled to 120 questions. Check the official RSSB notice.
+CET_ORDER = ("cet_gk", "cet_raj", "cet_lang", "cet_reasoning", "cet_computer")
+CET_PAPER_SUBJECT = {
+    "cetgk": "cet_gk",
+    "cetraj": "cet_raj",
+    "cetlang": "cet_lang",
+    "cetreasoning": "cet_reasoning",
+    "cetcomputer": "cet_computer",
+}
+# "1/3 negative marking" = one third of a question's marks (2 marks -> 0.67). Change here if the board
+# means a flat 1/3 mark: CET_PENALTY = 1 / 3
+CET_PENALTY = 2 / 3
+for _s, _n in zip(CET_ORDER, (20, 58, 17, 19, 6)):
+    MARKS[_s] = 2.0
+    PENALTY[_s] = CET_PENALTY
+    FULL_COUNT[_s] = _n
+    FULL_MINUTES[_s] = _n * 1.25  # 150 min for 120 Q
+CET_FULL_COUNT = 120
+SUBJECT_LABEL.update(
+    {
+        "cet_gk": "GK & Science",
+        "cet_raj": "Rajasthan GK",
+        "cet_lang": "Hindi & English",
+        "cet_reasoning": "Reasoning & Maths",
+        "cet_computer": "Computer",
+    }
+)
+SUBJECT_ICON.update(
+    {"cet_gk": "🌍", "cet_raj": "🏜️", "cet_lang": "📝", "cet_reasoning": "🧩", "cet_computer": "💻"}
+)
+PAPER_LABEL.update(
+    {
+        "cet": "Rajasthan CET 12th level",
+        "cetgk": "CET GK & Science",
+        "cetraj": "CET Rajasthan GK",
+        "cetlang": "CET Hindi & English",
+        "cetreasoning": "CET Reasoning & Maths",
+        "cetcomputer": "CET Computer",
+    }
+)
+SINGLE_PAPER_SUBJECT = {**SSC_PAPER_SUBJECT, **BANK_PAPER_SUBJECT, **CET_PAPER_SUBJECT}
+EXAM_SUBJECTS = {"nda": ("maths", "gat"), "ssc": SSC_ORDER, "bank": BANK_SUBJECTS, "cet": CET_ORDER}
+SECTION_PREFIXES = {"nda": "s_", "ssc": "t_", "bank": "b_", "cet": "r_"}
 
 GAT_ENGLISH_FULL = 50  # English part of the GAT paper
 GAT_GK_FULL = 100  # General Knowledge part of the GAT paper
@@ -106,6 +149,8 @@ def exam_of_paper(paper: str) -> str:
         return "ssc"
     if paper == "bank" or paper in BANK_PAPER_SUBJECT or paper.startswith(SECTION_PREFIXES["bank"]):
         return "bank"
+    if paper == "cet" or paper in CET_PAPER_SUBJECT or paper.startswith(SECTION_PREFIXES["cet"]):
+        return "cet"
     return "nda"
 
 
@@ -162,7 +207,7 @@ def paper_label(bank: NdaBank, paper: str) -> str:
     if is_section_paper(paper):
         pool = section_pool(bank, paper)
         if pool:
-            tag = {"ssc": "SSC", "bank": "Banking"}.get(exam_of_paper(paper), "section")
+            tag = {"ssc": "SSC", "bank": "Banking", "cet": "CET"}.get(exam_of_paper(paper), "section")
             return f"{pool[0].section} ({tag})"
     return paper
 
@@ -273,6 +318,13 @@ def _build_plan(bank: NdaBank, paper: str, count: int, rng, seen) -> PaperPlan:
         requested = SSC_FULL_COUNT if full else count
         return PaperPlan(
             questions=_balanced(pools, SSC_ORDER, requested, rng, seen), requested=requested, full=full
+        )
+
+    if paper == "cet":  # Rajasthan CET: weights follow the 20/58/17/19/6 split
+        pools = [bank.by_subject(s) for s in CET_ORDER]
+        requested = CET_FULL_COUNT if full else count
+        return PaperPlan(
+            questions=_balanced(pools, CET_ORDER, requested, rng, seen), requested=requested, full=full
         )
 
     if paper == "bank":  # Banking prelims: English 30 / Quant 35 / Reasoning 35

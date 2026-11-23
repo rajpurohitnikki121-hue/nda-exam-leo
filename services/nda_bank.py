@@ -35,12 +35,13 @@ logger = logging.getLogger(__name__)
 
 _DATA_ROOT = Path(__file__).resolve().parent.parent / "data"
 DATA_DIR = _DATA_ROOT / "nda"  # NDA questions
-DATA_DIRS = (_DATA_ROOT / "nda", _DATA_ROOT / "ssc", _DATA_ROOT / "banking")  # every *.json in these folders is loaded
+DATA_DIRS = (_DATA_ROOT / "nda", _DATA_ROOT / "ssc", _DATA_ROOT / "banking", _DATA_ROOT / "rajasthan")  # every *.json in these folders is loaded
 # NDA: maths, gat | SSC: ssc_* | Banking: bank_english, bank_quant, bank_reasoning, bank_ga
 VALID_SUBJECTS = (
     "maths", "gat",
     "ssc_quant", "ssc_reasoning", "ssc_english", "ssc_gs",
     "bank_english", "bank_quant", "bank_reasoning", "bank_ga",
+    "cet_gk", "cet_raj", "cet_lang", "cet_reasoning", "cet_computer",
 )
 _LETTERS = "ABCD"
 

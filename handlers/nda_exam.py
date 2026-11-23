@@ -26,7 +26,8 @@ logger = logging.getLogger(__name__)
 router = Router(name="nda_router")
 
 LETTERS = "ABCD"
-EXAM_PREFIX = {"ssc": "SSC ", "bank": "Banking "}
+EXAM_PREFIX = {"ssc": "SSC ", "bank": "Banking ", "cet": "Rajasthan CET "}
+EXTRA_EXAMS = ("ssc", "bank", "cet")
 COUNT_CHOICES = (10, 25, 50)
 
 # One active test per user. LAST keeps the finished test for "Review mistakes".
@@ -57,12 +58,14 @@ def _picon(paper: str) -> str:
         return "📝"
     if exam == "bank":
         return "🏦"
+    if exam == "cet":
+        return "🏜️"
     return "🧠"
 
 
 def _home_cb(exam: str) -> NdaCB:
     """Callback that opens the home screen of an exam."""
-    return NdaCB(a={"nda": "home", "ssc": "ssc", "bank": "bnk"}[exam])
+    return NdaCB(a={"nda": "home", "ssc": "ssc", "bank": "bnk", "cet": "cet"}[exam])
 
 
 def _full_info(paper: str) -> str:
@@ -70,9 +73,11 @@ def _full_info(paper: str) -> str:
         return "100 Q · 60 min"
     if paper == "bank":
         return "100 Q · 60 min"
+    if paper == "cet":
+        return "120 Q · 150 min"
     if paper in engine.SINGLE_PAPER_SUBJECT:
         subject = engine.SINGLE_PAPER_SUBJECT[paper]
-        return f"{engine.FULL_COUNT[subject]} Q · {engine.FULL_MINUTES[subject]} min"
+        return f"{engine.FULL_COUNT[subject]} Q · {engine.FULL_MINUTES[subject]:g} min"
     if paper == "maths":
         return "120 Q · 150 min"
     if paper == "gat":
@@ -141,8 +146,9 @@ def _count_kb(paper: str) -> InlineKeyboardMarkup:
         exam = engine.exam_of_paper(paper)
         back = NdaCB(a="secs", v="" if exam == "nda" else exam)
     else:
-        if paper in ("ssc", "bank"):
-            full_label = f"📄 Full {'SSC' if paper == 'ssc' else 'Banking Prelims'} paper ({_full_info(paper)})"
+        if paper in ("ssc", "bank", "cet"):
+            name = {"ssc": "SSC", "bank": "Banking Prelims", "cet": "CET"}[paper]
+            full_label = f"📄 Full {name} paper ({_full_info(paper)})"
         elif paper in engine.SINGLE_PAPER_SUBJECT:
             full_label = f"📄 Full section ({_full_info(paper)})"
         else:
@@ -297,6 +303,67 @@ async def cb_bank_home(cb: types.CallbackQuery) -> None:
     await cb.answer()
 
 
+CET_SCHEME_TEXT = (
+    "📊 <b>Rajasthan CET (12th / Senior Secondary level)</b>\n"
+    "━━━━━━━━━━━━━━━━━━\n"
+    "<b>120 Q · 240 marks · 2.5 ghante</b> (har question 2 marks)\n\n"
+    "• Har sahi answer: <b>+2</b>\n"
+    "• Har galat answer: <b>−0.67</b> (1/3 negative marking, ON ho to)\n"
+    "• Skip kiya hua question: <b>0 marks</b>\n\n"
+    "Syllabus: Rajasthan GK (history, art &amp; culture, geography, polity, economy), General Science, "
+    "Maths + Reasoning, Hindi + English, Computer, Current Affairs.\n\n"
+    "<i>Board section-wise questions fix nahi karta. Bot me ye indicative split hai: Rajasthan GK 58, "
+    "GK &amp; Science 20, Reasoning &amp; Maths 19, Hindi &amp; English 17, Computer 6. "
+    "Negative marking ka exact rule (2/3 ya 1/3 mark) official RSSB notice se confirm kar lo. "
+    "Current Affairs abhi bank me nahi hain.</i>"
+)
+
+
+def _cet_home_text() -> str:
+    counts = bank.counts()
+    return (
+        "🏜️ <b>Rajasthan CET Practice (12th level)</b>\n"
+        "Bot khud questions bhejega, end me marks denge.\n\n"
+        "Full paper: 120 Q × 2 = 240 marks · 2.5 ghante · negative 1/3\n\n"
+        f"📚 Question bank: GK <b>{counts['cet_gk']}</b> · Rajasthan GK <b>{counts['cet_raj']}</b> · "
+        f"Hindi+English <b>{counts['cet_lang']}</b> · Reasoning+Maths <b>{counts['cet_reasoning']}</b> · "
+        f"Computer <b>{counts['cet_computer']}</b>\n"
+        "⚠️ <i>Ye original practice questions hain, asli CET PYQ nahi.</i>\n\n"
+        "👇 <i>Paper choose karo:</i>"
+    )
+
+
+def _cet_home_kb() -> InlineKeyboardMarkup:
+    b = InlineKeyboardBuilder()
+    b.row(InlineKeyboardButton(text="🎯 Full CET (120 Q · 2.5 hr)", callback_data=NdaCB(a="paper", v="cet").pack()))
+    b.row(InlineKeyboardButton(text="🏜️ Rajasthan GK", callback_data=NdaCB(a="paper", v="cetraj").pack()))
+    b.row(
+        InlineKeyboardButton(text="🌍 GK & Science", callback_data=NdaCB(a="paper", v="cetgk").pack()),
+        InlineKeyboardButton(text="📝 Hindi & English", callback_data=NdaCB(a="paper", v="cetlang").pack()),
+    )
+    b.row(
+        InlineKeyboardButton(text="🧩 Reasoning & Maths", callback_data=NdaCB(a="paper", v="cetreasoning").pack()),
+        InlineKeyboardButton(text="💻 Computer", callback_data=NdaCB(a="paper", v="cetcomputer").pack()),
+    )
+    b.row(InlineKeyboardButton(text="📚 Topic-wise", callback_data=NdaCB(a="secs", v="cet").pack()))
+    b.row(InlineKeyboardButton(text="📊 Marking scheme", callback_data=NdaCB(a="info", v="cet").pack()))
+    b.row(InlineKeyboardButton(text="🏠 Main Menu", callback_data=NavCB(to="menu").pack()))
+    return b.as_markup()
+
+
+@router.message(Command("cet"))
+async def cmd_cet(message: types.Message) -> None:
+    bank.ensure_loaded()
+    await message.answer(_cet_home_text(), reply_markup=_cet_home_kb())
+
+
+@router.callback_query(NdaCB.filter(F.a == "cet"))
+async def cb_cet_home(cb: types.CallbackQuery) -> None:
+    bank.ensure_loaded()
+    await _edit(cb, _cet_home_text(), _cet_home_kb())
+    await cb.answer()
+
+
 @router.message(Command("nda"))
 async def cmd_nda(message: types.Message) -> None:
     bank.ensure_loaded()
@@ -320,10 +387,10 @@ async def cb_home(cb: types.CallbackQuery) -> None:
 
 @router.callback_query(NdaCB.filter(F.a == "info"))
 async def cb_info(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
-    exam = callback_data.v if callback_data.v in ("ssc", "bank") else "nda"
+    exam = callback_data.v if callback_data.v in EXTRA_EXAMS else "nda"
     b = InlineKeyboardBuilder()
     b.row(InlineKeyboardButton(text="⬅️ Back", callback_data=_home_cb(exam).pack()))
-    text = {"ssc": SSC_SCHEME_TEXT, "bank": BANK_SCHEME_TEXT, "nda": SCHEME_TEXT}[exam]
+    text = {"ssc": SSC_SCHEME_TEXT, "bank": BANK_SCHEME_TEXT, "cet": CET_SCHEME_TEXT, "nda": SCHEME_TEXT}[exam]
     await _edit(cb, text, b.as_markup())
     await cb.answer()
 
@@ -331,7 +398,7 @@ async def cb_info(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
 @router.callback_query(NdaCB.filter(F.a == "secs"))
 async def cb_sections(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
     bank.ensure_loaded()
-    exam = callback_data.v if callback_data.v in ("ssc", "bank") else "nda"
+    exam = callback_data.v if callback_data.v in EXTRA_EXAMS else "nda"
     rows = engine.list_sections(bank, exam)
     b = InlineKeyboardBuilder()
     buttons = [
@@ -348,6 +415,8 @@ async def cb_sections(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
         marking = "<i>Marking: har sahi +2, galat −0.50 (SSC pattern).</i>"
     elif exam == "bank":
         marking = "<i>Marking: har sahi +1, galat −0.25 (Banking pattern).</i>"
+    elif exam == "cet":
+        marking = "<i>Marking: har sahi +2, galat −0.67 (1/3 negative, CET pattern).</i>"
     else:
         marking = (
             "<i>Marking: Maths topics +2.5/−0.83, baaki topics +4/−1.33 (GAT jaisi). "
@@ -374,6 +443,8 @@ async def cb_paper(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
         note = f"<i>Full = real SSC CGL Tier-1 pattern ({_full_info(paper)}).</i>"
     elif engine.exam_of_paper(paper) == "bank":
         note = f"<i>Full = Banking pattern ({_full_info(paper)}).</i>"
+    elif engine.exam_of_paper(paper) == "cet":
+        note = f"<i>Full = Rajasthan CET pattern ({_full_info(paper)}).</i>"
     else:
         note = f"<i>Full paper = real NDA pattern ({_full_info(paper)}).</i>"
     text = (
@@ -404,6 +475,7 @@ async def cb_count(cb: types.CallbackQuery, callback_data: NdaCB) -> None:
         + {
             "ssc": "<i>ON: har galat answer pe −0.50 marks kat-te hain (SSC pattern).</i>",
             "bank": "<i>ON: har galat answer pe −0.25 marks kat-te hain (Banking pattern).</i>",
+            "cet": "<i>ON: har galat answer pe −0.67 marks kat-te hain (1/3 negative, CET pattern).</i>",
             "nda": "<i>ON: galat answer pe marks kat-te hain (Maths −0.83, GAT −1.33).</i>",
         }[engine.exam_of_paper(paper)]
     )

@@ -39,6 +39,12 @@ def build_main_menu_kb(is_admin: bool = False) -> InlineKeyboardMarkup:
             callback_data=NdaCB(a="bnk").pack(),
         )
     )
+    builder.row(
+        InlineKeyboardButton(
+            text="🏜️ Rajasthan CET Practice",
+            callback_data=NdaCB(a="cet").pack(),
+        )
+    )
     return builder.as_markup()
 
 
