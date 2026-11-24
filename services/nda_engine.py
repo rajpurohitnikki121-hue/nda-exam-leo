@@ -276,6 +276,16 @@ def _sample(pool: List[NdaQuestion], k: int, rng: random.Random, seen) -> List[N
     """Random pick that prefers questions the user has not seen yet."""
     k = min(k, len(pool))
     fresh = [q for q in pool if q.qid not in seen]
+    # Hard-level questions (ids starting "CETH-") are served first, easy ones fill the gap.
+    hard = [q for q in fresh if q.qid.startswith("CETH-")]
+    if 0 < len(hard) < len(fresh):
+        easy = [q for q in fresh if not q.qid.startswith("CETH-")]
+        if len(hard) >= k:
+            return rng.sample(hard, k)
+        picked = hard + rng.sample(easy, min(k - len(hard), len(easy)))
+        if len(picked) >= k:
+            rng.shuffle(picked)
+            return picked
     if len(fresh) >= k:
         return rng.sample(fresh, k)
     repeats = [q for q in pool if q.qid in seen]
